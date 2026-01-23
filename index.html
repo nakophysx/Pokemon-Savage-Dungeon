@@ -47,7 +47,6 @@
 
 <script>
 const stats = ["vigor","special_vigor","strength","agility","spirit","smarts"];
-cosole.log("Debug: Stats array initialized", stats);
 let pokemonData = [];
 let currentPokemon = null;
 
@@ -79,7 +78,6 @@ fetch('pokemon.csv')
   .then(text => {
     const lines = text.trim().split('\n');
     const headers = lines.shift().split(',');
-    console.log(headers);
     pokemonData = lines.map(l => {
       const values = l.split(',');
       let obj = {};
@@ -108,7 +106,7 @@ document.getElementById('pokemonSelect').addEventListener('change', e => {
 /* ---------- THEME ---------- */
 function applyTypeTheme(type1, type2) {
   const page = document.getElementById('page');
-
+  console.log(type1);
   const g1 = typeGradientColors[type1] || 'from-gray-200 to-gray-300';
   const g2 = type2 && typeGradientColors[type2]
     ? typeGradientColors[type2]
