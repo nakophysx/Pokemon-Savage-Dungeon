@@ -110,11 +110,7 @@ function applyTypeTheme(type1, type2) {
     ? typeGradientColors[type2]
     : g1;
 
-  page.classname = `
-    min-h-screen flex justify-center items-center
-    bg-linear-to-br
-    ${g1.split(' ')[0]} ${g2.split(' ')[1]}
-  `;
+  page.classname = "min-h-screen flex justify-center items-center bg-linear-to-br ${g1.split(' ')[0]} ${g2.split(' ')[1]} transition-colors";
   page.setAttribute('class', page.classname);
 }
 
@@ -127,9 +123,6 @@ function buildStatTable() {
   stats.forEach(stat => {
     const base = Number(currentPokemon[stat]);
     const row = document.createElement('div');
-    row.classname = 'grid grid-cols-4 gap-2 items-center';
-
-    row.setAttribute('class', row.classname);
 
     row.innerHTML = `
       <span class="capitalize">${stat.replace('_',' ')}</span>
