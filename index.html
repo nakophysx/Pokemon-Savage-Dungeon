@@ -79,14 +79,12 @@ fetch('pokemon.csv')
   .then(text => {
     const lines = text.trim().split('\n');
     const headers = lines.shift().split(',');
-    console.log(headers);
     pokemonData = lines.map(l => {
       const values = l.split(',');
       let obj = {};
       headers.forEach((h,i) => obj[h] = values[i]);
       return obj;
     });
-    console.log(pokemonData);
     const select = document.getElementById('pokemonSelect');
     pokemonData.forEach(p => {
       const o = document.createElement('option');
@@ -108,7 +106,6 @@ document.getElementById('pokemonSelect').addEventListener('change', e => {
 /* ---------- THEME ---------- */
 function applyTypeTheme(type1, type2) {
   const page = document.getElementById('page');
-  console.log(type1);
   const g1 = typeGradientColors[type1] || 'from-gray-200 to-gray-300';
   const g2 = type2 && typeGradientColors[type2]
     ? typeGradientColors[type2]
@@ -120,6 +117,8 @@ function applyTypeTheme(type1, type2) {
     ${g1.split(' ')[0]} ${g2.split(' ')[1]}
     transition-colors duration-500
   `;
+
+  console.log(page.classname);
 }
 
 /* ---------- STATS ---------- */
