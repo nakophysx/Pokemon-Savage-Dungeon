@@ -78,6 +78,7 @@ fetch('pokemon.csv')
   .then(text => {
     const lines = text.trim().split('\n');
     const headers = lines.shift().split(',');
+    console.log(headers);
     pokemonData = lines.map(l => {
       const values = l.split(',');
       let obj = {};
