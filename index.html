@@ -115,10 +115,8 @@ function applyTypeTheme(type1, type2) {
     min-h-screen flex justify-center items-center
     bg-linear-to-br
     ${g1.split(' ')[0]} ${g2.split(' ')[1]}
-    transition-colors duration-500
   `;
-
-  console.log(page.classname);
+  page.setAttribute('class', page.classname);
 }
 
 /* ---------- STATS ---------- */
