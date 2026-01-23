@@ -88,8 +88,8 @@ fetch('pokemon.csv')
     const select = document.getElementById('pokemonSelect');
     pokemonData.forEach(p => {
       const o = document.createElement('option');
-      o.value = p.name;
-      o.textContent = p.name;
+      o.value = p.Name;
+      o.textContent = p.Name;
       select.appendChild(o);
     });
   });
@@ -147,20 +147,6 @@ function buildStatTable() {
     container.appendChild(row);
   });
 }
-
-/* ---------- ITEMS CACHE ---------- */
-function loadItems() {
-  document.getElementById('itemsInput').value =
-    localStorage.getItem(`items_${currentPokemon.name}`) || '';
-}
-
-document.getElementById('saveItems').onclick = () => {
-  localStorage.setItem(
-    `items_${currentPokemon.name}`,
-    document.getElementById('itemsInput').value
-  );
-  alert('Items saved!');
-};
 
 /* ---------- EXPORT ---------- */
 document.getElementById('exportBtn').onclick = () => {
