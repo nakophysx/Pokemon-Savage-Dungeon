@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <title>Pokémon Stat Builder</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" type="image/png" href="favicon.ico" />
 </head>
 
 <body id="page" class="min-h-screen flex justify-center items-center transition-colors">
@@ -78,13 +79,14 @@ fetch('pokemon.csv')
   .then(text => {
     const lines = text.trim().split('\n');
     const headers = lines.shift().split(',');
+    console.log(headers);
     pokemonData = lines.map(l => {
       const values = l.split(',');
       let obj = {};
       headers.forEach((h,i) => obj[h] = values[i]);
       return obj;
     });
-
+    console.log(pokemonData);
     const select = document.getElementById('pokemonSelect');
     pokemonData.forEach(p => {
       const o = document.createElement('option');
