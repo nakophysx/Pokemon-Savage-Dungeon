@@ -129,6 +129,8 @@ function buildStatTable() {
     const row = document.createElement('div');
     row.classname = 'grid grid-cols-4 gap-2 items-center';
 
+    row.setAttribute('class', row.classname);
+
     row.innerHTML = `
       <span class="capitalize">${stat.replace('_',' ')}</span>
       <span>${base}</span>
