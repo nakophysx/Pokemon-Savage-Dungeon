@@ -1,0 +1,1216 @@
+ID,Name,Form,Type1,Type2,Vigor,Special Vigor,Strength,Agility,Spirit,Smarts,Paso,Defensa,Defensa especial
+1,Bulbasaur, ,Grass,Poison,1d4,1d6,1d4,1d4,1d6,1d4,5,4,5
+2,Ivysaur, ,Grass,Poison,1d6,1d6,1d6,1d6,1d8,1d4,5,5,5
+3,Venusaur, ,Grass,Poison,1d8,1d8,1d8,1d8,1d8,1d4,6,6,6
+3,Venusaur,Mega Venusaur,Grass,Poison,1d10,1d8,1d8,1d8,1d10,1d4,6,7,6
+4,Charmander, ,Fire, ,1d4,1d4,1d6,1d6,1d6,1d4,5,4,4
+5,Charmeleon, ,Fire, ,1d6,1d6,1d6,1d8,1d8,1d4,6,5,5
+6,Charizard, ,Fire,Flying,1d8,1d8,1d8,1d8,1d10,1d4,6,6,6
+6,Charizard,Mega Charizard Y,Fire,Flying,1d8,1d8,1d10,1d8,1d12+1,1d4,6,6,6
+6,Charizard,Mega Charizard X,Fire,Dragon,1d8,1d8,1d12,1d8,1d12,1d4,6,6,6
+7,Squirtle, ,Water, ,1d6,1d6,1d4,1d4,1d4,1d4,5,5,5
+8,Wartortle, ,Water, ,1d6,1d6,1d6,1d6,1d6,1d4,5,5,5
+9,Blastoise, ,Water, ,1d8,1d8,1d8,1d8,1d8,1d4,6,6,6
+9,Blastoise,Mega Blastoise,Water, ,1d8,1d8,1d10,1d8,1d12,1d4,6,6,6
+10,Caterpie, ,Bug, ,1d4,1d4,1d4,1d4,1d4,1d4,5,4,4
+11,Metapod, ,Bug, ,1d6,1d4,1d4,1d4,1d4,1d4,5,5,4
+12,Butterfree, ,Bug,Flying,1d6,1d6,1d4,1d6,1d8,1d4,5,5,5
+13,Weedle, ,Bug,Poison,1d4,1d4,1d4,1d4,1d4,1d4,5,4,4
+14,Kakuna, ,Bug,Poison,1d4,1d4,1d4,1d4,1d4,1d4,5,4,4
+15,Beedrill, ,Bug,Poison,1d6,1d6,1d8,1d6,1d4,1d4,6,5,5
+15,Beedrill,Mega Beedrill,Bug,Poison,1d6,1d6,1d12,1d12,1d4,1d4,7,5,5
+16,Pidgey, ,Normal,Flying,1d4,1d4,1d4,1d6,1d4,1d4,5,4,4
+17,Pidgeotto, ,Normal,Flying,1d6,1d6,1d6,1d6,1d4,1d4,5,5,5
+18,Pidgeot, ,Normal,Flying,1d8,1d8,1d8,1d10,1d6,1d4,6,6,6
+18,Pidgeot,Mega Pidgeot,Normal,Flying,1d8,1d8,1d8,1d10,1d12,1d4,6,6,6
+19,Rattata, ,Normal, ,1d4,1d4,1d6,1d6,1d4,1d4,5,4,4
+19,Rattata,Alolan Rattata,Dark,Normal,1d4,1d4,1d6,1d6,1d4,1d4,5,4,4
+20,Raticate, ,Normal, ,1d6,1d6,1d8,1d8,1d4,1d4,6,5,5
+20,Raticate,Alolan Raticate,Dark,Normal,1d6,1d8,1d6,1d8,1d4,1d4,6,5,6
+21,Spearow, ,Normal,Flying,1d4,1d4,1d6,1d6,1d4,1d4,5,4,4
+22,Fearow, ,Normal,Flying,1d6,1d6,1d8,1d8,1d6,1d4,6,5,5
+23,Ekans, ,Poison, ,1d4,1d4,1d6,1d6,1d4,1d4,5,4,4
+24,Arbok, ,Poison, ,1d6,1d6,1d8,1d8,1d6,1d4,6,5,5
+25,Pikachu, ,Electric, ,1d4,1d4,1d6,1d8,1d4,1d4,6,4,4
+25,Pikachu,Partner Pikachu,Electric, ,1d4,1d6,1d8,1d10,1d6,1d4,6,4,5
+26,Raichu, ,Electric, ,1d6,1d6,1d8,1d10,1d8,1d4,6,5,5
+26,Raichu,Alolan Raichu,Electric,Psychic,1d6,1d6,1d8,1d10,1d8,1d4,6,5,5
+27,Sandshrew, ,Ground, ,1d6,1d4,1d6,1d4,1d4,1d4,5,5,4
+27,Sandshrew,Alolan Sandshrew,Ice,Steel,1d6,1d4,1d6,1d4,1d4,1d4,5,5,4
+28,Sandslash, ,Ground, ,1d8,1d6,1d8,1d6,1d4,1d4,5,6,5
+28,Sandslash,Alolan Sandslash,Ice,Steel,1d8,1d6,1d8,1d6,1d4,1d4,5,6,5
+29,Nidoran,Female,Poison, ,1d6,1d4,1d4,1d4,1d4,1d4,5,5,4
+30,Nidorina, ,Poison, ,1d6,1d6,1d6,1d6,1d6,1d4,5,5,5
+31,Nidoqueen, ,Poison,Ground,1d8,1d8,1d8,1d8,1d6,1d4,6,6,6
+32,Nidoran,Male,Poison, ,1d4,1d4,1d6,1d4,1d4,1d4,5,4,4
+33,Nidorino, ,Poison, ,1d6,1d6,1d6,1d6,1d6,1d4,5,5,5
+34,Nidoking, ,Poison,Ground,1d8,1d8,1d10,1d8,1d8,1d4,6,6,6
+35,Clefairy, ,Fairy, ,1d6,1d6,1d4,1d4,1d6,1d4,5,5,5
+36,Clefable, ,Fairy, ,1d8,1d8,1d6,1d6,1d8,1d4,5,6,6
+37,Vulpix, ,Fire, ,1d4,1d6,1d4,1d6,1d4,1d4,5,4,5
+37,Vulpix,Alolan Vulpix,Ice, ,1d4,1d6,1d4,1d6,1d4,1d4,5,4,5
+38,Ninetales, ,Fire, ,1d6,1d8,1d8,1d8,1d8,1d4,6,5,6
+38,Ninetales,Alolan Ninetales,Ice,Fairy,1d6,1d8,1d6,1d10,1d8,1d4,6,5,6
+39,Jigglypuff, ,Normal,Fairy,1d6,1d6,1d4,1d4,1d4,1d4,4,5,5
+40,Wigglytuff, ,Normal,Fairy,1d8,1d8,1d6,1d4,1d8,1d4,5,6,6
+41,Zubat, ,Poison,Flying,1d4,1d4,1d4,1d6,1d4,1d4,5,4,4
+42,Golbat, ,Poison,Flying,1d6,1d6,1d8,1d8,1d6,1d4,6,5,5
+43,Oddish, ,Grass,Poison,1d4,1d6,1d4,1d4,1d6,1d4,5,4,5
+44,Gloom, ,Grass,Poison,1d6,1d6,1d6,1d4,1d8,1d4,5,5,5
+45,Vileplume, ,Grass,Poison,1d8,1d8,1d8,1d4,1d10,1d4,5,6,6
+46,Paras, ,Bug,Grass,1d4,1d4,1d6,1d4,1d4,1d4,5,4,4
+47,Parasect, ,Bug,Grass,1d6,1d6,1d8,1d4,1d6,1d4,5,5,5
+48,Venonat, ,Bug,Poison,1d6,1d6,1d6,1d4,1d4,1d4,5,5,5
+49,Venomoth, ,Bug,Poison,1d6,1d6,1d6,1d8,1d8,1d4,6,5,5
+50,Diglett, ,Ground, ,1d4,1d4,1d6,1d8,1d4,1d4,6,4,4
+50,Diglett,Alolan Diglett,Ground,Steel,1d4,1d4,1d6,1d8,1d4,1d4,6,4,4
+51,Dugtrio, ,Ground, ,1d4,1d6,1d8,1d10,1d4,1d4,6,4,5
+51,Dugtrio,Alolan Dugtrio,Ground,Steel,1d4,1d6,1d8,1d10,1d4,1d4,6,4,5
+52,Meowth, ,Normal, ,1d4,1d4,1d4,1d8,1d4,1d4,6,4,4
+52,Meowth,Alolan Meowth,Dark, ,1d4,1d4,1d4,1d8,1d4,1d4,6,4,4
+52,Meowth,Galarian Meowth,Steel, ,1d6,1d4,1d6,1d4,1d4,1d4,5,5,4
+53,Persian, ,Normal, ,1d6,1d6,1d6,1d10,1d6,1d4,6,5,5
+53,Persian,Alolan Persian,Dark, ,1d6,1d6,1d6,1d10,1d6,1d4,6,5,5
+54,Psyduck, ,Water, ,1d4,1d4,1d6,1d6,1d6,1d4,5,4,4
+55,Golduck, ,Water, ,1d8,1d8,1d8,1d8,1d8,1d4,6,6,6
+56,Mankey, ,Fighting, ,1d4,1d4,1d8,1d6,1d4,1d4,5,4,4
+57,Primeape, ,Fighting, ,1d6,1d6,1d10,1d8,1d6,1d4,6,5,5
+58,Growlithe, ,Fire, ,1d4,1d6,1d6,1d6,1d6,1d4,5,4,5
+58,Growlithe,Hisuian Growlithe,Fire,Rock,1d6,1d6,1d6,1d6,1d6,1d4,5,5,5
+59,Arcanine, ,Fire, ,1d8,1d8,1d10,1d8,1d8,1d4,6,6,6
+59,Arcanine,Hisuian Arcanine,Fire,Rock,1d8,1d8,1d10,1d8,1d8,1d4,6,6,6
+60,Poliwag, ,Water, ,1d4,1d4,1d4,1d8,1d4,1d4,6,4,4
+61,Poliwhirl, ,Water, ,1d6,1d6,1d6,1d8,1d4,1d4,6,5,5
+62,Poliwrath, ,Water,Fighting,1d8,1d8,1d8,1d6,1d6,1d4,5,6,6
+63,Abra, ,Psychic, ,1d4,1d4,1d4,1d8,1d10,1d4,6,4,4
+64,Kadabra, ,Psychic, ,1d4,1d6,1d4,1d10,1d10,1d4,6,4,5
+65,Alakazam, ,Psychic, ,1d4,1d6,1d4,1d10,1d12,1d4,6,4,5
+65,Alakazam,Mega Alakazam,Psychic, ,1d6,1d8,1d4,1d12,1d12+1,1d4,7,5,6
+66,Machop, ,Fighting, ,1d6,1d6,1d8,1d4,1d4,1d4,5,5,5
+67,Machoke, ,Fighting, ,1d6,1d6,1d8,1d4,1d4,1d4,5,5,5
+68,Machamp, ,Fighting, ,1d8,1d8,1d12,1d6,1d6,1d4,5,6,6
+69,Bellsprout, ,Grass,Poison,1d4,1d4,1d6,1d4,1d6,1d4,5,4,4
+70,Weepinbell, ,Grass,Poison,1d6,1d6,1d8,1d6,1d8,1d4,5,5,5
+71,Victreebel, ,Grass,Poison,1d6,1d6,1d10,1d6,1d8,1d4,5,5,5
+72,Tentacool, ,Water,Poison,1d4,1d6,1d4,1d6,1d4,1d4,5,4,5
+73,Tentacruel, ,Water,Poison,1d6,1d8,1d6,1d8,1d8,1d4,6,5,6
+74,Geodude, ,Rock,Ground,1d6,1d4,1d8,1d4,1d4,1d4,4,5,4
+74,Geodude,Alolan Geodude,Rock,Electric,1d6,1d4,1d8,1d4,1d4,1d4,4,5,4
+75,Graveler, ,Rock,Ground,1d8,1d4,1d8,1d4,1d4,1d4,5,6,4
+75,Graveler,Alolan Graveler,Rock,Electric,1d8,1d4,1d8,1d4,1d4,1d4,5,6,4
+76,Golem, ,Rock,Ground,1d10,1d6,1d10,1d4,1d6,1d4,5,7,5
+76,Golem,Alolan Golem,Rock,Electric,1d10,1d6,1d10,1d4,1d6,1d4,5,7,5
+77,Ponyta, ,Fire, ,1d6,1d6,1d8,1d8,1d6,1d4,6,5,5
+77,Ponyta,Galarian Ponyta,Psychic, ,1d6,1d6,1d8,1d8,1d6,1d4,6,5,5
+78,Rapidash, ,Fire, ,1d6,1d6,1d8,1d10,1d8,1d4,6,5,5
+78,Rapidash,Galarian Rapidash,Psychic,Fairy,1d6,1d6,1d8,1d10,1d8,1d4,6,5,5
+79,Slowpoke, ,Water,Psychic,1d8,1d6,1d6,1d4,1d4,1d4,4,6,5
+79,Slowpoke,Galarian Slowpoke,Psychic, ,1d8,1d6,1d6,1d4,1d4,1d4,4,6,5
+80,Slowbro, ,Water,Psychic,1d10,1d8,1d6,1d4,1d8,1d4,5,7,6
+80,Slowbro,Mega Slowbro,Water,Psychic,1d12,1d8,1d6,1d4,1d12,1d4,5,8,6
+80,Slowbro,Galarian Slowbro,Poison,Psychic,1d8,1d8,1d8,1d4,1d8,1d4,5,6,6
+81,Magnemite, ,Electric,Steel,1d4,1d4,1d4,1d4,1d8,1d4,5,4,4
+82,Magneton, ,Electric,Steel,1d6,1d6,1d6,1d6,1d10,1d4,5,5,5
+83,Farfetch'd, ,Normal,Flying,1d6,1d6,1d8,1d6,1d6,1d4,5,5,5
+83,Farfetch'd,Galarian Farfetch'd,Fighting, ,1d6,1d6,1d8,1d6,1d6,1d4,5,5,5
+84,Doduo, ,Normal,Flying,1d4,1d4,1d8,1d6,1d4,1d4,6,4,4
+85,Dodrio, ,Normal,Flying,1d6,1d6,1d10,1d10,1d6,1d4,6,5,5
+86,Seel, ,Water, ,1d6,1d6,1d4,1d4,1d4,1d4,5,5,5
+87,Dewgong, ,Water,Ice,1d8,1d8,1d6,1d6,1d6,1d4,5,6,6
+88,Grimer, ,Poison, ,1d6,1d6,1d8,1d4,1d4,1d4,5,5,5
+88,Grimer,Alolan Grimer,Poison,Dark,1d6,1d6,1d8,1d4,1d4,1d4,5,5,5
+89,Muk, ,Poison, ,1d8,1d10,1d10,1d4,1d6,1d4,5,6,7
+89,Muk,Alolan Muk,Poison,Dark,1d8,1d10,1d10,1d4,1d6,1d4,5,6,7
+90,Shellder, ,Water, ,1d6,1d4,1d6,1d4,1d4,1d4,5,5,4
+91,Cloyster, ,Water,Ice,1d10,1d4,1d8,1d6,1d8,1d4,5,7,4
+92,Gastly, ,Ghost,Poison,1d4,1d4,1d4,1d8,1d8,1d4,6,4,4
+93,Haunter, ,Ghost,Poison,1d4,1d4,1d4,1d8,1d10,1d4,6,4,4
+94,Gengar, ,Ghost,Poison,1d6,1d6,1d6,1d10,1d12,1d4,6,5,5
+94,Gengar,Mega Gengar,Ghost,Poison,1d6,1d8,1d6,1d12,1d12+1,1d4,7,5,6
+95,Onix, ,Rock,Ground,1d8,1d4,1d4,1d6,1d4,1d4,5,6,4
+96,Drowzee, ,Psychic, ,1d6,1d6,1d4,1d4,1d4,1d4,5,5,5
+97,Hypno, ,Psychic, ,1d8,1d8,1d6,1d6,1d6,1d4,5,6,6
+98,Krabby, ,Water, ,1d6,1d4,1d10,1d4,1d4,1d4,5,5,4
+99,Kingler, ,Water, ,1d8,1d6,1d12,1d6,1d4,1d4,6,6,5
+100,Voltorb, ,Electric, ,1d4,1d4,1d4,1d8,1d6,1d4,6,4,4
+100,Voltorb,Hisuian Voltorb,Electric,Grass,1d4,1d4,1d4,1d8,1d6,1d4,6,4,4
+101,Electrode, ,Electric, ,1d6,1d6,1d4,1d12,1d8,1d4,7,5,5
+101,Electrode,Hisuian Electrode,Electric,Grass,1d6,1d6,1d4,1d12,1d8,1d4,7,5,5
+102,Exeggcute, ,Grass,Psychic,1d6,1d6,1d4,1d4,1d6,1d4,5,5,5
+103,Exeggutor, ,Grass,Psychic,1d8,1d8,1d8,1d6,1d10,1d4,5,6,6
+103,Exeggutor,Alolan Exeggutor,Grass,Dragon,1d8,1d8,1d10,1d4,1d10,1d4,5,6,6
+104,Cubone, ,Ground, ,1d6,1d4,1d4,1d4,1d4,1d4,5,5,4
+105,Marowak, ,Ground, ,1d8,1d6,1d8,1d4,1d4,1d4,5,6,5
+105,Marowak,Alolan Marowak,Fire,Ghost,1d8,1d6,1d8,1d4,1d4,1d4,5,6,5
+106,Hitmonlee, ,Fighting, ,1d6,1d8,1d10,1d8,1d4,1d4,6,5,6
+107,Hitmonchan, ,Fighting, ,1d6,1d8,1d10,1d8,1d4,1d4,6,5,6
+108,Lickitung, ,Normal, ,1d8,1d8,1d6,1d4,1d6,1d4,5,6,6
+109,Koffing, ,Poison, ,1d6,1d4,1d6,1d4,1d6,1d4,5,5,4
+110,Weezing, ,Poison, ,1d8,1d6,1d8,1d6,1d8,1d4,5,6,5
+110,Weezing,Galarian Weezing,Poison,Fairy,1d8,1d6,1d8,1d6,1d8,1d4,5,6,5
+111,Rhyhorn, ,Ground,Rock,1d8,1d6,1d8,1d4,1d4,1d4,5,6,5
+112,Rhydon, ,Ground,Rock,1d10,1d6,1d12,1d4,1d4,1d4,5,7,5
+113,Chansey, ,Normal, ,1d12,1d12+1,1d4,1d4,1d4,1d4,5,8,8
+114,Tangela, ,Grass, ,1d8,1d6,1d6,1d6,1d8,1d4,5,6,5
+115,Kangaskhan, ,Normal, ,1d8,1d8,1d8,1d8,1d4,1d4,6,6,6
+115,Kangaskhan,Mega Kangaskhan,Normal, ,1d10,1d10,1d10,1d8,1d6,1d4,6,7,7
+116,Horsea, ,Water, ,1d4,1d4,1d4,1d6,1d6,1d4,5,4,4
+117,Seadra, ,Water, ,1d6,1d4,1d6,1d8,1d8,1d4,6,5,4
+118,Goldeen, ,Water, ,1d6,1d4,1d6,1d6,1d4,1d4,5,5,4
+119,Seaking, ,Water, ,1d6,1d8,1d8,1d6,1d6,1d4,5,5,6
+120,Staryu, ,Water, ,1d4,1d4,1d4,1d8,1d6,1d4,6,4,4
+121,Starmie, ,Water,Psychic,1d6,1d6,1d6,1d10,1d8,1d4,6,5,5
+122,Mr. Mime, ,Psychic,Fairy,1d6,1d8,1d4,1d8,1d8,1d4,6,5,6
+122,Mr. Mime,Galarian Mr. Mime,Ice,Psychic,1d6,1d6,1d6,1d8,1d8,1d4,6,5,5
+123,Scyther, ,Bug,Flying,1d6,1d6,1d10,1d10,1d6,1d4,6,5,5
+124,Jynx, ,Ice,Psychic,1d4,1d8,1d4,1d8,1d10,1d4,6,4,6
+125,Electabuzz, ,Electric, ,1d6,1d6,1d8,1d10,1d8,1d4,6,5,5
+126,Magmar, ,Fire, ,1d6,1d6,1d8,1d8,1d8,1d4,6,5,5
+127,Pinsir, ,Bug, ,1d8,1d6,1d10,1d8,1d6,1d4,6,6,5
+127,Pinsir,Mega Pinsir,Bug,Flying,1d8,1d8,1d12+1,1d10,1d6,1d4,6,6,6
+128,Tauros, ,Normal, ,1d8,1d6,1d8,1d10,1d4,1d4,6,6,5
+128,Tauros,Combat Breed,Fighting, ,1d8,1d6,1d10,1d8,1d4,1d4,6,6,5
+128,Tauros,Blaze Breed,Fighting,Fire,1d8,1d6,1d10,1d8,1d4,1d4,6,6,5
+128,Tauros,Aqua Breed,Fighting,Water,1d8,1d6,1d10,1d8,1d4,1d4,6,6,5
+129,Magikarp, ,Water, ,1d4,1d4,1d4,1d8,1d4,1d4,6,4,4
+130,Gyarados, ,Water,Flying,1d8,1d8,1d10,1d8,1d6,1d4,6,6,6
+130,Gyarados,Mega Gyarados,Water,Dark,1d10,1d10,1d12+1,1d8,1d6,1d4,6,7,7
+131,Lapras, ,Water,Ice,1d10,1d10,1d8,1d6,1d8,1d4,5,7,7
+132,Ditto, ,Normal, ,1d4,1d4,1d4,1d4,1d4,1d4,5,4,4
+133,Eevee, ,Normal, ,1d6,1d6,1d6,1d6,1d4,1d4,5,5,5
+133,Eevee,Partner Eevee,Normal, ,1d6,1d6,1d6,1d6,1d6,1d4,6,5,5
+134,Vaporeon, ,Water, ,1d8,1d10,1d6,1d6,1d10,1d4,5,6,7
+135,Jolteon, ,Electric, ,1d6,1d8,1d6,1d12,1d10,1d4,7,5,6
+136,Flareon, ,Fire, ,1d6,1d8,1d12,1d6,1d8,1d4,5,5,6
+137,Porygon, ,Normal, ,1d6,1d6,1d6,1d4,1d8,1d4,5,5,5
+138,Omanyte, ,Rock,Water,1d6,1d4,1d4,1d4,1d8,1d4,5,5,4
+139,Omastar, ,Rock,Water,1d8,1d6,1d6,1d6,1d10,1d4,5,6,5
+140,Kabuto, ,Rock,Water,1d6,1d4,1d8,1d6,1d6,1d4,5,5,4
+141,Kabutops, ,Rock,Water,1d8,1d6,1d10,1d8,1d6,1d4,6,6,5
+142,Aerodactyl, ,Rock,Flying,1d6,1d8,1d10,1d12,1d6,1d4,7,5,6
+142,Aerodactyl,Mega Aerodactyl,Rock,Flying,1d8,1d8,1d12,1d12,1d6,1d4,7,6,6
+143,Snorlax, ,Normal, ,1d10,1d12,1d10,1d4,1d6,1d4,5,7,8
+144,Articuno, ,Ice,Flying,1d8,1d10,1d8,1d8,1d8,1d4,6,6,7
+144,Articuno,Galarian Articuno,Psychic,Flying,1d8,1d8,1d8,1d8,1d10,1d4,6,6,6
+145,Zapdos, ,Electric,Flying,1d8,1d8,1d8,1d8,1d10,1d4,6,6,6
+145,Zapdos,Galarian Zapdos,Fighting,Flying,1d8,1d8,1d10,1d8,1d8,1d4,6,6,6
+146,Moltres, ,Fire,Flying,1d8,1d8,1d8,1d8,1d10,1d4,6,6,6
+146,Moltres,Galarian Moltres,Dark,Flying,1d8,1d10,1d8,1d8,1d8,1d4,6,6,7
+147,Dratini, ,Dragon, ,1d4,1d4,1d6,1d4,1d4,1d4,5,4,4
+148,Dragonair, ,Dragon, ,1d6,1d6,1d8,1d6,1d6,1d4,5,5,5
+149,Dragonite, ,Dragon,Flying,1d8,1d8,1d12,1d8,1d8,1d4,6,6,6
+150,Mewtwo, ,Psychic, ,1d8,1d8,1d10,1d12,1d12+1,1d4,7,6,6
+150,Mewtwo,Mega Mewtwo Y,Psychic, ,1d8,1d10,1d12,1d12,1d12+1,1d4,7,6,7
+150,Mewtwo,Mega Mewtwo X,Psychic,Fighting,1d10,1d10,1d12+1,1d12,1d12+1,1d4,7,7,7
+151,Mew, ,Psychic, ,1d8,1d8,1d8,1d8,1d8,1d4,6,6,6
+152,Chikorita, ,Grass, ,1d6,1d6,1d4,1d4,1d4,1d4,5,5,5
+153,Bayleef, ,Grass, ,1d6,1d6,1d6,1d6,1d6,1d4,5,5,5
+154,Meganium, ,Grass, ,1d8,1d8,1d8,1d8,1d8,1d4,6,6,6
+155,Cyndaquil, ,Fire, ,1d4,1d4,1d6,1d6,1d6,1d4,5,4,4
+156,Quilava, ,Fire, ,1d6,1d6,1d6,1d8,1d8,1d4,6,5,5
+157,Typhlosion, ,Fire, ,1d8,1d8,1d8,1d8,1d10,1d4,6,6,6
+157,Typhlosion,Hisuian Typhlosion,Fire,Ghost,1d8,1d8,1d8,1d8,1d10,1d4,6,6,6
+158,Totodile, ,Water, ,1d6,1d4,1d6,1d4,1d4,1d4,5,5,4
+159,Croconaw, ,Water, ,1d6,1d6,1d8,1d6,1d6,1d4,5,5,5
+160,Feraligatr, ,Water, ,1d8,1d8,1d10,1d8,1d8,1d4,6,6,6
+161,Sentret, ,Normal, ,1d4,1d4,1d4,1d4,1d4,1d4,4,4,4
+162,Furret, ,Normal, ,1d6,1d6,1d8,1d8,1d4,1d4,6,5,5
+163,Hoothoot, ,Normal,Flying,1d4,1d6,1d4,1d4,1d4,1d4,5,4,5
+164,Noctowl, ,Normal,Flying,1d6,1d8,1d4,1d6,1d8,1d4,5,5,6
+165,Ledyba, ,Bug,Flying,1d4,1d6,1d4,1d6,1d4,1d4,5,4,5
+166,Ledian, ,Bug,Flying,1d6,1d8,1d4,1d8,1d6,1d4,6,5,6
+167,Spinarak, ,Bug,Poison,1d4,1d4,1d6,1d4,1d4,1d4,5,4,4
+168,Ariados, ,Bug,Poison,1d6,1d6,1d8,1d4,1d6,1d4,5,5,5
+169,Crobat, ,Poison,Flying,1d8,1d8,1d8,1d12,1d6,1d4,7,6,6
+170,Chinchou, ,Water,Electric,1d6,1d6,1d4,1d6,1d6,1d4,5,5,5
+171,Lanturn, ,Water,Electric,1d8,1d10,1d6,1d6,1d8,1d4,5,6,7
+172,Pichu, ,Electric, ,1d4,1d4,1d4,1d6,1d4,1d4,5,4,4
+173,Cleffa, ,Fairy, ,1d4,1d6,1d4,1d4,1d4,1d4,4,4,5
+174,Igglybuff, ,Normal,Fairy,1d6,1d6,1d4,1d4,1d4,1d4,4,5,5
+175,Togepi, ,Fairy, ,1d4,1d4,1d4,1d4,1d4,1d4,4,4,4
+176,Togetic, ,Fairy,Flying,1d6,1d8,1d4,1d4,1d8,1d4,5,5,6
+177,Natu, ,Psychic,Flying,1d4,1d4,1d4,1d6,1d6,1d4,5,4,4
+178,Xatu, ,Psychic,Flying,1d6,1d6,1d6,1d8,1d8,1d4,6,5,5
+179,Mareep, ,Electric, ,1d4,1d4,1d4,1d4,1d6,1d4,5,4,4
+180,Flaaffy, ,Electric, ,1d6,1d6,1d6,1d4,1d8,1d4,5,5,5
+181,Ampharos, ,Electric, ,1d8,1d8,1d6,1d6,1d10,1d4,5,6,6
+181,Ampharos,Mega Ampharos,Electric,Dragon,1d8,1d8,1d8,1d4,1d12+1,1d4,5,6,6
+182,Bellossom, ,Grass, ,1d8,1d8,1d8,1d4,1d8,1d4,5,6,6
+183,Marill, ,Water,Fairy,1d6,1d6,1d4,1d4,1d4,1d4,5,5,5
+184,Azumarill, ,Water,Fairy,1d8,1d8,1d4,1d4,1d6,1d4,5,6,6
+185,Sudowoodo, ,Rock, ,1d8,1d6,1d8,1d4,1d4,1d4,5,6,5
+186,Politoed, ,Water, ,1d8,1d8,1d6,1d6,1d8,1d4,5,6,6
+187,Hoppip, ,Grass,Flying,1d4,1d4,1d4,1d4,1d4,1d4,5,4,4
+188,Skiploom, ,Grass,Flying,1d6,1d6,1d4,1d8,1d4,1d4,6,5,5
+189,Jumpluff, ,Grass,Flying,1d6,1d8,1d6,1d10,1d6,1d4,6,5,6
+190,Aipom, ,Normal, ,1d6,1d6,1d6,1d8,1d4,1d4,6,5,5
+191,Sunkern, ,Grass, ,1d4,1d4,1d4,1d4,1d4,1d4,5,4,4
+192,Sunflora, ,Grass, ,1d6,1d8,1d6,1d4,1d10,1d4,5,5,6
+193,Yanma, ,Bug,Flying,1d6,1d6,1d6,1d8,1d6,1d4,6,5,5
+194,Wooper, ,Water,Ground,1d4,1d4,1d4,1d4,1d4,1d4,4,4,4
+194,Wooper,Paldean Wooper,Poison,Ground,1d4,1d4,1d4,1d4,1d4,1d4,4,4,4
+195,Quagsire, ,Water,Ground,1d8,1d8,1d8,1d4,1d6,1d4,5,6,6
+196,Espeon, ,Psychic, ,1d6,1d8,1d6,1d10,1d12,1d4,6,5,6
+197,Umbreon, ,Dark, ,1d10,1d10,1d6,1d6,1d6,1d4,5,7,7
+198,Murkrow, ,Dark,Flying,1d6,1d6,1d8,1d8,1d8,1d4,6,5,5
+199,Slowking, ,Water,Psychic,1d8,1d10,1d6,1d4,1d8,1d4,5,6,7
+199,Slowking,Galarian Slowking,Poison,Psychic,1d8,1d10,1d6,1d4,1d10,1d4,5,6,7
+200,Misdreavus, ,Ghost, ,1d6,1d6,1d6,1d8,1d8,1d4,6,5,5
+201,Unown, ,Psychic, ,1d4,1d4,1d6,1d4,1d6,1d4,5,4,4
+202,Wobbuffet, ,Psychic, ,1d10,1d10,1d4,1d4,1d4,1d4,5,7,7
+203,Girafarig, ,Normal,Psychic,1d6,1d6,1d8,1d8,1d8,1d4,6,5,5
+204,Pineco, ,Bug, ,1d6,1d4,1d6,1d4,1d4,1d4,4,5,4
+205,Forretress, ,Bug,Steel,1d10,1d6,1d8,1d4,1d6,1d4,5,7,5
+206,Dunsparce, ,Normal, ,1d8,1d8,1d6,1d4,1d6,1d4,5,6,6
+207,Gligar, ,Ground,Flying,1d8,1d6,1d6,1d8,1d4,1d4,6,6,5
+208,Steelix, ,Steel,Ground,1d12,1d6,1d8,1d4,1d6,1d4,5,8,5
+208,Steelix,Mega Steelix,Steel,Ground,1d12+1,1d8,1d10,1d4,1d6,1d4,5,8,6
+209,Snubbull, ,Fairy, ,1d6,1d4,1d8,1d4,1d4,1d4,5,5,4
+210,Granbull, ,Fairy, ,1d8,1d6,1d10,1d4,1d6,1d4,5,6,5
+211,Qwilfish, ,Water,Poison,1d6,1d6,1d8,1d8,1d6,1d4,6,5,5
+211,Qwilfish,Hisuian Qwilfish,Dark,Poison,1d6,1d6,1d8,1d8,1d6,1d4,6,5,5
+212,Scizor, ,Bug,Steel,1d8,1d6,1d12,1d6,1d6,1d4,5,6,5
+212,Scizor,Mega Scizor,Bug,Steel,1d10,1d8,1d12,1d6,1d6,1d4,6,7,6
+213,Shuckle, ,Bug,Rock,1d10,1d10,1d4,1d4,1d4,1d4,4,7,7
+214,Heracross, ,Bug,Fighting,1d8,1d8,1d10,1d8,1d4,1d4,6,6,6
+214,Heracross,Mega Heracross,Bug,Fighting,1d8,1d8,1d12+1,1d6,1d4,1d4,6,6,6
+215,Sneasel, ,Dark,Ice,1d6,1d6,1d8,1d10,1d4,1d4,6,5,5
+215,Sneasel,Hisuian Sneasel,Fighting,Poison,1d6,1d6,1d8,1d10,1d4,1d4,6,5,5
+216,Teddiursa, ,Normal, ,1d6,1d6,1d8,1d4,1d4,1d4,5,5,5
+217,Ursaring, ,Normal, ,1d8,1d8,1d12,1d6,1d6,1d4,5,6,6
+218,Slugma, ,Fire, ,1d4,1d4,1d4,1d4,1d6,1d4,4,4,4
+219,Magcargo, ,Fire,Rock,1d8,1d6,1d4,1d4,1d8,1d4,5,6,5
+220,Swinub, ,Ice,Ground,1d4,1d4,1d4,1d4,1d4,1d4,5,4,4
+221,Piloswine, ,Ice,Ground,1d8,1d8,1d8,1d4,1d6,1d4,5,6,6
+222,Corsola, ,Water,Rock,1d8,1d8,1d6,1d4,1d6,1d4,5,6,6
+222,Corsola,Galarian Corsola,Ghost, ,1d8,1d8,1d6,1d4,1d6,1d4,5,6,6
+223,Remoraid, ,Water, ,1d4,1d4,1d6,1d6,1d6,1d4,5,4,4
+224,Octillery, ,Water, ,1d6,1d6,1d10,1d4,1d10,1d4,5,5,5
+225,Delibird, ,Ice,Flying,1d4,1d4,1d6,1d6,1d6,1d4,6,4,4
+226,Mantine, ,Water,Flying,1d8,1d10,1d4,1d6,1d8,1d4,5,6,7
+227,Skarmory, ,Steel,Flying,1d10,1d6,1d8,1d6,1d4,1d4,5,7,5
+228,Houndour, ,Dark,Fire,1d4,1d4,1d6,1d6,1d8,1d4,5,4,4
+229,Houndoom, ,Dark,Fire,1d6,1d8,1d8,1d8,1d10,1d4,6,5,6
+229,Houndoom,Mega Houndoom,Dark,Fire,1d8,1d8,1d8,1d10,1d12,1d4,6,6,6
+230,Kingdra, ,Water,Dragon,1d8,1d8,1d8,1d8,1d8,1d4,6,6,6
+231,Phanpy, ,Ground, ,1d6,1d6,1d6,1d4,1d4,1d4,5,5,5
+232,Donphan, ,Ground, ,1d10,1d6,1d10,1d4,1d6,1d4,5,7,5
+233,Porygon2, ,Normal, ,1d8,1d8,1d8,1d6,1d10,1d4,5,6,6
+234,Stantler, ,Normal, ,1d6,1d6,1d8,1d8,1d8,1d4,6,5,5
+235,Smeargle, ,Normal, ,1d4,1d4,1d4,1d6,1d4,1d4,6,4,4
+236,Tyrogue, ,Fighting, ,1d4,1d4,1d4,1d4,1d4,1d4,5,4,4
+237,Hitmontop, ,Fighting, ,1d6,1d8,1d8,1d6,1d4,1d4,5,5,6
+238,Smoochum, ,Ice,Psychic,1d4,1d6,1d4,1d6,1d8,1d4,5,4,5
+239,Elekid, ,Electric, ,1d4,1d4,1d6,1d8,1d6,1d4,6,4,4
+240,Magby, ,Fire, ,1d4,1d4,1d6,1d8,1d6,1d4,6,4,4
+241,Miltank, ,Normal, ,1d8,1d8,1d8,1d8,1d4,1d4,6,6,6
+242,Blissey, ,Normal, ,1d12,1d12+1,1d4,1d6,1d6,1d4,5,8,8
+243,Raikou, ,Electric, ,1d8,1d8,1d8,1d10,1d10,1d4,6,6,6
+244,Entei, ,Fire, ,1d8,1d8,1d10,1d8,1d8,1d4,6,6,6
+245,Suicune, ,Water, ,1d10,1d10,1d6,1d8,1d8,1d4,6,7,7
+246,Larvitar, ,Rock,Ground,1d4,1d4,1d6,1d4,1d4,1d4,5,4,4
+247,Pupitar, ,Rock,Ground,1d6,1d6,1d8,1d6,1d6,1d4,5,5,5
+248,Tyranitar, ,Rock,Dark,1d10,1d8,1d12,1d6,1d8,1d4,5,7,6
+248,Tyranitar,Mega Tyranitar,Rock,Dark,1d10,1d10,1d12+1,1d6,1d8,1d4,5,7,7
+249,Lugia, ,Psychic,Flying,1d10,1d12,1d8,1d10,1d8,1d4,6,7,8
+250,Ho-oh, ,Fire,Flying,1d8,1d12,1d12,1d8,1d10,1d4,6,6,8
+251,Celebi, ,Psychic,Grass,1d8,1d8,1d8,1d8,1d8,1d4,6,6,6
+252,Treecko, ,Grass, ,1d4,1d4,1d4,1d6,1d6,1d4,5,4,4
+253,Grovyle, ,Grass, ,1d4,1d6,1d6,1d8,1d8,1d4,6,4,5
+254,Sceptile, ,Grass, ,1d6,1d8,1d8,1d10,1d10,1d4,6,5,6
+254,Sceptile,Mega Sceptile,Grass,Dragon,1d6,1d8,1d10,1d12,1d12,1d4,7,5,6
+255,Torchic, ,Fire, ,1d4,1d4,1d6,1d4,1d6,1d4,5,4,4
+256,Combusken, ,Fire,Fighting,1d6,1d6,1d8,1d6,1d8,1d4,5,5,5
+257,Blaziken, ,Fire,Fighting,1d6,1d6,1d10,1d8,1d10,1d4,6,5,5
+257,Blaziken,Mega Blaziken,Fire,Fighting,1d8,1d8,1d12+1,1d8,1d12,1d4,6,6,6
+258,Mudkip, ,Water, ,1d4,1d4,1d6,1d4,1d4,1d4,5,4,4
+259,Marshtomp, ,Water,Ground,1d6,1d6,1d8,1d4,1d6,1d4,5,5,5
+260,Swampert, ,Water,Ground,1d8,1d8,1d10,1d6,1d8,1d4,5,6,6
+260,Swampert,Mega Swampert,Water,Ground,1d10,1d10,1d12,1d6,1d8,1d4,5,7,7
+261,Poochyena, ,Dark, ,1d4,1d4,1d6,1d4,1d4,1d4,5,4,4
+262,Mightyena, ,Dark, ,1d6,1d6,1d8,1d6,1d6,1d4,5,5,5
+263,Zigzagoon, ,Normal, ,1d4,1d4,1d4,1d6,1d4,1d4,5,4,4
+263,Zigzagoon,Galarian Zigzagoon,Dark,Normal,1d4,1d4,1d4,1d6,1d4,1d4,5,4,4
+264,Linoone, ,Normal, ,1d6,1d6,1d6,1d8,1d4,1d4,6,5,5
+264,Linoone,Galarian Linoone,Dark,Normal,1d6,1d6,1d6,1d8,1d4,1d4,6,5,5
+265,Wurmple, ,Bug, ,1d4,1d4,1d4,1d4,1d4,1d4,4,4,4
+266,Silcoon, ,Bug, ,1d6,1d4,1d4,1d4,1d4,1d4,4,5,4
+267,Beautifly, ,Bug,Flying,1d6,1d6,1d6,1d6,1d8,1d4,5,5,5
+268,Cascoon, ,Bug, ,1d6,1d4,1d4,1d4,1d4,1d4,4,5,4
+269,Dustox, ,Bug,Poison,1d6,1d6,1d4,1d6,1d4,1d4,5,5,5
+270,Lotad, ,Water,Grass,1d4,1d4,1d4,1d4,1d4,1d4,5,4,4
+271,Lombre, ,Water,Grass,1d6,1d6,1d4,1d4,1d6,1d4,5,5,5
+272,Ludicolo, ,Water,Grass,1d6,1d8,1d6,1d6,1d8,1d4,5,5,6
+273,Seedot, ,Grass, ,1d4,1d4,1d4,1d4,1d4,1d4,5,4,4
+274,Nuzleaf, ,Grass,Dark,1d6,1d6,1d6,1d6,1d6,1d4,5,5,5
+275,Shiftry, ,Grass,Dark,1d6,1d6,1d8,1d8,1d8,1d4,6,5,5
+276,Taillow, ,Normal,Flying,1d4,1d4,1d6,1d8,1d4,1d4,6,4,4
+277,Swellow, ,Normal,Flying,1d6,1d6,1d8,1d10,1d6,1d4,7,5,5
+278,Wingull, ,Water,Flying,1d4,1d4,1d4,1d8,1d6,1d4,6,4,4
+279,Pelipper, ,Water,Flying,1d8,1d6,1d4,1d6,1d8,1d4,5,6,5
+280,Ralts, ,Psychic,Fairy,1d4,1d4,1d4,1d4,1d4,1d4,5,4,4
+281,Kirlia, ,Psychic,Fairy,1d4,1d4,1d4,1d4,1d6,1d4,5,4,4
+282,Gardevoir, ,Psychic,Fairy,1d6,1d8,1d6,1d8,1d10,1d4,6,5,6
+282,Gardevoir,Mega Gardevoir,Psychic,Fairy,1d6,1d10,1d8,1d8,1d12+1,1d4,6,5,7
+283,Surskit, ,Bug,Water,1d4,1d4,1d4,1d6,1d4,1d4,5,4,4
+284,Masquerain, ,Bug,Flying,1d6,1d8,1d6,1d8,1d8,1d4,6,5,6
+285,Shroomish, ,Grass, ,1d6,1d6,1d4,1d4,1d4,1d4,5,5,5
+286,Breloom, ,Grass,Fighting,1d6,1d6,1d12,1d6,1d6,1d4,5,5,5
+287,Slakoth, ,Normal, ,1d6,1d4,1d6,1d4,1d4,1d4,5,5,4
+288,Vigoroth, ,Normal, ,1d8,1d6,1d8,1d8,1d6,1d4,6,6,5
+289,Slaking, ,Normal, ,1d10,1d10,1d12+1,1d8,1d8,1d4,6,7,7
+290,Nincada, ,Bug,Ground,1d6,1d4,1d4,1d4,1d4,1d4,5,5,4
+291,Ninjask, ,Bug,Flying,1d6,1d6,1d8,1d12+1,1d4,1d4,7,5,5
+292,Shedinja, ,Bug,Ghost,1d4,1d4,1d8,1d4,1d4,1d4,5,4,4
+293,Whismur, ,Normal, ,1d4,1d4,1d6,1d4,1d6,1d4,5,4,4
+294,Loudred, ,Normal, ,1d6,1d6,1d6,1d4,1d6,1d4,5,5,5
+295,Exploud, ,Normal, ,1d8,1d8,1d8,1d6,1d8,1d4,5,6,6
+296,Makuhita, ,Fighting, ,1d6,1d6,1d6,1d4,1d4,1d4,5,5,5
+297,Hariyama, ,Fighting, ,1d10,1d10,1d10,1d4,1d4,1d4,5,7,7
+298,Azurill, ,Normal,Fairy,1d4,1d4,1d4,1d4,1d4,1d4,4,4,4
+299,Nosepass, ,Rock, ,1d8,1d6,1d4,1d4,1d4,1d4,5,6,5
+300,Skitty, ,Normal, ,1d4,1d4,1d4,1d4,1d4,1d4,5,4,4
+301,Delcatty, ,Normal, ,1d6,1d6,1d6,1d8,1d6,1d4,6,5,5
+302,Sableye, ,Dark,Ghost,1d6,1d6,1d6,1d4,1d6,1d4,5,5,5
+302,Sableye,Mega Sableye,Dark,Ghost,1d8,1d8,1d8,1d4,1d8,1d4,4,6,6
+303,Mawile, ,Steel,Fairy,1d6,1d6,1d8,1d4,1d6,1d4,5,5,5
+303,Mawile,Mega Mawile,Steel,Fairy,1d8,1d6,1d10,1d4,1d6,1d4,5,6,5
+304,Aron, ,Steel,Rock,1d6,1d4,1d6,1d4,1d4,1d4,5,5,4
+305,Lairon, ,Steel,Rock,1d8,1d6,1d8,1d4,1d4,1d4,5,6,5
+306,Aggron, ,Steel,Rock,1d10,1d6,1d10,1d4,1d6,1d4,5,7,5
+306,Aggron,Mega Aggron,Steel, ,1d12,1d6,1d12,1d4,1d6,1d4,5,8,5
+307,Meditite, ,Fighting,Psychic,1d4,1d4,1d4,1d6,1d4,1d4,5,4,4
+308,Medicham, ,Fighting,Psychic,1d6,1d6,1d6,1d8,1d6,1d4,6,5,5
+308,Medicham,Mega Medicham,Fighting,Psychic,1d6,1d6,1d8,1d8,1d8,1d4,6,5,5
+309,Electrike, ,Electric, ,1d4,1d4,1d4,1d6,1d6,1d4,5,4,4
+310,Manectric, ,Electric, ,1d6,1d6,1d6,1d10,1d10,1d4,6,5,5
+310,Manectric,Mega Manectric,Electric, ,1d6,1d6,1d6,1d12,1d12,1d4,7,5,5
+311,Plusle, ,Electric, ,1d4,1d6,1d4,1d8,1d8,1d4,6,4,5
+312,Minun, ,Electric, ,1d6,1d6,1d4,1d8,1d6,1d4,6,5,5
+313,Volbeat, ,Bug, ,1d6,1d6,1d6,1d8,1d4,1d4,6,5,5
+314,Illumise, ,Bug, ,1d6,1d6,1d4,1d8,1d6,1d4,6,5,5
+315,Roselia, ,Grass,Poison,1d4,1d6,1d6,1d6,1d8,1d4,5,4,5
+316,Gulpin, ,Poison, ,1d6,1d6,1d4,1d4,1d4,1d4,5,5,5
+317,Swalot, ,Poison, ,1d8,1d8,1d6,1d6,1d6,1d4,5,6,6
+318,Carvanha, ,Water,Dark,1d4,1d4,1d8,1d6,1d6,1d4,5,4,4
+319,Sharpedo, ,Water,Dark,1d6,1d6,1d10,1d8,1d8,1d4,6,5,5
+319,Sharpedo,Mega Sharpedo,Water,Dark,1d6,1d6,1d12,1d10,1d10,1d4,6,5,5
+320,Wailmer, ,Water, ,1d8,1d8,1d6,1d6,1d6,1d4,5,6,6
+321,Wailord, ,Water, ,1d10,1d10,1d8,1d6,1d8,1d4,5,7,7
+322,Numel, ,Fire,Ground,1d4,1d6,1d6,1d4,1d6,1d4,5,4,5
+323,Camerupt, ,Fire,Ground,1d6,1d6,1d8,1d4,1d10,1d4,5,5,5
+323,Camerupt,Mega Camerupt,Fire,Ground,1d8,1d8,1d10,1d4,1d12,1d4,4,6,6
+324,Torkoal, ,Fire, ,1d10,1d6,1d8,1d4,1d8,1d4,4,7,5
+325,Spoink, ,Psychic, ,1d4,1d6,1d4,1d6,1d6,1d4,5,4,5
+326,Grumpig, ,Psychic, ,1d6,1d8,1d4,1d8,1d8,1d4,6,5,6
+327,Spinda, ,Normal, ,1d6,1d6,1d6,1d6,1d6,1d4,5,5,5
+328,Trapinch, ,Ground, ,1d4,1d4,1d8,1d4,1d4,1d4,4,4,4
+329,Vibrava, ,Ground,Dragon,1d4,1d4,1d6,1d6,1d4,1d4,5,4,4
+330,Flygon, ,Ground,Dragon,1d8,1d8,1d8,1d8,1d8,1d4,6,6,6
+331,Cacnea, ,Grass, ,1d4,1d4,1d8,1d4,1d8,1d4,5,4,4
+332,Cacturne, ,Grass,Dark,1d6,1d6,1d10,1d6,1d10,1d4,5,5,5
+333,Swablu, ,Normal,Flying,1d6,1d6,1d4,1d4,1d4,1d4,5,5,5
+334,Altaria, ,Dragon,Flying,1d8,1d8,1d6,1d8,1d6,1d4,6,6,6
+334,Altaria,Mega Altaria,Dragon,Fairy,1d8,1d8,1d10,1d8,1d10,1d4,6,6,6
+335,Zangoose, ,Normal, ,1d6,1d6,1d10,1d8,1d6,1d4,6,5,5
+336,Seviper, ,Poison, ,1d6,1d6,1d8,1d6,1d8,1d4,5,5,5
+337,Lunatone, ,Rock,Psychic,1d8,1d8,1d6,1d6,1d8,1d4,5,6,6
+338,Solrock, ,Rock,Psychic,1d8,1d8,1d8,1d6,1d6,1d4,5,6,6
+339,Barboach, ,Water,Ground,1d4,1d4,1d4,1d6,1d4,1d4,5,4,4
+340,Whiscash, ,Water,Ground,1d8,1d8,1d8,1d6,1d8,1d4,5,6,6
+341,Corphish, ,Water, ,1d6,1d4,1d8,1d4,1d4,1d4,5,5,4
+342,Crawdaunt, ,Water,Dark,1d6,1d6,1d10,1d6,1d8,1d4,5,5,5
+343,Baltoy, ,Ground,Psychic,1d4,1d6,1d4,1d6,1d4,1d4,5,4,5
+344,Claydol, ,Ground,Psychic,1d8,1d8,1d6,1d6,1d6,1d4,6,6,6
+345,Lileep, ,Rock,Grass,1d6,1d8,1d4,1d4,1d6,1d4,4,5,6
+346,Cradily, ,Rock,Grass,1d8,1d8,1d8,1d4,1d8,1d4,5,6,6
+347,Anorith, ,Rock,Bug,1d4,1d4,1d8,1d6,1d4,1d4,6,4,4
+348,Armaldo, ,Rock,Bug,1d8,1d8,1d10,1d4,1d6,1d4,5,6,6
+349,Feebas, ,Water, ,1d4,1d4,1d4,1d8,1d4,1d4,6,4,4
+350,Milotic, ,Water, ,1d8,1d10,1d6,1d8,1d8,1d4,6,6,7
+351,Castform, ,Normal, ,1d6,1d6,1d6,1d6,1d6,1d4,5,5,5
+351,Castform,Sunny Form,Fire, ,1d6,1d6,1d6,1d6,1d6,1d4,5,5,5
+351,Castform,Rainy Form,Water, ,1d6,1d6,1d6,1d6,1d6,1d4,5,5,5
+351,Castform,Snowy Form,Ice, ,1d6,1d6,1d6,1d6,1d6,1d4,5,5,5
+352,Kecleon, ,Normal, ,1d6,1d8,1d8,1d4,1d6,1d4,5,5,6
+353,Shuppet, ,Ghost, ,1d4,1d4,1d6,1d4,1d6,1d4,5,4,4
+354,Banette, ,Ghost, ,1d6,1d6,1d10,1d6,1d8,1d4,5,5,5
+354,Banette,Mega Banette,Ghost, ,1d6,1d6,1d12+1,1d6,1d8,1d4,6,5,5
+355,Duskull, ,Ghost, ,1d6,1d6,1d4,1d4,1d4,1d4,5,5,5
+356,Dusclops, ,Ghost, ,1d8,1d8,1d6,1d4,1d6,1d4,5,6,6
+357,Tropius, ,Grass,Flying,1d8,1d8,1d6,1d6,1d6,1d4,5,6,6
+358,Chimecho, ,Psychic, ,1d8,1d8,1d4,1d6,1d8,1d4,5,6,6
+359,Absol, ,Dark, ,1d6,1d6,1d12,1d6,1d6,1d4,6,5,5
+359,Absol,Mega Absol,Dark, ,1d6,1d6,1d12,1d10,1d10,1d4,6,5,5
+360,Wynaut, ,Psychic, ,1d6,1d6,1d4,1d4,1d4,1d4,4,5,5
+361,Snorunt, ,Ice, ,1d4,1d4,1d4,1d4,1d4,1d4,5,4,4
+362,Glalie, ,Ice, ,1d8,1d8,1d8,1d8,1d8,1d4,6,6,6
+362,Glalie,Mega Glalie,Ice, ,1d8,1d8,1d10,1d8,1d10,1d4,6,6,6
+363,Spheal, ,Ice,Water,1d6,1d6,1d4,1d4,1d6,1d4,5,5,5
+364,Sealeo, ,Ice,Water,1d8,1d8,1d6,1d4,1d6,1d4,5,6,6
+365,Walrein, ,Ice,Water,1d8,1d8,1d8,1d6,1d8,1d4,5,6,6
+366,Clamperl, ,Water, ,1d6,1d4,1d6,1d4,1d6,1d4,5,5,4
+367,Huntail, ,Water, ,1d8,1d6,1d10,1d6,1d8,1d4,5,6,5
+368,Gorebyss, ,Water, ,1d8,1d6,1d8,1d6,1d10,1d4,5,6,5
+369,Relicanth, ,Water,Rock,1d10,1d8,1d8,1d6,1d4,1d4,5,7,6
+370,Luvdisc, ,Water, ,1d4,1d6,1d4,1d8,1d4,1d4,6,4,5
+371,Bagon, ,Dragon, ,1d6,1d4,1d6,1d4,1d4,1d4,5,5,4
+372,Shelgon, ,Dragon, ,1d8,1d6,1d8,1d4,1d6,1d4,5,6,5
+373,Salamence, ,Dragon,Flying,1d8,1d8,1d12,1d8,1d10,1d4,6,6,6
+373,Salamence,Mega Salamence,Dragon,Flying,1d10,1d8,1d12,1d10,1d10,1d4,6,7,6
+374,Beldum, ,Steel,Psychic,1d6,1d4,1d6,1d4,1d4,1d4,5,5,4
+375,Metang, ,Steel,Psychic,1d8,1d6,1d6,1d4,1d6,1d4,5,6,5
+376,Metagross, ,Steel,Psychic,1d10,1d8,1d12,1d6,1d8,1d4,5,7,6
+376,Metagross,Mega Metagross,Steel,Psychic,1d10,1d8,1d12,1d10,1d10,1d4,6,7,6
+377,Regirock, ,Rock, ,1d12,1d8,1d8,1d4,1d4,1d4,5,8,6
+378,Regice, ,Ice, ,1d8,1d12,1d4,1d4,1d8,1d4,5,6,8
+379,Registeel, ,Steel, ,1d10,1d10,1d6,1d4,1d6,1d4,5,7,7
+380,Latias, ,Dragon,Psychic,1d8,1d10,1d8,1d10,1d10,1d4,6,6,7
+380,Latias,Mega Latias,Dragon,Psychic,1d8,1d10,1d8,1d10,1d12,1d4,6,6,7
+381,Latios, ,Dragon,Psychic,1d8,1d8,1d8,1d10,1d12,1d4,6,6,6
+381,Latios,Mega Latios,Dragon,Psychic,1d8,1d8,1d12,1d10,1d12+1,1d4,6,6,6
+382,Kyogre, ,Water, ,1d8,1d10,1d8,1d8,1d12,1d4,6,6,7
+382,Kyogre,Primal Kyogre,Water, ,1d8,1d12,1d12,1d8,1d12+1,1d4,6,6,8
+383,Groudon, ,Ground, ,1d10,1d8,1d12,1d8,1d8,1d4,6,7,6
+383,Groudon,Primal Groudon,Ground,Fire,1d12,1d8,1d12+1,1d8,1d12,1d4,6,8,6
+384,Rayquaza, ,Dragon,Flying,1d8,1d8,1d12,1d8,1d12,1d4,6,6,6
+384,Rayquaza,Mega Rayquaza,Dragon,Flying,1d10,1d10,1d12+1,1d10,1d12+1,1d4,6,7,7
+385,Jirachi, ,Steel,Psychic,1d8,1d8,1d8,1d8,1d8,1d4,6,6,6
+386,Deoxys,Speed Forme,Psychic, ,1d6,1d6,1d8,1d12+1,1d8,1d4,8,5,5
+386,Deoxys,Normal Forme,Psychic, ,1d4,1d4,1d12,1d12,1d12,1d4,7,4,4
+386,Deoxys,Attack Forme,Psychic, ,1d4,1d4,1d12+1,1d12,1d12+1,1d4,7,4,4
+386,Deoxys,Defense Forme,Psychic, ,1d10,1d10,1d6,1d8,1d6,1d4,6,7,7
+387,Turtwig, ,Grass, ,1d6,1d6,1d6,1d4,1d4,1d4,5,5,5
+388,Grotle, ,Grass, ,1d8,1d6,1d8,1d4,1d6,1d4,5,6,5
+389,Torterra, ,Grass,Ground,1d8,1d8,1d10,1d6,1d6,1d4,5,6,6
+390,Chimchar, ,Fire, ,1d4,1d4,1d6,1d6,1d6,1d4,5,4,4
+391,Monferno, ,Fire,Fighting,1d6,1d6,1d8,1d8,1d8,1d4,6,5,5
+392,Infernape, ,Fire,Fighting,1d6,1d6,1d10,1d10,1d10,1d4,6,5,5
+393,Piplup, ,Water, ,1d6,1d6,1d6,1d4,1d6,1d4,5,5,5
+394,Prinplup, ,Water, ,1d6,1d6,1d6,1d4,1d8,1d4,5,5,5
+395,Empoleon, ,Water,Steel,1d8,1d8,1d8,1d6,1d10,1d4,5,6,6
+396,Starly, ,Normal,Flying,1d4,1d4,1d6,1d6,1d4,1d4,5,4,4
+397,Staravia, ,Normal,Flying,1d6,1d4,1d6,1d8,1d4,1d4,6,5,4
+398,Staraptor, ,Normal,Flying,1d8,1d6,1d10,1d8,1d4,1d4,6,6,5
+399,Bidoof, ,Normal, ,1d4,1d4,1d4,1d4,1d4,1d4,5,4,4
+400,Bibarel, ,Normal,Water,1d6,1d6,1d8,1d6,1d6,1d4,5,5,5
+401,Kricketot, ,Bug, ,1d4,1d4,1d4,1d4,1d4,1d4,5,4,4
+402,Kricketune, ,Bug, ,1d6,1d6,1d8,1d6,1d6,1d4,5,5,5
+403,Shinx, ,Electric, ,1d4,1d4,1d6,1d4,1d4,1d4,5,4,4
+404,Luxio, ,Electric, ,1d6,1d6,1d8,1d6,1d6,1d4,5,5,5
+405,Luxray, ,Electric, ,1d8,1d8,1d10,1d6,1d8,1d4,5,6,6
+406,Budew, ,Grass,Poison,1d4,1d6,1d4,1d6,1d4,1d4,5,4,5
+407,Roserade, ,Grass,Poison,1d6,1d8,1d6,1d8,1d10,1d4,6,5,6
+408,Cranidos, ,Rock, ,1d6,1d4,1d10,1d6,1d4,1d4,5,5,4
+409,Rampardos, ,Rock, ,1d8,1d6,1d12+1,1d6,1d6,1d4,5,6,5
+410,Shieldon, ,Rock,Steel,1d6,1d6,1d4,1d4,1d4,1d4,5,5,5
+411,Bastiodon, ,Rock,Steel,1d10,1d8,1d6,1d4,1d4,1d4,5,7,6
+412,Burmy,Plant Cloak,Bug, ,1d4,1d4,1d4,1d4,1d4,1d4,5,4,4
+412,Burmy,Sandy Cloak,Bug, ,1d4,1d4,1d4,1d4,1d4,1d4,5,4,4
+412,Burmy,Trash Cloak,Bug, ,1d4,1d4,1d4,1d4,1d4,1d4,5,4,4
+413,Wormadam,Plant Cloak,Bug,Grass,1d6,1d8,1d6,1d4,1d8,1d4,5,5,6
+413,Wormadam,Trash Cloak,Bug,Steel,1d8,1d8,1d6,1d4,1d6,1d4,5,6,6
+413,Wormadam,Sandy Cloak,Bug,Ground,1d8,1d6,1d8,1d4,1d6,1d4,5,6,5
+414,Mothim, ,Bug,Flying,1d6,1d6,1d8,1d6,1d8,1d4,5,5,5
+415,Combee, ,Bug,Flying,1d4,1d4,1d4,1d6,1d4,1d4,5,4,4
+416,Vespiquen, ,Bug,Flying,1d8,1d8,1d8,1d4,1d8,1d4,5,6,6
+417,Pachirisu, ,Electric, ,1d6,1d6,1d4,1d8,1d4,1d4,6,5,5
+418,Buizel, ,Water, ,1d4,1d4,1d6,1d8,1d6,1d4,6,4,4
+419,Floatzel, ,Water, ,1d6,1d6,1d10,1d10,1d8,1d4,6,5,5
+420,Cherubi, ,Grass, ,1d4,1d4,1d4,1d4,1d6,1d4,5,4,4
+421,Cherrim, ,Grass, ,1d6,1d6,1d6,1d8,1d8,1d4,6,5,5
+422,Shellos, ,Water, ,1d6,1d6,1d4,1d4,1d6,1d4,5,5,5
+423,Gastrodon, ,Water,Ground,1d8,1d8,1d8,1d4,1d8,1d4,5,6,6
+424,Ambipom, ,Normal, ,1d6,1d6,1d8,1d10,1d6,1d4,6,5,5
+425,Drifloon, ,Ghost,Flying,1d6,1d6,1d4,1d6,1d6,1d4,5,5,5
+426,Drifblim, ,Ghost,Flying,1d8,1d10,1d8,1d8,1d8,1d4,6,6,7
+427,Buneary, ,Normal, ,1d4,1d6,1d6,1d8,1d4,1d4,6,4,5
+428,Lopunny, ,Normal, ,1d6,1d8,1d8,1d10,1d6,1d4,6,5,6
+428,Lopunny,Mega Lopunny,Normal,Fighting,1d8,1d8,1d12,1d12,1d6,1d4,7,6,6
+429,Mismagius, ,Ghost, ,1d6,1d8,1d6,1d10,1d10,1d4,6,5,6
+430,Honchkrow, ,Dark,Flying,1d8,1d8,1d10,1d6,1d10,1d4,5,6,6
+431,Glameow, ,Normal, ,1d4,1d4,1d6,1d8,1d4,1d4,6,4,4
+432,Purugly, ,Normal, ,1d6,1d6,1d8,1d10,1d6,1d4,6,5,5
+433,Chingling, ,Psychic, ,1d4,1d4,1d4,1d4,1d6,1d4,5,4,4
+434,Stunky, ,Poison,Dark,1d6,1d6,1d6,1d6,1d4,1d4,5,5,5
+435,Skuntank, ,Poison,Dark,1d8,1d8,1d8,1d8,1d6,1d4,6,6,6
+436,Bronzor, ,Steel,Psychic,1d6,1d6,1d4,1d4,1d4,1d4,4,5,5
+437,Bronzong, ,Steel,Psychic,1d8,1d8,1d8,1d4,1d8,1d4,5,6,6
+438,Bonsly, ,Rock, ,1d6,1d4,1d8,1d4,1d4,1d4,4,5,4
+439,Mime Jr., ,Psychic,Fairy,1d4,1d6,1d4,1d6,1d6,1d4,5,4,5
+440,Happiny, ,Normal, ,1d6,1d8,1d4,1d4,1d4,1d4,5,5,6
+441,Chatot, ,Normal,Flying,1d6,1d6,1d6,1d8,1d8,1d4,6,5,5
+442,Spiritomb, ,Ghost,Dark,1d8,1d8,1d8,1d4,1d8,1d4,5,6,6
+443,Gible, ,Dragon,Ground,1d6,1d6,1d6,1d4,1d4,1d4,5,5,5
+444,Gabite, ,Dragon,Ground,1d6,1d6,1d8,1d8,1d4,1d4,6,5,5
+445,Garchomp, ,Dragon,Ground,1d10,1d8,1d12,1d10,1d8,1d4,6,7,6
+445,Garchomp,Mega Garchomp,Dragon,Ground,1d10,1d10,1d12+1,1d8,1d10,1d4,6,7,7
+446,Munchlax, ,Normal, ,1d8,1d10,1d8,1d4,1d4,1d4,4,6,7
+447,Riolu, ,Fighting, ,1d4,1d4,1d6,1d6,1d4,1d4,5,4,4
+448,Lucario, ,Fighting,Steel,1d6,1d6,1d10,1d8,1d10,1d4,6,5,5
+448,Lucario,Mega Lucario,Fighting,Steel,1d8,1d6,1d12,1d10,1d12,1d4,6,6,5
+449,Hippopotas, ,Ground, ,1d6,1d6,1d6,1d4,1d4,1d4,5,5,5
+450,Hippowdon, ,Ground, ,1d10,1d8,1d10,1d4,1d6,1d4,5,7,6
+451,Skorupi, ,Poison,Bug,1d6,1d4,1d4,1d6,1d4,1d4,5,5,4
+452,Drapion, ,Poison,Dark,1d8,1d6,1d8,1d8,1d6,1d4,6,6,5
+453,Croagunk, ,Poison,Fighting,1d4,1d4,1d6,1d4,1d6,1d4,5,4,4
+454,Toxicroak, ,Poison,Fighting,1d6,1d6,1d10,1d8,1d8,1d4,6,5,5
+455,Carnivine, ,Grass, ,1d6,1d6,1d8,1d4,1d8,1d4,5,5,5
+456,Finneon, ,Water, ,1d6,1d6,1d4,1d6,1d4,1d4,5,5,5
+457,Lumineon, ,Water, ,1d6,1d8,1d6,1d8,1d6,1d4,6,5,6
+458,Mantyke, ,Water,Flying,1d4,1d8,1d4,1d4,1d6,1d4,5,4,6
+459,Snover, ,Grass,Ice,1d6,1d6,1d6,1d4,1d6,1d4,5,5,5
+460,Abomasnow, ,Grass,Ice,1d8,1d8,1d8,1d6,1d8,1d4,5,6,6
+460,Abomasnow,Mega Abomasnow,Grass,Ice,1d8,1d8,1d12,1d4,1d12,1d4,5,6,6
+461,Weavile, ,Dark,Ice,1d6,1d8,1d10,1d10,1d4,1d4,7,5,6
+462,Magnezone, ,Electric,Steel,1d8,1d8,1d6,1d6,1d12,1d4,5,6,6
+463,Lickilicky, ,Normal, ,1d10,1d10,1d8,1d4,1d8,1d4,5,7,7
+464,Rhyperior, ,Ground,Rock,1d10,1d8,1d12,1d4,1d6,1d4,5,7,6
+465,Tangrowth, ,Grass, ,1d10,1d6,1d8,1d4,1d10,1d4,5,7,5
+466,Electivire, ,Electric, ,1d6,1d8,1d10,1d8,1d8,1d4,6,5,6
+467,Magmortar, ,Fire, ,1d6,1d8,1d8,1d8,1d10,1d4,6,5,6
+468,Togekiss, ,Fairy,Flying,1d8,1d8,1d4,1d8,1d10,1d4,6,6,6
+469,Yanmega, ,Bug,Flying,1d8,1d6,1d8,1d8,1d10,1d4,6,6,5
+470,Leafeon, ,Grass, ,1d8,1d6,1d10,1d8,1d6,1d4,6,6,5
+471,Glaceon, ,Ice, ,1d8,1d8,1d6,1d6,1d12,1d4,5,6,6
+472,Gliscor, ,Ground,Flying,1d8,1d6,1d8,1d8,1d4,1d4,6,6,5
+473,Mamoswine, ,Ice,Ground,1d8,1d8,1d12,1d8,1d6,1d4,6,6,6
+474,Porygon-Z, ,Normal, ,1d8,1d8,1d8,1d8,1d12,1d4,6,6,6
+475,Gallade, ,Psychic,Fighting,1d6,1d8,1d10,1d8,1d6,1d4,6,5,6
+475,Gallade,Mega Gallade,Psychic,Fighting,1d8,1d8,1d12+1,1d10,1d6,1d4,6,6,6
+476,Probopass, ,Rock,Steel,1d10,1d10,1d6,1d4,1d6,1d4,5,7,7
+477,Dusknoir, ,Ghost, ,1d8,1d8,1d8,1d4,1d6,1d4,5,6,6
+478,Froslass, ,Ice,Ghost,1d6,1d6,1d8,1d10,1d8,1d4,6,5,5
+479,Rotom, ,Electric,Ghost,1d6,1d6,1d4,1d8,1d8,1d4,6,5,5
+479,Rotom,Heat Rotom,Electric,Fire,1d8,1d8,1d6,1d8,1d10,1d4,6,6,6
+479,Rotom,Wash Rotom,Electric,Water,1d8,1d8,1d6,1d8,1d10,1d4,6,6,6
+479,Rotom,Frost Rotom,Electric,Ice,1d8,1d8,1d6,1d8,1d10,1d4,6,6,6
+479,Rotom,Fan Rotom,Electric,Flying,1d8,1d8,1d6,1d8,1d10,1d4,6,6,6
+479,Rotom,Mow Rotom,Electric,Grass,1d8,1d8,1d6,1d8,1d10,1d4,6,6,6
+480,Uxie, ,Psychic, ,1d10,1d10,1d6,1d8,1d6,1d4,6,7,7
+481,Mesprit, ,Psychic, ,1d8,1d8,1d10,1d8,1d10,1d4,6,6,6
+482,Azelf, ,Psychic, ,1d6,1d6,1d10,1d10,1d10,1d4,6,5,5
+483,Dialga, ,Steel,Dragon,1d10,1d8,1d10,1d8,1d12,1d4,6,7,6
+483,Dialga,Origin Forme,Steel,Dragon,1d10,1d10,1d8,1d8,1d12,1d4,6,7,7
+484,Palkia, ,Water,Dragon,1d8,1d10,1d10,1d8,1d12,1d4,6,6,7
+484,Palkia,Origin Forme,Water,Dragon,1d8,1d10,1d8,1d10,1d12,1d4,6,6,7
+485,Heatran, ,Fire,Steel,1d8,1d8,1d8,1d8,1d12,1d4,6,6,6
+486,Regigigas, ,Normal, ,1d10,1d10,1d12+1,1d8,1d8,1d4,6,7,7
+487,Giratina,Altered Forme,Ghost,Dragon,1d12,1d12,1d8,1d8,1d8,1d4,6,8,8
+487,Giratina,Origin Forme,Ghost,Dragon,1d10,1d10,1d10,1d8,1d10,1d4,6,7,7
+488,Cresselia, ,Psychic, ,1d10,1d10,1d6,1d8,1d6,1d4,6,7,7
+489,Phione, ,Water, ,1d8,1d8,1d8,1d8,1d8,1d4,6,6,6
+490,Manaphy, ,Water, ,1d8,1d8,1d8,1d8,1d8,1d4,6,6,6
+491,Darkrai, ,Dark, ,1d8,1d8,1d8,1d10,1d12,1d4,7,6,6
+492,Shaymin,Sky Forme,Grass,Flying,1d8,1d8,1d10,1d12,1d10,1d4,7,6,6
+492,Shaymin,Land Forme,Grass, ,1d8,1d8,1d8,1d8,1d8,1d4,6,6,6
+493,Arceus, ,Normal, ,1d10,1d10,1d10,1d10,1d10,1d4,6,7,7
+494,Victini, ,Psychic,Fire,1d8,1d8,1d8,1d8,1d8,1d4,6,6,6
+495,Snivy, ,Grass, ,1d4,1d4,1d4,1d6,1d4,1d4,5,4,4
+496,Servine, ,Grass, ,1d6,1d6,1d6,1d8,1d6,1d4,6,5,5
+497,Serperior, ,Grass, ,1d8,1d8,1d6,1d10,1d6,1d4,6,6,6
+498,Tepig, ,Fire, ,1d6,1d6,1d6,1d4,1d4,1d4,5,5,5
+499,Pignite, ,Fire,Fighting,1d6,1d6,1d8,1d6,1d6,1d4,5,5,5
+500,Emboar, ,Fire,Fighting,1d8,1d8,1d10,1d6,1d8,1d4,5,6,6
+501,Oshawott, ,Water, ,1d4,1d4,1d6,1d4,1d6,1d4,5,4,4
+502,Dewott, ,Water, ,1d6,1d6,1d6,1d6,1d8,1d4,5,5,5
+503,Samurott, ,Water, ,1d8,1d8,1d8,1d6,1d10,1d4,5,6,6
+503,Samurott,Hisuian Samurott,Water,Dark,1d8,1d8,1d10,1d8,1d8,1d4,6,6,6
+504,Patrat, ,Normal, ,1d4,1d4,1d6,1d4,1d4,1d4,5,4,4
+505,Watchog, ,Normal, ,1d6,1d6,1d8,1d8,1d6,1d4,6,5,5
+506,Lillipup, ,Normal, ,1d4,1d4,1d6,1d6,1d4,1d4,5,4,4
+507,Herdier, ,Normal, ,1d6,1d6,1d8,1d6,1d4,1d4,5,5,5
+508,Stoutland, ,Normal, ,1d8,1d8,1d10,1d8,1d4,1d4,6,6,6
+509,Purrloin, ,Dark, ,1d4,1d4,1d4,1d6,1d4,1d4,5,4,4
+510,Liepard, ,Dark, ,1d6,1d6,1d8,1d10,1d8,1d4,6,5,5
+511,Pansage, ,Grass, ,1d4,1d4,1d6,1d6,1d6,1d4,5,4,4
+512,Simisage, ,Grass, ,1d6,1d6,1d8,1d10,1d8,1d4,6,5,5
+513,Pansear, ,Fire, ,1d4,1d4,1d6,1d6,1d6,1d4,5,4,4
+514,Simisear, ,Fire, ,1d6,1d6,1d8,1d10,1d8,1d4,6,5,5
+515,Panpour, ,Water, ,1d4,1d4,1d6,1d6,1d6,1d4,5,4,4
+516,Simipour, ,Water, ,1d6,1d6,1d8,1d10,1d8,1d4,6,5,5
+517,Munna, ,Psychic, ,1d6,1d6,1d4,1d4,1d6,1d4,4,5,5
+518,Musharna, ,Psychic, ,1d10,1d10,1d6,1d4,1d10,1d4,5,7,7
+519,Pidove, ,Normal,Flying,1d4,1d4,1d6,1d4,1d4,1d4,5,4,4
+520,Tranquill, ,Normal,Flying,1d6,1d6,1d8,1d6,1d4,1d4,5,5,5
+521,Unfezant, ,Normal,Flying,1d8,1d6,1d10,1d8,1d6,1d4,6,6,5
+522,Blitzle, ,Electric, ,1d4,1d4,1d6,1d8,1d4,1d4,6,4,4
+523,Zebstrika, ,Electric, ,1d6,1d6,1d8,1d10,1d8,1d4,6,5,5
+524,Roggenrola, ,Rock, ,1d6,1d4,1d6,1d4,1d4,1d4,4,5,4
+525,Boldore, ,Rock, ,1d8,1d6,1d10,1d4,1d4,1d4,4,6,5
+526,Gigalith, ,Rock, ,1d10,1d8,1d12,1d4,1d6,1d4,5,7,6
+527,Woobat, ,Psychic,Flying,1d6,1d6,1d4,1d6,1d6,1d4,5,5,5
+528,Swoobat, ,Psychic,Flying,1d6,1d6,1d6,1d10,1d8,1d4,6,5,5
+529,Drilbur, ,Ground, ,1d4,1d6,1d8,1d6,1d4,1d4,5,4,5
+530,Excadrill, ,Ground,Steel,1d8,1d8,1d12,1d8,1d4,1d4,6,6,6
+531,Audino, ,Normal, ,1d8,1d8,1d6,1d4,1d6,1d4,5,6,6
+531,Audino,Mega Audino,Normal,Fairy,1d10,1d10,1d6,1d4,1d8,1d4,5,7,7
+532,Timburr, ,Fighting, ,1d6,1d6,1d8,1d4,1d4,1d4,5,5,5
+533,Gurdurr, ,Fighting, ,1d8,1d6,1d10,1d4,1d4,1d4,5,6,5
+534,Conkeldurr, ,Fighting, ,1d8,1d8,1d12,1d4,1d6,1d4,5,6,6
+535,Tympole, ,Water, ,1d4,1d4,1d4,1d6,1d4,1d4,5,4,4
+536,Palpitoad, ,Water,Ground,1d6,1d6,1d6,1d6,1d6,1d4,5,5,5
+537,Seismitoad, ,Water,Ground,1d8,1d8,1d8,1d6,1d8,1d4,5,6,6
+538,Throh, ,Fighting, ,1d10,1d10,1d8,1d4,1d4,1d4,5,7,7
+539,Sawk, ,Fighting, ,1d6,1d6,1d10,1d8,1d4,1d4,6,5,5
+540,Sewaddle, ,Bug,Grass,1d6,1d6,1d6,1d4,1d4,1d4,5,5,5
+541,Swadloon, ,Bug,Grass,1d6,1d6,1d6,1d4,1d4,1d4,5,5,5
+542,Leavanny, ,Bug,Grass,1d8,1d8,1d10,1d8,1d6,1d4,6,6,6
+543,Venipede, ,Bug,Poison,1d4,1d4,1d4,1d6,1d4,1d4,5,4,4
+544,Whirlipede, ,Bug,Poison,1d6,1d6,1d6,1d4,1d4,1d4,5,5,5
+545,Scolipede, ,Bug,Poison,1d6,1d6,1d8,1d10,1d6,1d4,6,5,5
+546,Cottonee, ,Grass,Fairy,1d4,1d4,1d4,1d6,1d4,1d4,5,4,4
+547,Whimsicott, ,Grass,Fairy,1d6,1d6,1d6,1d10,1d8,1d4,6,5,5
+548,Petilil, ,Grass, ,1d4,1d4,1d4,1d4,1d6,1d4,5,4,4
+549,Lilligant, ,Grass, ,1d6,1d6,1d6,1d8,1d10,1d4,6,5,5
+549,Lilligant,Hisuian Lilligant,Grass,Fighting,1d6,1d6,1d10,1d10,1d4,1d4,6,5,5
+550,Basculin,Red-Striped Form,Water, ,1d6,1d6,1d8,1d8,1d8,1d4,6,5,5
+550,Basculin,Blue-Striped Form,Water, ,1d6,1d6,1d8,1d8,1d8,1d4,6,5,5
+550,Basculin,White-Striped Form,Water, ,1d6,1d6,1d8,1d8,1d8,1d4,6,5,5
+551,Sandile, ,Ground,Dark,1d4,1d4,1d6,1d6,1d4,1d4,5,4,4
+552,Krokorok, ,Ground,Dark,1d6,1d6,1d8,1d6,1d4,1d4,5,5,5
+553,Krookodile, ,Ground,Dark,1d8,1d8,1d10,1d8,1d6,1d4,6,6,6
+554,Darumaka, ,Fire, ,1d6,1d6,1d8,1d4,1d4,1d4,5,5,5
+554,Darumaka,Galarian Darumaka,Ice, ,1d6,1d6,1d8,1d4,1d4,1d4,5,5,5
+555,Darmanitan,Standard Mode,Fire, ,1d8,1d8,1d12,1d8,1d4,1d4,6,6,6
+555,Darmanitan,Zen Mode,Fire,Psychic,1d10,1d10,1d4,1d6,1d12,1d4,5,7,7
+555,Darmanitan,Galarian Zen Mode,Ice,Fire,1d8,1d8,1d12+1,1d12,1d4,1d4,7,6,6
+555,Darmanitan,Galarian Standard Mode,Ice, ,1d8,1d8,1d12,1d8,1d4,1d4,6,6,6
+556,Maractus, ,Grass, ,1d6,1d6,1d8,1d6,1d10,1d4,5,5,5
+557,Dwebble, ,Bug,Rock,1d6,1d4,1d6,1d6,1d4,1d4,5,5,4
+558,Crustle, ,Bug,Rock,1d8,1d6,1d10,1d4,1d6,1d4,5,6,5
+559,Scraggy, ,Dark,Fighting,1d6,1d6,1d6,1d4,1d4,1d4,5,5,5
+560,Scrafty, ,Dark,Fighting,1d8,1d8,1d8,1d6,1d4,1d4,5,6,6
+561,Sigilyph, ,Psychic,Flying,1d8,1d8,1d6,1d8,1d10,1d4,6,6,6
+562,Yamask, ,Ghost, ,1d6,1d6,1d4,1d4,1d6,1d4,5,5,5
+562,Yamask,Galarian Yamask,Ground,Ghost,1d6,1d6,1d6,1d4,1d4,1d4,5,5,5
+563,Cofagrigus, ,Ghost, ,1d10,1d8,1d4,1d4,1d8,1d4,5,7,6
+564,Tirtouga, ,Water,Rock,1d8,1d4,1d8,1d4,1d6,1d4,4,6,4
+565,Carracosta, ,Water,Rock,1d10,1d6,1d10,1d4,1d8,1d4,5,7,5
+566,Archen, ,Rock,Flying,1d4,1d4,1d10,1d6,1d6,1d4,5,4,4
+567,Archeops, ,Rock,Flying,1d6,1d6,1d12,1d10,1d10,1d4,6,5,5
+568,Trubbish, ,Poison, ,1d6,1d6,1d4,1d6,1d4,1d4,5,5,5
+569,Garbodor, ,Poison, ,1d8,1d8,1d8,1d6,1d6,1d4,6,6,6
+570,Zorua, ,Dark, ,1d4,1d4,1d6,1d6,1d8,1d4,5,4,4
+570,Zorua,Hisuian Zorua,Normal,Ghost,1d4,1d4,1d6,1d6,1d8,1d4,5,4,4
+571,Zoroark, ,Dark, ,1d6,1d6,1d10,1d10,1d10,1d4,6,5,5
+571,Zoroark,Hisuian Zoroark,Normal,Ghost,1d6,1d6,1d8,1d10,1d10,1d4,6,5,5
+572,Minccino, ,Normal, ,1d4,1d4,1d4,1d6,1d4,1d4,6,4,4
+573,Cinccino, ,Normal, ,1d6,1d6,1d8,1d10,1d6,1d4,6,5,5
+574,Gothita, ,Psychic, ,1d4,1d6,1d4,1d4,1d6,1d4,5,4,5
+575,Gothorita, ,Psychic, ,1d6,1d6,1d4,1d6,1d6,1d4,5,5,5
+576,Gothitelle, ,Psychic, ,1d8,1d8,1d6,1d6,1d8,1d4,5,6,6
+577,Solosis, ,Psychic, ,1d4,1d4,1d4,1d4,1d10,1d4,4,4,4
+578,Duosion, ,Psychic, ,1d6,1d6,1d4,1d4,1d10,1d4,5,5,5
+579,Reuniclus, ,Psychic, ,1d8,1d8,1d6,1d4,1d10,1d4,5,6,6
+580,Ducklett, ,Water,Flying,1d6,1d6,1d4,1d6,1d4,1d4,5,5,5
+581,Swanna, ,Water,Flying,1d6,1d6,1d8,1d8,1d8,1d4,6,5,5
+582,Vanillite, ,Ice, ,1d4,1d4,1d4,1d4,1d6,1d4,5,4,4
+583,Vanillish, ,Ice, ,1d6,1d6,1d6,1d6,1d8,1d4,5,5,5
+584,Vanilluxe, ,Ice, ,1d8,1d8,1d8,1d8,1d10,1d4,6,6,6
+585,Deerling, ,Normal,Grass,1d6,1d6,1d6,1d6,1d4,1d4,6,5,5
+586,Sawsbuck, ,Normal,Grass,1d6,1d6,1d8,1d8,1d6,1d4,6,5,5
+587,Emolga, ,Electric,Flying,1d6,1d6,1d6,1d10,1d6,1d4,6,5,5
+588,Karrablast, ,Bug, ,1d4,1d4,1d6,1d6,1d4,1d4,5,4,4
+589,Escavalier, ,Bug,Steel,1d8,1d8,1d12,1d4,1d6,1d4,4,6,6
+590,Foongus, ,Grass,Poison,1d6,1d6,1d6,1d4,1d6,1d4,4,5,5
+591,Amoonguss, ,Grass,Poison,1d8,1d8,1d8,1d4,1d8,1d4,5,6,6
+592,Frillish, ,Water,Ghost,1d6,1d6,1d4,1d4,1d6,1d4,5,5,5
+593,Jellicent, ,Water,Ghost,1d8,1d10,1d6,1d6,1d8,1d4,5,6,7
+594,Alomomola, ,Water, ,1d10,1d10,1d6,1d6,1d4,1d4,5,7,7
+595,Joltik, ,Bug,Electric,1d4,1d4,1d4,1d6,1d6,1d4,5,4,4
+596,Galvantula, ,Bug,Electric,1d6,1d6,1d8,1d10,1d8,1d4,6,5,5
+597,Ferroseed, ,Grass,Steel,1d6,1d6,1d4,1d4,1d4,1d4,4,5,5
+598,Ferrothorn, ,Grass,Steel,1d10,1d8,1d8,1d4,1d6,1d4,4,7,6
+599,Klink, ,Steel, ,1d6,1d4,1d6,1d4,1d4,1d4,5,5,4
+600,Klang, ,Steel, ,1d8,1d6,1d8,1d4,1d6,1d4,5,6,5
+601,Klinklang, ,Steel, ,1d8,1d6,1d8,1d8,1d6,1d4,6,6,5
+602,Tynamo, ,Electric, ,1d4,1d4,1d6,1d6,1d4,1d4,5,4,4
+603,Eelektrik, ,Electric, ,1d6,1d6,1d8,1d4,1d6,1d4,5,5,5
+604,Eelektross, ,Electric, ,1d8,1d8,1d10,1d4,1d10,1d4,5,6,6
+605,Elgyem, ,Psychic, ,1d6,1d6,1d6,1d4,1d8,1d4,5,5,5
+606,Beheeyem, ,Psychic, ,1d6,1d8,1d6,1d4,1d10,1d4,5,5,6
+607,Litwick, ,Ghost,Fire,1d6,1d6,1d4,1d4,1d6,1d4,4,5,5
+608,Lampent, ,Ghost,Fire,1d6,1d6,1d4,1d6,1d8,1d4,5,5,5
+609,Chandelure, ,Ghost,Fire,1d6,1d6,1d6,1d8,1d12,1d4,6,5,5
+610,Axew, ,Dragon, ,1d6,1d4,1d8,1d6,1d4,1d4,5,5,4
+611,Fraxure, ,Dragon, ,1d6,1d6,1d10,1d6,1d4,1d4,5,5,5
+612,Haxorus, ,Dragon, ,1d8,1d6,1d12,1d8,1d6,1d4,6,6,5
+613,Cubchoo, ,Ice, ,1d4,1d4,1d6,1d4,1d6,1d4,5,4,4
+614,Beartic, ,Ice, ,1d8,1d8,1d12,1d4,1d6,1d4,5,6,6
+615,Cryogonal, ,Ice, ,1d6,1d10,1d4,1d10,1d8,1d4,6,5,7
+616,Shelmet, ,Bug, ,1d6,1d6,1d4,1d4,1d4,1d4,5,5,5
+617,Accelgor, ,Bug, ,1d6,1d6,1d6,1d12,1d8,1d4,7,5,5
+618,Stunfisk, ,Ground,Electric,1d8,1d10,1d6,1d4,1d8,1d4,5,6,7
+618,Stunfisk,Galarian Stunfisk,Ground,Steel,1d10,1d8,1d8,1d4,1d6,1d4,5,7,6
+619,Mienfoo, ,Fighting, ,1d4,1d4,1d8,1d6,1d6,1d4,5,4,4
+620,Mienshao, ,Fighting, ,1d6,1d6,1d10,1d10,1d8,1d4,6,5,5
+621,Druddigon, ,Dragon, ,1d8,1d8,1d10,1d4,1d6,1d4,5,6,6
+622,Golett, ,Ground,Ghost,1d6,1d6,1d6,1d4,1d4,1d4,5,5,5
+623,Golurk, ,Ground,Ghost,1d8,1d8,1d10,1d6,1d6,1d4,5,6,6
+624,Pawniard, ,Dark,Steel,1d6,1d4,1d8,1d6,1d4,1d4,5,5,4
+625,Bisharp, ,Dark,Steel,1d8,1d6,1d10,1d6,1d6,1d4,5,6,5
+626,Bouffalant, ,Normal, ,1d8,1d8,1d10,1d6,1d4,1d4,5,6,6
+627,Rufflet, ,Normal,Flying,1d6,1d6,1d8,1d6,1d4,1d4,5,5,5
+628,Braviary, ,Normal,Flying,1d8,1d8,1d10,1d8,1d6,1d4,6,6,6
+628,Braviary,Hisuian Braviary,Psychic,Flying,1d8,1d8,1d8,1d6,1d10,1d4,5,6,6
+629,Vullaby, ,Dark,Flying,1d6,1d6,1d6,1d6,1d4,1d4,5,5,5
+630,Mandibuzz, ,Dark,Flying,1d10,1d10,1d6,1d8,1d6,1d4,6,7,7
+631,Heatmor, ,Fire, ,1d8,1d8,1d8,1d6,1d10,1d4,5,6,6
+632,Durant, ,Bug,Steel,1d8,1d6,1d10,1d10,1d4,1d4,6,6,5
+633,Deino, ,Dark,Dragon,1d6,1d6,1d6,1d4,1d4,1d4,5,5,5
+634,Zweilous, ,Dark,Dragon,1d6,1d6,1d8,1d6,1d6,1d4,5,5,5
+635,Hydreigon, ,Dark,Dragon,1d8,1d8,1d10,1d8,1d10,1d4,6,6,6
+636,Larvesta, ,Bug,Fire,1d6,1d6,1d8,1d6,1d4,1d4,5,5,5
+637,Volcarona, ,Bug,Fire,1d6,1d8,1d6,1d8,1d12,1d4,6,5,6
+638,Cobalion, ,Steel,Fighting,1d10,1d8,1d8,1d10,1d8,1d4,6,7,6
+639,Terrakion, ,Rock,Fighting,1d8,1d8,1d12,1d10,1d6,1d4,6,6,6
+640,Virizion, ,Grass,Fighting,1d8,1d10,1d8,1d10,1d8,1d4,6,6,7
+641,Tornadus,Therian Forme,Flying, ,1d8,1d8,1d8,1d10,1d10,1d4,6,6,6
+641,Tornadus,Incarnate Forme,Flying, ,1d6,1d8,1d10,1d10,1d10,1d4,6,5,6
+642,Thundurus,Incarnate Forme,Electric,Flying,1d6,1d8,1d10,1d10,1d10,1d4,6,5,6
+642,Thundurus,Therian Forme,Electric,Flying,1d6,1d8,1d10,1d10,1d12,1d4,6,5,6
+643,Reshiram, ,Dragon,Fire,1d8,1d10,1d10,1d8,1d12,1d4,6,6,7
+644,Zekrom, ,Dragon,Electric,1d10,1d8,1d12,1d8,1d10,1d4,6,7,6
+645,Landorus,Incarnate Forme,Ground,Flying,1d8,1d8,1d10,1d10,1d10,1d4,6,6,6
+645,Landorus,Therian Forme,Ground,Flying,1d8,1d8,1d12,1d8,1d10,1d4,6,6,6
+646,Kyurem,White Kyurem,Dragon,Ice,1d10,1d10,1d10,1d8,1d12+1,1d4,6,7,7
+646,Kyurem, ,Dragon,Ice,1d10,1d10,1d12,1d8,1d12,1d4,6,7,7
+646,Kyurem,Black Kyurem,Dragon,Ice,1d10,1d10,1d12+1,1d8,1d10,1d4,6,7,7
+647,Keldeo,Ordinary Form,Water,Fighting,1d8,1d8,1d6,1d10,1d12,1d4,6,6,6
+647,Keldeo,Resolute Form,Water,Fighting,1d8,1d8,1d6,1d10,1d12,1d4,6,6,6
+648,Meloetta,Pirouette Forme,Normal,Fighting,1d8,1d8,1d12,1d12,1d8,1d4,7,6,6
+648,Meloetta,Aria Forme,Normal,Psychic,1d8,1d10,1d8,1d8,1d12,1d4,6,6,7
+649,Genesect, ,Bug,Steel,1d8,1d8,1d10,1d8,1d10,1d4,6,6,6
+650,Chespin, ,Grass, ,1d6,1d6,1d6,1d4,1d4,1d4,5,5,5
+651,Quilladin, ,Grass, ,1d8,1d6,1d8,1d6,1d6,1d4,5,6,5
+652,Chesnaught, ,Grass,Fighting,1d10,1d8,1d10,1d6,1d6,1d4,5,7,6
+653,Fennekin, ,Fire, ,1d4,1d4,1d4,1d6,1d6,1d4,5,4,4
+654,Braixen, ,Fire, ,1d6,1d6,1d6,1d6,1d8,1d4,5,5,5
+655,Delphox, ,Fire,Psychic,1d6,1d8,1d6,1d10,1d10,1d4,6,5,6
+656,Froakie, ,Water, ,1d4,1d4,1d6,1d6,1d6,1d4,5,4,4
+657,Frogadier, ,Water, ,1d6,1d6,1d6,1d8,1d8,1d4,6,5,5
+658,Greninja, ,Water,Dark,1d6,1d6,1d8,1d10,1d10,1d4,6,5,5
+658,Greninja,Ash-Greninja,Water,Dark,1d6,1d6,1d12,1d12,1d12+1,1d4,7,5,5
+659,Bunnelby, ,Normal, ,1d4,1d4,1d4,1d6,1d4,1d4,5,4,4
+660,Diggersby, ,Normal,Ground,1d8,1d8,1d6,1d8,1d4,1d4,6,6,6
+661,Fletchling, ,Normal,Flying,1d4,1d4,1d4,1d6,1d4,1d4,5,4,4
+662,Fletchinder, ,Fire,Flying,1d6,1d6,1d6,1d8,1d6,1d4,6,5,5
+663,Talonflame, ,Fire,Flying,1d6,1d6,1d8,1d12,1d6,1d4,7,5,5
+664,Scatterbug, ,Bug, ,1d4,1d4,1d4,1d4,1d4,1d4,5,4,4
+665,Spewpa, ,Bug, ,1d6,1d4,1d4,1d4,1d4,1d4,5,5,4
+666,Vivillon, ,Bug,Flying,1d6,1d6,1d6,1d8,1d8,1d4,6,5,5
+667,Litleo, ,Fire,Normal,1d6,1d6,1d4,1d6,1d6,1d4,5,5,5
+668,Pyroar, ,Fire,Normal,1d8,1d8,1d6,1d10,1d10,1d4,6,6,6
+669,Flabébé, ,Fairy, ,1d4,1d6,1d4,1d4,1d6,1d4,5,4,5
+670,Floette, ,Fairy, ,1d6,1d8,1d4,1d6,1d6,1d4,5,5,6
+671,Florges, ,Fairy, ,1d6,1d10,1d6,1d6,1d10,1d4,6,5,7
+672,Skiddo, ,Grass, ,1d6,1d6,1d6,1d6,1d6,1d4,5,5,5
+673,Gogoat, ,Grass, ,1d8,1d10,1d8,1d6,1d8,1d4,5,6,7
+674,Pancham, ,Fighting, ,1d6,1d6,1d8,1d4,1d4,1d4,5,5,5
+675,Pangoro, ,Fighting,Dark,1d8,1d8,1d10,1d6,1d6,1d4,5,6,6
+676,Furfrou, ,Normal, ,1d6,1d8,1d8,1d10,1d6,1d4,6,5,6
+677,Espurr, ,Psychic, ,1d6,1d6,1d4,1d6,1d6,1d4,5,5,5
+678,Meowstic,Male,Psychic, ,1d6,1d8,1d4,1d10,1d8,1d4,6,5,6
+678,Meowstic,Female,Psychic, ,1d6,1d8,1d4,1d10,1d8,1d4,6,5,6
+679,Honedge, ,Steel,Ghost,1d6,1d4,1d8,1d4,1d4,1d4,5,5,4
+680,Doublade, ,Steel,Ghost,1d10,1d6,1d10,1d4,1d4,1d4,5,7,5
+681,Aegislash,Shield Forme,Steel,Ghost,1d8,1d8,1d4,1d6,1d4,1d4,5,6,6
+681,Aegislash,Blade Forme,Steel,Ghost,1d6,1d6,1d12,1d6,1d12,1d4,5,5,5
+682,Spritzee, ,Fairy, ,1d6,1d6,1d6,1d4,1d6,1d4,4,5,5
+683,Aromatisse, ,Fairy, ,1d8,1d8,1d6,1d4,1d8,1d4,5,6,6
+684,Swirlix, ,Fairy, ,1d6,1d6,1d4,1d4,1d6,1d4,5,5,5
+685,Slurpuff, ,Fairy, ,1d8,1d8,1d8,1d6,1d8,1d4,5,6,6
+686,Inkay, ,Dark,Psychic,1d6,1d4,1d6,1d4,1d4,1d4,5,5,4
+687,Malamar, ,Dark,Psychic,1d8,1d8,1d8,1d6,1d6,1d4,5,6,6
+688,Binacle, ,Rock,Water,1d6,1d4,1d6,1d4,1d4,1d4,5,5,4
+689,Barbaracle, ,Rock,Water,1d8,1d8,1d10,1d6,1d6,1d4,5,6,6
+690,Skrelp, ,Poison,Water,1d6,1d6,1d6,1d4,1d6,1d4,5,5,5
+691,Dragalge, ,Poison,Dragon,1d8,1d8,1d6,1d4,1d8,1d4,5,6,6
+692,Clauncher, ,Water, ,1d6,1d6,1d6,1d4,1d6,1d4,5,5,5
+693,Clawitzer, ,Water, ,1d8,1d8,1d6,1d6,1d10,1d4,5,6,6
+694,Helioptile, ,Electric,Normal,1d4,1d4,1d4,1d6,1d6,1d4,5,4,4
+695,Heliolisk, ,Electric,Normal,1d6,1d8,1d6,1d10,1d10,1d4,6,5,6
+696,Tyrunt, ,Rock,Dragon,1d6,1d6,1d8,1d4,1d4,1d4,5,5,5
+697,Tyrantrum, ,Rock,Dragon,1d10,1d6,1d10,1d6,1d6,1d4,5,7,5
+698,Amaura, ,Rock,Ice,1d6,1d6,1d6,1d4,1d6,1d4,5,5,5
+699,Aurorus, ,Rock,Ice,1d8,1d10,1d8,1d6,1d8,1d4,5,6,7
+700,Sylveon, ,Fairy, ,1d8,1d10,1d6,1d6,1d10,1d4,5,6,7
+701,Hawlucha, ,Fighting,Flying,1d8,1d6,1d8,1d10,1d6,1d4,6,6,5
+702,Dedenne, ,Electric,Fairy,1d6,1d6,1d6,1d10,1d8,1d4,6,5,5
+703,Carbink, ,Rock,Fairy,1d8,1d8,1d4,1d4,1d4,1d4,5,6,6
+704,Goomy, ,Dragon, ,1d4,1d6,1d4,1d4,1d6,1d4,5,4,5
+705,Sliggoo, ,Dragon, ,1d6,1d8,1d6,1d6,1d8,1d4,5,5,6
+705,Sliggoo,Hisuian Sliggoo,Steel,Dragon,1d6,1d8,1d6,1d4,1d8,1d4,5,5,6
+706,Goodra, ,Dragon, ,1d8,1d10,1d8,1d8,1d10,1d4,6,6,7
+706,Goodra,Hisuian Goodra,Steel,Dragon,1d8,1d10,1d8,1d6,1d10,1d4,5,6,7
+707,Klefki, ,Steel,Fairy,1d6,1d6,1d8,1d6,1d8,1d4,6,5,5
+708,Phantump, ,Ghost,Grass,1d4,1d6,1d6,1d4,1d4,1d4,5,4,5
+709,Trevenant, ,Ghost,Grass,1d8,1d8,1d10,1d6,1d6,1d4,5,6,6
+710,Pumpkaboo,Small Size,Ghost,Grass,1d6,1d4,1d6,1d6,1d4,1d4,5,5,4
+710,Pumpkaboo,Average Size,Ghost,Grass,1d6,1d6,1d6,1d6,1d4,1d4,5,5,5
+710,Pumpkaboo,Large Size,Ghost,Grass,1d6,1d6,1d6,1d4,1d4,1d4,5,5,5
+710,Pumpkaboo,Super Size,Ghost,Grass,1d6,1d6,1d6,1d4,1d4,1d4,5,5,5
+711,Gourgeist,Small Size,Ghost,Grass,1d8,1d6,1d8,1d8,1d6,1d4,6,6,5
+711,Gourgeist,Average Size,Ghost,Grass,1d8,1d6,1d8,1d8,1d6,1d4,6,6,5
+711,Gourgeist,Large Size,Ghost,Grass,1d8,1d6,1d8,1d6,1d6,1d4,5,6,5
+711,Gourgeist,Super Size,Ghost,Grass,1d10,1d8,1d8,1d6,1d6,1d4,5,7,6
+712,Bergmite, ,Ice, ,1d6,1d4,1d6,1d4,1d4,1d4,5,5,4
+713,Avalugg, ,Ice, ,1d12,1d6,1d10,1d4,1d4,1d4,5,8,5
+713,Avalugg,Hisuian Avalugg,Ice,Rock,1d12,1d6,1d12,1d4,1d4,1d4,5,8,5
+714,Noibat, ,Flying,Dragon,1d4,1d4,1d4,1d6,1d4,1d4,5,4,4
+715,Noivern, ,Flying,Dragon,1d8,1d8,1d6,1d10,1d8,1d4,6,6,6
+716,Xerneas, ,Fairy, ,1d10,1d10,1d12,1d8,1d12,1d4,6,7,7
+717,Yveltal, ,Dark,Flying,1d10,1d10,1d12,1d8,1d12,1d4,6,7,7
+718,Zygarde50% Forme, ,Dragon,Ground,1d10,1d10,1d8,1d8,1d8,1d4,6,7,7
+718,Zygarde10% Forme, ,Dragon,Ground,1d6,1d6,1d8,1d10,1d6,1d4,6,5,5
+718,Zygarde,Complete Forme,Dragon,Ground,1d12+1,1d12+1,1d8,1d8,1d8,1d4,6,8,8
+719,Diancie,Mega Diancie,Rock,Fairy,1d8,1d8,1d12+1,1d10,1d12+1,1d4,6,6,6
+719,Diancie, ,Rock,Fairy,1d8,1d8,1d8,1d4,1d8,1d4,5,6,6
+720,Hoopa,Hoopa Unbound,Psychic,Dark,1d6,1d10,1d12+1,1d8,1d12+1,1d4,6,5,7
+720,Hoopa,Hoopa Confined,Psychic,Ghost,1d6,1d10,1d10,1d6,1d12,1d4,5,5,7
+721,Volcanion, ,Fire,Water,1d8,1d8,1d10,1d6,1d12,1d4,5,6,6
+722,Rowlet, ,Grass,Flying,1d6,1d6,1d6,1d4,1d4,1d4,5,5,5
+723,Dartrix, ,Grass,Flying,1d8,1d6,1d6,1d6,1d6,1d4,5,6,5
+724,Decidueye, ,Grass,Ghost,1d8,1d8,1d10,1d6,1d8,1d4,5,6,6
+724,Decidueye,Hisuian Decidueye,Grass,Fighting,1d8,1d8,1d10,1d6,1d8,1d4,5,6,6
+725,Litten, ,Fire, ,1d4,1d4,1d6,1d6,1d6,1d4,5,4,4
+726,Torracat, ,Fire, ,1d6,1d6,1d8,1d8,1d8,1d4,6,5,5
+727,Incineroar, ,Fire,Dark,1d8,1d8,1d10,1d6,1d8,1d4,5,6,6
+728,Popplio, ,Water, ,1d6,1d6,1d6,1d4,1d6,1d4,5,5,5
+729,Brionne, ,Water, ,1d6,1d6,1d6,1d4,1d8,1d4,5,5,5
+730,Primarina, ,Water,Fairy,1d8,1d8,1d6,1d6,1d12,1d4,5,6,6
+731,Pikipek, ,Normal,Flying,1d4,1d4,1d6,1d6,1d4,1d4,5,4,4
+732,Trumbeak, ,Normal,Flying,1d6,1d6,1d8,1d6,1d4,1d4,6,5,5
+733,Toucannon, ,Normal,Flying,1d8,1d8,1d10,1d6,1d6,1d4,5,6,6
+734,Yungoos, ,Normal, ,1d4,1d4,1d6,1d4,1d4,1d4,5,4,4
+735,Gumshoos, ,Normal, ,1d6,1d6,1d10,1d4,1d6,1d4,5,5,5
+736,Grubbin, ,Bug, ,1d4,1d4,1d6,1d4,1d6,1d4,5,4,4
+737,Charjabug, ,Bug,Electric,1d8,1d6,1d8,1d4,1d6,1d4,5,6,5
+738,Vikavolt, ,Bug,Electric,1d8,1d8,1d6,1d4,1d12,1d4,5,6,6
+739,Crabrawler, ,Fighting, ,1d6,1d4,1d8,1d6,1d4,1d4,5,5,4
+740,Crabominable, ,Fighting,Ice,1d8,1d8,1d12,1d4,1d6,1d4,5,6,6
+741,Oricorio,Baile Style,Fire,Flying,1d6,1d6,1d6,1d8,1d8,1d4,6,5,5
+741,Oricorio,Pom-Pom Style,Electric,Flying,1d6,1d6,1d6,1d8,1d8,1d4,6,5,5
+741,Oricorio,Pa'u Style,Psychic,Flying,1d6,1d6,1d6,1d8,1d8,1d4,6,5,5
+741,Oricorio,Sensu Style,Ghost,Flying,1d6,1d6,1d6,1d8,1d8,1d4,6,5,5
+742,Cutiefly, ,Bug,Fairy,1d4,1d4,1d4,1d8,1d6,1d4,6,4,4
+743,Ribombee, ,Bug,Fairy,1d6,1d6,1d6,1d10,1d8,1d4,6,5,5
+744,Rockruff, ,Rock, ,1d4,1d4,1d6,1d6,1d4,1d4,5,4,4
+744,Rockruff,Own Tempo Rockruff,Rock, ,1d4,1d4,1d6,1d6,1d4,1d4,5,4,4
+745,Lycanroc,Midday Form,Rock, ,1d6,1d6,1d10,1d10,1d6,1d4,6,5,5
+745,Lycanroc,Dusk Form,Rock, ,1d6,1d6,1d10,1d10,1d6,1d4,6,5,5
+745,Lycanroc,Midnight Form,Rock, ,1d8,1d8,1d10,1d8,1d6,1d4,6,6,6
+746,Wishiwashi,Solo Form,Water, ,1d4,1d4,1d4,1d4,1d4,1d4,5,4,4
+746,Wishiwashi,School Form,Water, ,1d8,1d8,1d12,1d4,1d12,1d4,5,6,6
+747,Mareanie, ,Poison,Water,1d6,1d6,1d6,1d4,1d4,1d4,5,5,5
+748,Toxapex, ,Poison,Water,1d10,1d8,1d6,1d4,1d6,1d4,5,7,6
+749,Mudbray, ,Ground, ,1d6,1d6,1d8,1d4,1d4,1d4,5,5,5
+750,Mudsdale, ,Ground, ,1d8,1d8,1d10,1d4,1d6,1d4,5,6,6
+751,Dewpider, ,Water,Bug,1d4,1d6,1d4,1d4,1d4,1d4,5,4,5
+752,Araquanid, ,Water,Bug,1d8,1d8,1d6,1d4,1d4,1d4,5,6,6
+753,Fomantis, ,Grass, ,1d4,1d4,1d6,1d4,1d4,1d4,5,4,4
+754,Lurantis, ,Grass, ,1d8,1d8,1d10,1d4,1d8,1d4,5,6,6
+755,Morelull, ,Grass,Fairy,1d4,1d6,1d4,1d4,1d6,1d4,4,4,5
+756,Shiinotic, ,Grass,Fairy,1d6,1d8,1d4,1d4,1d8,1d4,5,5,6
+757,Salandit, ,Poison,Fire,1d4,1d4,1d4,1d8,1d6,1d4,6,4,4
+758,Salazzle, ,Poison,Fire,1d6,1d6,1d6,1d10,1d10,1d4,6,5,5
+759,Stufful, ,Normal,Fighting,1d6,1d6,1d6,1d4,1d4,1d4,5,5,5
+760,Bewear, ,Normal,Fighting,1d8,1d8,1d10,1d6,1d6,1d4,5,6,6
+761,Bounsweet, ,Grass, ,1d4,1d4,1d4,1d4,1d4,1d4,5,4,4
+762,Steenee, ,Grass, ,1d4,1d4,1d4,1d6,1d4,1d4,5,4,4
+763,Tsareena, ,Grass, ,1d8,1d8,1d10,1d6,1d4,1d4,5,6,6
+764,Comfey, ,Fairy, ,1d6,1d8,1d6,1d8,1d8,1d4,6,5,6
+765,Oranguru, ,Normal,Psychic,1d8,1d8,1d6,1d6,1d8,1d4,5,6,6
+766,Passimian, ,Fighting, ,1d8,1d8,1d10,1d8,1d4,1d4,6,6,6
+767,Wimpod, ,Bug,Water,1d4,1d4,1d4,1d8,1d4,1d4,6,4,4
+768,Golisopod, ,Bug,Water,1d10,1d8,1d10,1d4,1d6,1d4,5,7,6
+769,Sandygast, ,Ghost,Ground,1d6,1d4,1d6,1d4,1d6,1d4,4,5,4
+770,Palossand, ,Ghost,Ground,1d8,1d8,1d6,1d4,1d8,1d4,5,6,6
+771,Pyukumuku, ,Water, ,1d8,1d8,1d6,1d4,1d4,1d4,4,6,6
+772,Type: Null, ,Normal, ,1d8,1d8,1d8,1d6,1d8,1d4,5,6,6
+773,Silvally, ,Normal, ,1d8,1d8,1d8,1d8,1d8,1d4,6,6,6
+774,Minior,Core Form,Rock,Flying,1d6,1d6,1d8,1d10,1d8,1d4,6,5,5
+774,Minior,Meteor Form,Rock,Flying,1d8,1d8,1d6,1d6,1d6,1d4,5,6,6
+775,Komala, ,Normal, ,1d6,1d8,1d10,1d6,1d6,1d4,5,5,6
+776,Turtonator, ,Fire,Dragon,1d8,1d6,1d8,1d4,1d8,1d4,5,6,5
+777,Togedemaru, ,Electric,Steel,1d6,1d6,1d8,1d8,1d4,1d4,6,5,5
+778,Mimikyu, ,Ghost,Fairy,1d6,1d8,1d8,1d8,1d4,1d4,6,5,6
+779,Bruxish, ,Water,Psychic,1d6,1d6,1d10,1d8,1d6,1d4,6,5,5
+780,Drampa, ,Normal,Dragon,1d8,1d8,1d6,1d4,1d12,1d4,5,6,6
+781,Dhelmise, ,Ghost,Grass,1d8,1d8,1d12,1d4,1d8,1d4,5,6,6
+782,Jangmo-o, ,Dragon, ,1d6,1d4,1d6,1d4,1d4,1d4,5,5,4
+783,Hakamo-o, ,Dragon,Fighting,1d6,1d6,1d6,1d6,1d6,1d4,5,5,5
+784,Kommo-o, ,Dragon,Fighting,1d8,1d8,1d10,1d8,1d8,1d4,6,6,6
+785,Tapu Koko, ,Electric,Fairy,1d8,1d6,1d10,1d12,1d8,1d4,7,6,5
+786,Tapu Lele, ,Psychic,Fairy,1d6,1d8,1d8,1d8,1d12,1d4,6,5,6
+787,Tapu Bulu, ,Grass,Fairy,1d8,1d8,1d12,1d6,1d8,1d4,6,6,6
+788,Tapu Fini, ,Water,Fairy,1d8,1d8,1d6,1d8,1d8,1d4,6,6,6
+789,Cosmog, ,Psychic, ,1d4,1d4,1d4,1d4,1d4,1d4,5,4,4
+790,Cosmoem, ,Psychic, ,1d8,1d8,1d4,1d4,1d4,1d4,5,6,6
+791,Solgaleo, ,Psychic,Steel,1d10,1d10,1d12,1d8,1d10,1d4,6,7,7
+792,Lunala, ,Psychic,Ghost,1d10,1d10,1d10,1d8,1d12,1d4,6,7,7
+793,Nihilego, ,Rock,Poison,1d8,1d10,1d6,1d10,1d12,1d4,6,6,7
+794,Buzzwole, ,Bug,Fighting,1d10,1d8,1d12,1d8,1d6,1d4,6,7,6
+795,Pheromosa, ,Bug,Fighting,1d6,1d6,1d12,1d12+1,1d12,1d4,7,5,5
+796,Xurkitree, ,Electric, ,1d8,1d8,1d8,1d8,1d12+1,1d4,6,6,6
+797,Celesteela, ,Steel,Flying,1d8,1d8,1d10,1d6,1d10,1d4,5,6,6
+798,Kartana, ,Grass,Steel,1d8,1d4,1d12+1,1d10,1d6,1d4,6,6,4
+799,Guzzlord, ,Dark,Dragon,1d12,1d12,1d10,1d4,1d8,1d4,5,8,8
+800,Necrozma,Ultra Necrozma,Psychic,Dragon,1d8,1d8,1d12+1,1d12,1d12+1,1d4,7,6,6
+800,Necrozma, ,Psychic, ,1d8,1d8,1d10,1d8,1d12,1d4,6,6,6
+800,Necrozma,Dawn Wings Necrozma,Psychic,Ghost,1d10,1d10,1d10,1d8,1d12+1,1d4,6,7,7
+800,Necrozma,Dusk Mane Necrozma,Psychic,Steel,1d10,1d10,1d12+1,1d8,1d10,1d4,6,7,7
+801,Magearna, ,Steel,Fairy,1d8,1d8,1d8,1d6,1d12,1d4,5,6,6
+802,Marshadow, ,Fighting,Ghost,1d8,1d8,1d10,1d10,1d8,1d4,7,6,6
+803,Poipole, ,Poison, ,1d6,1d6,1d6,1d6,1d6,1d4,5,5,5
+804,Naganadel, ,Poison,Dragon,1d6,1d6,1d6,1d10,1d12,1d4,6,5,5
+805,Stakataka, ,Rock,Steel,1d12,1d8,1d12,1d4,1d6,1d4,4,8,6
+806,Blacephalon, ,Fire,Ghost,1d6,1d6,1d12,1d10,1d12+1,1d4,6,5,5
+807,Zeraora, ,Electric, ,1d8,1d8,1d10,1d12,1d10,1d4,7,6,6
+808,Meltan, ,Steel, ,1d6,1d4,1d6,1d4,1d6,1d4,5,5,4
+809,Melmetal, ,Steel, ,1d12,1d8,1d12,1d4,1d8,1d4,5,8,6
+810,Grookey, ,Grass, ,1d4,1d4,1d6,1d6,1d4,1d4,5,4,4
+811,Thwackey, ,Grass, ,1d6,1d6,1d8,1d8,1d6,1d4,6,5,5
+812,Rillaboom, ,Grass, ,1d8,1d8,1d10,1d8,1d6,1d4,6,6,6
+813,Scorbunny, ,Fire, ,1d4,1d4,1d6,1d6,1d4,1d4,5,4,4
+814,Raboot, ,Fire, ,1d6,1d6,1d8,1d8,1d6,1d4,6,5,5
+815,Cinderace, ,Fire, ,1d8,1d8,1d10,1d10,1d6,1d4,6,6,6
+816,Sobble, ,Water, ,1d4,1d4,1d4,1d6,1d6,1d4,5,4,4
+817,Drizzile, ,Water, ,1d6,1d6,1d6,1d8,1d8,1d4,6,5,5
+818,Inteleon, ,Water, ,1d6,1d6,1d8,1d10,1d10,1d4,6,5,5
+819,Skwovet, ,Normal, ,1d6,1d6,1d6,1d4,1d4,1d4,5,5,5
+820,Greedent, ,Normal, ,1d10,1d8,1d8,1d4,1d6,1d4,4,7,6
+821,Rookidee, ,Flying, ,1d4,1d4,1d4,1d6,1d4,1d4,5,4,4
+822,Corvisquire, ,Flying, ,1d6,1d6,1d6,1d8,1d4,1d4,6,5,5
+823,Corviknight, ,Flying,Steel,1d10,1d8,1d8,1d6,1d6,1d4,5,7,6
+824,Blipbug, ,Bug, ,1d4,1d4,1d4,1d4,1d4,1d4,5,4,4
+825,Dottler, ,Bug,Psychic,1d6,1d6,1d4,1d4,1d4,1d4,5,5,5
+826,Orbeetle, ,Bug,Psychic,1d8,1d8,1d4,1d8,1d8,1d4,6,6,6
+827,Nickit, ,Dark, ,1d4,1d4,1d4,1d4,1d4,1d4,5,4,4
+828,Thievul, ,Dark, ,1d6,1d8,1d6,1d8,1d8,1d4,6,5,6
+829,Gossifleur, ,Grass, ,1d4,1d4,1d4,1d4,1d4,1d4,4,4,4
+830,Eldegoss, ,Grass, ,1d6,1d8,1d4,1d6,1d8,1d4,5,5,6
+831,Wooloo, ,Normal, ,1d4,1d4,1d4,1d4,1d4,1d4,5,4,4
+832,Dubwool, ,Normal, ,1d8,1d8,1d8,1d8,1d6,1d4,6,6,6
+833,Chewtle, ,Water, ,1d4,1d4,1d6,1d4,1d4,1d4,5,4,4
+834,Drednaw, ,Water,Rock,1d8,1d8,1d10,1d6,1d4,1d4,5,6,6
+835,Yamper, ,Electric, ,1d6,1d6,1d4,1d4,1d4,1d4,5,5,5
+836,Boltund, ,Electric, ,1d6,1d6,1d8,1d10,1d8,1d4,6,5,5
+837,Rolycoly, ,Rock, ,1d4,1d4,1d4,1d4,1d4,1d4,5,4,4
+838,Carkol, ,Rock,Fire,1d8,1d6,1d6,1d4,1d6,1d4,5,6,5
+839,Coalossal, ,Rock,Fire,1d10,1d8,1d8,1d4,1d8,1d4,5,7,6
+840,Applin, ,Grass,Dragon,1d6,1d4,1d4,1d4,1d4,1d4,4,5,4
+841,Flapple, ,Grass,Dragon,1d6,1d6,1d10,1d6,1d8,1d4,5,5,5
+842,Appletun, ,Grass,Dragon,1d8,1d8,1d8,1d4,1d8,1d4,5,6,6
+843,Silicobra, ,Ground, ,1d6,1d6,1d6,1d4,1d4,1d4,5,5,5
+844,Sandaconda, ,Ground, ,1d8,1d6,1d10,1d6,1d6,1d4,5,6,5
+845,Cramorant, ,Flying,Water,1d6,1d8,1d8,1d8,1d8,1d4,6,5,6
+846,Arrokuda, ,Water, ,1d4,1d4,1d6,1d6,1d4,1d4,5,4,4
+847,Barraskewda, ,Water, ,1d6,1d6,1d10,1d12,1d6,1d4,7,5,5
+848,Toxel, ,Electric,Poison,1d4,1d4,1d4,1d4,1d6,1d4,5,4,4
+849,Toxtricity,Amped Form,Electric,Poison,1d6,1d6,1d8,1d6,1d10,1d4,6,5,5
+849,Toxtricity,Low Key Form,Electric,Poison,1d6,1d6,1d8,1d6,1d10,1d4,6,5,5
+850,Sizzlipede, ,Fire,Bug,1d4,1d4,1d6,1d4,1d4,1d4,5,4,4
+851,Centiskorch, ,Fire,Bug,1d8,1d8,1d10,1d6,1d8,1d4,5,6,6
+852,Clobbopus, ,Fighting, ,1d6,1d4,1d6,1d4,1d4,1d4,5,5,4
+853,Grapploct, ,Fighting, ,1d8,1d8,1d10,1d4,1d6,1d4,5,6,6
+854,Sinistea, ,Ghost, ,1d4,1d4,1d4,1d4,1d6,1d4,5,4,4
+855,Polteageist, ,Ghost, ,1d6,1d8,1d6,1d6,1d12,1d4,5,5,6
+856,Hatenna, ,Psychic, ,1d4,1d4,1d4,1d4,1d6,1d4,5,4,4
+857,Hattrem, ,Psychic, ,1d6,1d6,1d4,1d4,1d8,1d4,5,5,5
+858,Hatterene, ,Psychic,Fairy,1d8,1d8,1d8,1d4,1d12,1d4,5,6,6
+859,Impidimp, ,Dark,Fairy,1d4,1d4,1d4,1d4,1d6,1d4,5,4,4
+860,Morgrem, ,Dark,Fairy,1d6,1d6,1d6,1d6,1d6,1d4,5,5,5
+861,Grimmsnarl, ,Dark,Fairy,1d8,1d8,1d10,1d6,1d8,1d4,5,6,6
+862,Obstagoon, ,Dark,Normal,1d8,1d8,1d8,1d8,1d6,1d4,6,6,6
+863,Perrserker, ,Steel, ,1d8,1d6,1d10,1d4,1d4,1d4,5,6,5
+864,Cursola, ,Ghost, ,1d6,1d8,1d8,1d4,1d12,1d4,5,5,6
+865,Sirfetch'd, ,Fighting, ,1d8,1d6,1d12,1d6,1d6,1d4,5,6,5
+866,Mr. Rime, ,Ice,Psychic,1d8,1d8,1d8,1d6,1d10,1d4,5,6,6
+867,Runerigus, ,Ground,Ghost,1d10,1d8,1d8,1d4,1d4,1d4,5,7,6
+868,Milcery, ,Fairy, ,1d4,1d6,1d4,1d4,1d4,1d4,5,4,5
+869,Alcremie, ,Fairy, ,1d6,1d8,1d6,1d6,1d10,1d4,5,5,6
+870,Falinks, ,Fighting, ,1d8,1d6,1d8,1d6,1d6,1d4,6,6,5
+871,Pincurchin, ,Electric, ,1d6,1d6,1d10,1d4,1d8,1d4,4,5,5
+872,Snom, ,Ice,Bug,1d4,1d4,1d4,1d4,1d4,1d4,4,4,4
+873,Frosmoth, ,Ice,Bug,1d6,1d8,1d6,1d6,1d10,1d4,5,5,6
+874,Stonjourner, ,Rock, ,1d10,1d6,1d10,1d6,1d4,1d4,5,7,5
+875,Eiscue,Noice Face,Ice, ,1d6,1d6,1d8,1d12,1d6,1d4,7,5,5
+875,Eiscue,Ice Face,Ice, ,1d8,1d8,1d8,1d4,1d6,1d4,5,6,6
+876,Indeedee,Male,Psychic,Normal,1d6,1d8,1d6,1d8,1d10,1d4,6,5,6
+876,Indeedee,Female,Psychic,Normal,1d6,1d8,1d6,1d8,1d8,1d4,6,5,6
+877,Morpeko,Full Belly Mode,Electric,Dark,1d6,1d6,1d8,1d8,1d6,1d4,6,5,5
+877,Morpeko,Hangry Mode,Electric,Dark,1d6,1d6,1d8,1d8,1d6,1d4,6,5,5
+878,Cufant, ,Steel, ,1d6,1d6,1d8,1d4,1d4,1d4,5,5,5
+879,Copperajah, ,Steel, ,1d8,1d8,1d12,1d4,1d8,1d4,5,6,6
+880,Dracozolt, ,Electric,Dragon,1d8,1d8,1d8,1d6,1d8,1d4,6,6,6
+881,Arctozolt, ,Electric,Ice,1d8,1d8,1d8,1d6,1d8,1d4,5,6,6
+882,Dracovish, ,Water,Dragon,1d8,1d8,1d8,1d6,1d6,1d4,6,6,6
+883,Arctovish, ,Water,Ice,1d8,1d8,1d8,1d6,1d8,1d4,5,6,6
+884,Duraludon, ,Steel,Dragon,1d8,1d6,1d8,1d8,1d10,1d4,6,6,5
+885,Dreepy, ,Dragon,Ghost,1d4,1d4,1d6,1d8,1d4,1d4,6,4,4
+886,Drakloak, ,Dragon,Ghost,1d6,1d6,1d8,1d10,1d6,1d4,6,5,5
+887,Dragapult, ,Dragon,Ghost,1d8,1d8,1d10,1d12,1d8,1d4,7,6,6
+888,Zacian,Crowned Sword,Fairy,Steel,1d10,1d10,1d12,1d12,1d8,1d4,7,7,7
+888,Zacian,Hero of Many Battles,Fairy, ,1d10,1d10,1d10,1d12,1d8,1d4,7,7,7
+889,Zamazenta,Hero of Many Battles,Fighting, ,1d10,1d10,1d10,1d12,1d8,1d4,7,7,7
+889,Zamazenta,Crowned Shield,Fighting,Steel,1d10,1d10,1d10,1d12,1d8,1d4,7,7,7
+890,Eternatus,Eternamax,Poison,Dragon,1d12+1,1d12+1,1d10,1d12,1d10,1d4,7,8,8
+890,Eternatus, ,Poison,Dragon,1d10,1d10,1d8,1d12,1d12,1d4,7,7,7
+891,Kubfu, ,Fighting, ,1d6,1d6,1d8,1d6,1d6,1d4,5,5,5
+892,Urshifu,Single Strike Style,Fighting,Dark,1d8,1d8,1d12,1d8,1d6,1d4,6,6,6
+892,Urshifu,Rapid Strike Style,Fighting,Water,1d8,1d8,1d12,1d8,1d6,1d4,6,6,6
+893,Zarude, ,Dark,Grass,1d10,1d8,1d10,1d10,1d6,1d4,6,7,6
+894,Regieleki, ,Electric, ,1d6,1d6,1d8,1d12+1,1d8,1d4,8,5,5
+895,Regidrago, ,Dragon, ,1d10,1d10,1d8,1d8,1d8,1d4,6,7,7
+896,Glastrier, ,Ice, ,1d10,1d10,1d12,1d4,1d6,1d4,5,7,7
+897,Spectrier, ,Ghost, ,1d8,1d8,1d6,1d12,1d12,1d4,7,6,6
+898,Calyrex,Shadow Rider,Psychic,Ghost,1d8,1d8,1d8,1d12,1d12+1,1d4,7,6,6
+898,Calyrex, ,Psychic,Grass,1d8,1d8,1d8,1d8,1d8,1d4,6,6,6
+898,Calyrex,Ice Rider,Psychic,Ice,1d10,1d10,1d12+1,1d4,1d8,1d4,5,7,7
+899,Wyrdeer, ,Normal,Psychic,1d8,1d8,1d10,1d6,1d10,1d4,5,6,6
+900,Kleavor, ,Bug,Rock,1d8,1d6,1d12,1d8,1d4,1d4,6,6,5
+901,Ursaluna, ,Ground,Normal,1d10,1d10,1d12,1d4,1d4,1d4,5,7,7
+901,Ursaluna,Bloodmoon,Ground,Normal,1d10,1d8,1d6,1d6,1d12,1d4,5,7,6
+902,Basculegion,Female,Water,Ghost,1d8,1d8,1d8,1d8,1d8,1d4,6,6,6
+902,Basculegion,Male,Water,Ghost,1d8,1d8,1d10,1d8,1d8,1d4,6,6,6
+903,Sneasler, ,Fighting,Poison,1d6,1d8,1d12,1d10,1d4,1d4,6,5,6
+904,Overqwil, ,Dark,Poison,1d8,1d6,1d10,1d8,1d6,1d4,6,6,5
+905,Enamorus,Incarnate Forme,Fairy,Flying,1d6,1d8,1d10,1d10,1d12,1d4,6,5,6
+905,Enamorus,Therian Forme,Fairy,Flying,1d8,1d8,1d10,1d4,1d12,1d4,5,6,6
+906,Sprigatito, ,Grass, ,1d4,1d4,1d6,1d6,1d4,1d4,5,4,4
+907,Floragato, ,Grass, ,1d6,1d6,1d8,1d8,1d6,1d4,6,5,5
+908,Meowscarada, ,Grass,Dark,1d6,1d6,1d10,1d10,1d8,1d4,6,5,5
+909,Fuecoco, ,Fire, ,1d6,1d6,1d4,1d4,1d6,1d4,5,5,5
+910,Crocalor, ,Fire, ,1d8,1d6,1d6,1d4,1d8,1d4,5,6,5
+911,Skeledirge, ,Fire,Ghost,1d10,1d8,1d6,1d6,1d10,1d4,5,7,6
+912,Quaxly, ,Water, ,1d4,1d4,1d6,1d4,1d4,1d4,5,4,4
+913,Quaxwell, ,Water, ,1d6,1d6,1d8,1d6,1d6,1d4,5,5,5
+914,Quaquaval, ,Water,Fighting,1d8,1d8,1d10,1d8,1d8,1d4,6,6,6
+915,Lechonk, ,Normal, ,1d4,1d4,1d4,1d4,1d4,1d4,5,4,4
+916,Oinkologne,Female,Normal, ,1d8,1d10,1d8,1d6,1d6,1d4,5,6,7
+916,Oinkologne,Male,Normal, ,1d8,1d8,1d8,1d6,1d6,1d4,5,6,6
+917,Tarountula, ,Bug, ,1d4,1d4,1d4,1d4,1d4,1d4,4,4,4
+918,Spidops, ,Bug, ,1d8,1d6,1d8,1d4,1d6,1d4,5,6,5
+919,Nymble, ,Bug, ,1d4,1d4,1d4,1d4,1d4,1d4,5,4,4
+920,Lokix, ,Bug,Dark,1d6,1d6,1d10,1d8,1d6,1d4,6,5,5
+921,Pawmi, ,Electric, ,1d4,1d4,1d4,1d6,1d4,1d4,5,4,4
+922,Pawmo, ,Electric,Fighting,1d4,1d4,1d6,1d8,1d4,1d4,6,4,4
+923,Pawmot, ,Electric,Fighting,1d6,1d6,1d10,1d10,1d6,1d4,6,5,5
+924,Tandemaus, ,Normal, ,1d4,1d4,1d4,1d6,1d4,1d4,6,4,4
+925,Maushold,Family of Four,Normal, ,1d6,1d6,1d6,1d10,1d6,1d4,6,5,5
+925,Maushold,Family of Three,Normal, ,1d6,1d6,1d6,1d10,1d6,1d4,6,5,5
+926,Fidough, ,Fairy, ,1d6,1d4,1d6,1d6,1d4,1d4,5,5,4
+927,Dachsbun, ,Fairy, ,1d8,1d6,1d8,1d8,1d4,1d4,6,6,5
+928,Smoliv, ,Grass,Normal,1d4,1d4,1d4,1d4,1d6,1d4,5,4,4
+929,Dolliv, ,Grass,Normal,1d6,1d6,1d6,1d4,1d8,1d4,5,5,5
+930,Arboliva, ,Grass,Normal,1d8,1d8,1d6,1d4,1d10,1d4,5,6,6
+931,Squawkabilly,Green Plumage,Normal,Flying,1d6,1d6,1d8,1d8,1d4,1d4,6,5,5
+931,Squawkabilly,Blue Plumage,Normal,Flying,1d6,1d6,1d8,1d8,1d4,1d4,6,5,5
+931,Squawkabilly,Yellow Plumage,Normal,Flying,1d6,1d6,1d8,1d8,1d4,1d4,6,5,5
+931,Squawkabilly,White Plumage,Normal,Flying,1d6,1d6,1d8,1d8,1d4,1d4,6,5,5
+932,Nacli, ,Rock, ,1d6,1d4,1d6,1d4,1d4,1d4,5,5,4
+933,Naclstack, ,Rock, ,1d8,1d6,1d6,1d4,1d4,1d4,5,6,5
+934,Garganacl, ,Rock, ,1d10,1d8,1d8,1d4,1d4,1d4,5,7,6
+935,Charcadet, ,Fire, ,1d4,1d4,1d4,1d4,1d4,1d4,5,4,4
+936,Armarouge, ,Fire,Psychic,1d8,1d8,1d6,1d6,1d10,1d4,6,6,6
+937,Ceruledge, ,Fire,Ghost,1d8,1d8,1d10,1d8,1d6,1d4,6,6,6
+938,Tadbulb, ,Electric, ,1d6,1d4,1d4,1d4,1d6,1d4,5,5,4
+939,Bellibolt, ,Electric, ,1d8,1d8,1d6,1d4,1d10,1d4,5,6,6
+940,Wattrel, ,Electric,Flying,1d4,1d4,1d4,1d6,1d6,1d4,5,4,4
+941,Kilowattrel, ,Electric,Flying,1d6,1d6,1d6,1d10,1d10,1d4,7,5,5
+942,Maschiff, ,Dark, ,1d6,1d6,1d8,1d6,1d4,1d4,5,5,5
+943,Mabosstiff, ,Dark, ,1d8,1d6,1d10,1d8,1d6,1d4,6,6,5
+944,Shroodle, ,Poison,Normal,1d4,1d4,1d6,1d6,1d4,1d4,6,4,4
+945,Grafaiai, ,Poison,Normal,1d6,1d6,1d8,1d10,1d8,1d4,6,5,5
+946,Bramblin, ,Grass,Ghost,1d4,1d4,1d6,1d6,1d4,1d4,5,4,4
+947,Brambleghast, ,Grass,Ghost,1d6,1d6,1d10,1d8,1d8,1d4,6,5,5
+948,Toedscool, ,Ground,Grass,1d4,1d6,1d4,1d6,1d4,1d4,5,4,5
+949,Toedscruel, ,Ground,Grass,1d6,1d8,1d6,1d8,1d8,1d4,6,5,6
+950,Klawf, ,Rock, ,1d8,1d6,1d8,1d6,1d4,1d4,6,6,5
+951,Capsakid, ,Grass, ,1d4,1d4,1d6,1d4,1d6,1d4,5,4,4
+952,Scovillain, ,Grass,Fire,1d6,1d6,1d10,1d6,1d10,1d4,6,5,5
+953,Rellor, ,Bug, ,1d6,1d4,1d4,1d4,1d4,1d4,5,5,4
+954,Rabsca, ,Bug,Psychic,1d8,1d8,1d4,1d4,1d10,1d4,5,6,6
+955,Flittle, ,Psychic, ,1d4,1d4,1d4,1d6,1d6,1d4,6,4,4
+956,Espathra, ,Psychic, ,1d8,1d8,1d6,1d10,1d10,1d4,6,6,6
+957,Tinkatink, ,Fairy,Steel,1d4,1d6,1d4,1d6,1d4,1d4,5,4,5
+958,Tinkatuff, ,Fairy,Steel,1d6,1d6,1d6,1d8,1d4,1d4,6,5,5
+959,Tinkaton, ,Fairy,Steel,1d8,1d8,1d6,1d8,1d6,1d4,6,6,6
+960,Wiglett, ,Water, ,1d4,1d4,1d6,1d8,1d4,1d4,6,4,4
+961,Wugtrio, ,Water, ,1d4,1d6,1d8,1d10,1d4,1d4,6,4,5
+962,Bombirdier, ,Flying,Dark,1d8,1d8,1d10,1d8,1d6,1d4,6,6,6
+963,Finizen, ,Water, ,1d6,1d6,1d4,1d6,1d4,1d4,6,5,5
+964,Palafin,Hero Form,Water, ,1d8,1d8,1d12+1,1d8,1d10,1d4,6,6,6
+964,Palafin,Zero Form,Water, ,1d8,1d8,1d6,1d8,1d6,1d4,6,6,6
+965,Varoom, ,Steel,Poison,1d6,1d4,1d6,1d4,1d4,1d4,5,5,4
+966,Revavroom, ,Steel,Poison,1d8,1d6,1d10,1d8,1d6,1d4,6,6,5
+967,Cyclizar, ,Dragon,Normal,1d6,1d6,1d8,1d10,1d8,1d4,6,5,5
+968,Orthworm, ,Steel, ,1d10,1d6,1d8,1d6,1d6,1d4,5,7,5
+969,Glimmet, ,Rock,Poison,1d4,1d6,1d4,1d6,1d10,1d4,5,4,5
+970,Glimmora, ,Rock,Poison,1d8,1d8,1d6,1d8,1d12,1d4,6,6,6
+971,Greavard, ,Ghost, ,1d6,1d6,1d6,1d4,1d4,1d4,5,5,5
+972,Houndstone, ,Ghost, ,1d8,1d8,1d10,1d6,1d4,1d4,5,6,6
+973,Flamigo, ,Flying,Fighting,1d8,1d6,1d10,1d8,1d6,1d4,6,6,5
+974,Cetoddle, ,Ice, ,1d8,1d6,1d6,1d4,1d4,1d4,5,6,5
+975,Cetitan, ,Ice, ,1d10,1d10,1d10,1d6,1d4,1d4,5,7,7
+976,Veluza, ,Water,Psychic,1d8,1d8,1d10,1d6,1d8,1d4,5,6,6
+977,Dondozo, ,Water, ,1d12,1d10,1d8,1d4,1d6,1d4,5,8,7
+978,Tatsugiri,Curly Form,Dragon,Water,1d6,1d8,1d4,1d8,1d10,1d4,6,5,6
+978,Tatsugiri,Droopy Form,Dragon,Water,1d6,1d8,1d4,1d8,1d10,1d4,6,5,6
+978,Tatsugiri,Stretchy Form,Dragon,Water,1d6,1d8,1d4,1d8,1d10,1d4,6,5,6
+979,Annihilape, ,Fighting,Ghost,1d8,1d8,1d10,1d8,1d4,1d4,6,6,6
+980,Clodsire, ,Poison,Ground,1d8,1d10,1d6,1d4,1d4,1d4,4,6,7
+981,Farigiraf, ,Normal,Psychic,1d8,1d8,1d8,1d6,1d10,1d4,5,6,6
+982,Dudunsparce,Two-Segment Form,Normal, ,1d10,1d8,1d8,1d6,1d8,1d4,5,7,6
+982,Dudunsparce,Three-Segment Form,Normal, ,1d10,1d8,1d8,1d6,1d8,1d4,5,7,6
+983,Kingambit, ,Dark,Steel,1d10,1d8,1d12,1d4,1d6,1d4,5,7,6
+984,Great Tusk, ,Ground,Fighting,1d10,1d8,1d12,1d8,1d6,1d4,6,7,6
+985,Scream Tail, ,Fairy,Psychic,1d10,1d10,1d6,1d10,1d6,1d4,6,7,7
+986,Brute Bonnet, ,Grass,Dark,1d10,1d10,1d12,1d6,1d8,1d4,5,7,7
+987,Flutter Mane, ,Ghost,Fairy,1d6,1d8,1d6,1d12,1d12,1d4,7,5,6
+988,Slither Wing, ,Bug,Fighting,1d8,1d8,1d12,1d8,1d8,1d4,6,6,6
+989,Sandy Shocks, ,Electric,Ground,1d8,1d8,1d8,1d10,1d10,1d4,6,6,6
+990,Iron Treads, ,Ground,Steel,1d10,1d8,1d10,1d10,1d6,1d4,6,7,6
+991,Iron Bundle, ,Ice,Water,1d8,1d6,1d8,1d12,1d10,1d4,7,6,5
+992,Iron Hands, ,Fighting,Electric,1d12,1d10,1d12,1d4,1d4,1d4,5,8,7
+993,Iron Jugulis, ,Dark,Flying,1d8,1d8,1d8,1d10,1d10,1d4,6,6,6
+994,Iron Moth, ,Fire,Poison,1d6,1d8,1d6,1d10,1d12,1d4,6,5,6
+995,Iron Thorns, ,Rock,Electric,1d10,1d8,1d12,1d6,1d6,1d4,5,7,6
+996,Frigibax, ,Dragon,Ice,1d6,1d6,1d6,1d6,1d4,1d4,5,5,5
+997,Arctibax, ,Dragon,Ice,1d8,1d8,1d8,1d6,1d4,1d4,5,6,6
+998,Baxcalibur, ,Dragon,Ice,1d10,1d10,1d12,1d8,1d6,1d4,6,7,7
+999,Gimmighoul,Roaming Form,Ghost, ,1d4,1d4,1d4,1d8,1d6,1d4,6,4,4
+999,Gimmighoul,Chest Form,Ghost, ,1d6,1d6,1d4,1d4,1d6,1d4,4,5,5
+1000,Gholdengo, ,Steel,Ghost,1d8,1d8,1d6,1d8,1d12,1d4,6,6,6
+1001,Wo-Chien, ,Dark,Grass,1d8,1d10,1d8,1d6,1d8,1d4,5,6,7
+1002,Chien-Pao, ,Dark,Ice,1d8,1d6,1d10,1d12,1d8,1d4,7,6,5
+1003,Ting-Lu, ,Dark,Ground,1d12,1d10,1d10,1d4,1d6,1d4,5,8,7
+1004,Chi-Yu, ,Dark,Fire,1d6,1d8,1d8,1d8,1d12,1d4,6,5,6
+1005,Roaring Moon, ,Dragon,Dark,1d8,1d10,1d12,1d10,1d6,1d4,6,6,7
+1006,Iron Valiant, ,Fairy,Fighting,1d8,1d6,1d12,1d10,1d10,1d4,6,6,5
+1007,Koraidon, ,Fighting,Dragon,1d10,1d8,1d12,1d12,1d8,1d4,7,7,6
+1008,Miraidon, ,Electric,Dragon,1d8,1d10,1d8,1d12,1d12,1d4,7,6,7
+1009,Walking Wake, ,Water,Dragon,1d8,1d8,1d8,1d10,1d10,1d4,6,6,6
+1010,Iron Leaves, ,Grass,Psychic,1d8,1d8,1d12,1d10,1d6,1d4,6,6,6
+1011,Dipplin, ,Grass,Dragon,1d8,1d8,1d8,1d4,1d8,1d4,5,6,6
+1012,Poltchageist, ,Grass,Ghost,1d4,1d4,1d4,1d4,1d6,1d4,5,4,4
+1013,Sinistcha, ,Grass,Ghost,1d8,1d8,1d6,1d6,1d10,1d4,5,6,6
+1014,Okidogi, ,Poison,Fighting,1d10,1d8,1d12,1d8,1d6,1d4,6,7,6
+1015,Munkidori, ,Poison,Psychic,1d8,1d8,1d6,1d10,1d12,1d4,6,6,6
+1016,Fezandipiti, ,Poison,Fairy,1d8,1d10,1d8,1d8,1d6,1d4,6,6,7
+1017,Ogerpon,Teal Mask,Grass, ,1d8,1d8,1d10,1d10,1d6,1d4,6,6,6
+1017,Ogerpon,Wellspring Mask,Grass,Water,1d8,1d8,1d10,1d10,1d6,1d4,6,6,6
+1017,Ogerpon,Hearthflame Mask,Grass,Fire,1d8,1d8,1d10,1d10,1d6,1d4,6,6,6
+1017,Ogerpon,Cornerstone Mask,Grass,Rock,1d8,1d8,1d10,1d10,1d6,1d4,6,6,6
+1018,Archaludon, ,Steel,Dragon,1d10,1d8,1d10,1d8,1d10,1d4,6,7,6
+1019,Hydrapple, ,Grass,Dragon,1d10,1d8,1d8,1d4,1d10,1d4,5,7,6
+1020,Gouging Fire, ,Fire,Dragon,1d10,1d8,1d10,1d8,1d6,1d4,6,7,6
+1021,Raging Bolt, ,Electric,Dragon,1d10,1d10,1d6,1d6,1d12,1d4,6,7,7
+1022,Iron Boulder, ,Rock,Psychic,1d8,1d8,1d10,1d10,1d6,1d4,6,6,6
+1023,Iron Crown, ,Steel,Psychic,1d8,1d8,1d6,1d8,1d10,1d4,6,6,6
+1024,Terapagos,Stellar Form,Normal, ,1d12,1d12,1d10,1d8,1d12,1d4,6,8,8
+1024,Terapagos,Terastal Form,Normal, ,1d10,1d10,1d8,1d8,1d10,1d4,6,7,7
+1024,Terapagos,Normal Form,Normal, ,1d8,1d8,1d6,1d6,1d6,1d4,5,6,6
+1025,Pecharunt, ,Poison,Ghost,1d10,1d8,1d8,1d8,1d8,1d4,6,7,6

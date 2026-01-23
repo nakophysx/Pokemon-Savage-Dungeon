@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pokémon Stat Builder</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body id="page" class="min-h-screen flex justify-center items-center transition-colors">
+
+<div class="bg-white shadow-xl rounded-xl p-6 w-full max-w-lg">
+  <h1 class="text-2xl font-bold text-center mb-4">Pokémon Savage Dungeon</h1>
+
+  <!-- Selector -->
+  <select id="pokemonSelect" class="w-full p-2 border rounded mb-4">
+    <option value="">-- Elige Pokémon --</option>
+  </select>
+
+  <!-- Stats -->
+  <div id="stats" class="hidden space-y-2">
+    <div class="grid grid-cols-4 gap-2 font-semibold text-sm">
+      <span>Stat</span><span>Base</span><span>Bonus</span><span>Final</span>
+    </div>
+
+    <div id="statRows"></div>
+  </div>
+
+  <!-- Items -->
+  <label class="block mt-4 font-semibold">Objeto Equipado</label>
+  <input id="HeldItem" class="w-full p-2 border rounded mb-2" />
+
+  <label class="block mt-4 font-semibold">Inventario</label>
+  <input id="Inventory" class="w-full p-2 border rounded mb-2" />
+
+  <!-- Import / Export -->
+  <div class="flex gap-2">
+    <button id="exportBtn" class="flex-1 bg-green-600 text-white py-2 rounded">
+      Exportar Pokémon
+    </button>
+
+    <label class="flex-1 bg-blue-600 text-white py-2 rounded text-center cursor-pointer">
+      Importar Pokémon
+      <input type="file" id="importInput" hidden />
+    </label>
+  </div>
+</div>
+
+<script>
+const stats = ["Vigor","Special Vigor","Strength","Agility","Spirit","Smarts"];
+let pokemonData = [];
+let currentPokemon = null;
+
+/* ---------- TYPE COLOR MAP ---------- */
+const typeGradientColors = {
+  Normal: 'from-stone-300 to-stone-400',
+  Fire: 'from-red-500 to-orange-500',
+  Water: 'from-blue-500 to-cyan-500',
+  Electric: 'from-yellow-400 to-amber-400',
+  Grass: 'from-green-500 to-lime-500',
+  Ice: 'from-cyan-300 to-blue-300',
+  Fighting: 'from-red-700 to-red-500',
+  Poison: 'from-purple-500 to-fuchsia-500',
+  Ground: 'from-amber-600 to-yellow-600',
+  Flying: 'from-sky-400 to-indigo-400',
+  Psychic: 'from-pink-500 to-rose-500',
+  Bug: 'from-lime-600 to-green-600',
+  Rock: 'from-stone-500 to-amber-700',
+  Ghost: 'from-indigo-700 to-purple-700',
+  Dragon: 'from-indigo-600 to-violet-700',
+  Dark: 'from-gray-800 to-gray-600',
+  Steel: 'from-gray-400 to-slate-500',
+  Fairy: 'from-pink-300 to-rose-400'
+};
+
+/* ---------- CSV LOAD ---------- */
+fetch('pokemon.csv')
+  .then(res => res.text())
+  .then(text => {
+    const lines = text.trim().split('\n');
+    const headers = lines.shift().split(',');
+    pokemonData = lines.map(l => {
+      const values = l.split(',');
+      let obj = {};
+      headers.forEach((h,i) => obj[h] = values[i]);
+      return obj;
+    });
+
+    const select = document.getElementById('pokemonSelect');
+    pokemonData.forEach(p => {
+      const o = document.createElement('option');
+      o.value = p.name;
+      o.textContent = p.name;
+      select.appendChild(o);
+    });
+  });
+
+/* ---------- SELECT POKÉMON ---------- */
+document.getElementById('pokemonSelect').addEventListener('change', e => {
+  currentPokemon = pokemonData.find(p => p.name === e.target.value);
+  if (!currentPokemon) return;
+
+  applyTypeTheme(currentPokemon.type1, currentPokemon.type2);
+  buildStatTable();
+  loadItems();
+});
+
+/* ---------- THEME ---------- */
+function applyTypeTheme(type1, type2) {
+  const page = document.getElementById('page');
+
+  const g1 = typeGradientColors[type1] || 'from-gray-200 to-gray-300';
+  const g2 = type2 && typeGradientColors[type2]
+    ? typeGradientColors[type2]
+    : g1;
+
+  page.className = `
+    min-h-screen flex justify-center items-center
+    bg-gradient-to-br
+    ${g1.split(' ')[0]} ${g2.split(' ')[1]}
+    transition-colors duration-500
+  `;
+}
+
+/* ---------- STATS ---------- */
+function buildStatTable() {
+  document.getElementById('stats').classList.remove('hidden');
+  const container = document.getElementById('statRows');
+  container.innerHTML = '';
+
+  stats.forEach(stat => {
+    const base = Number(currentPokemon[stat]);
+    const row = document.createElement('div');
+    row.className = 'grid grid-cols-4 gap-2 items-center';
+
+    row.innerHTML = `
+      <span class="capitalize">${stat.replace('_',' ')}</span>
+      <span>${base}</span>
+      <input type="number" value="0" class="bonus border p-1 rounded" />
+      <span class="final font-semibold">${base}</span>
+    `;
+
+    row.querySelector('.bonus').addEventListener('input', e => {
+      const bonus = Number(e.target.value);
+      row.querySelector('.final').textContent = base + bonus;
+    });
+
+    container.appendChild(row);
+  });
+}
+
+/* ---------- ITEMS CACHE ---------- */
+function loadItems() {
+  document.getElementById('itemsInput').value =
+    localStorage.getItem(`items_${currentPokemon.name}`) || '';
+}
+
+document.getElementById('saveItems').onclick = () => {
+  localStorage.setItem(
+    `items_${currentPokemon.name}`,
+    document.getElementById('itemsInput').value
+  );
+  alert('Items saved!');
+};
+
+/* ---------- EXPORT ---------- */
+document.getElementById('exportBtn').onclick = () => {
+  if (!currentPokemon) return;
+
+  const bonuses = [...document.querySelectorAll('.bonus')].map(b => Number(b.value));
+  const finals = [...document.querySelectorAll('.final')].map(f => Number(f.textContent));
+
+  const data = {
+    name: currentPokemon.name,
+    items: document.getElementById('itemsInput').value,
+    stats: stats.reduce((acc, s, i) => {
+      acc[s] = {
+        base: Number(currentPokemon[s]),
+        bonus: bonuses[i],
+        final: finals[i]
+      };
+      return acc;
+    }, {})
+  };
+
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `${currentPokemon.name}.json`;
+  a.click();
+};
+
+/* ---------- IMPORT ---------- */
+document.getElementById('importInput').addEventListener('change', e => {
+  const file = e.target.files[0];
+  if (!file) return;
+
+  const reader = new FileReader();
+  reader.onload = () => {
+    const data = JSON.parse(reader.result);
+
+    document.getElementById('pokemonSelect').value = data.name;
+    document.getElementById('pokemonSelect').dispatchEvent(new Event('change'));
+
+    document.getElementById('itemsInput').value = data.items;
+
+    stats.forEach((s,i) => {
+      const bonusInput = document.querySelectorAll('.bonus')[i];
+      bonusInput.value = data.stats[s].bonus;
+      bonusInput.dispatchEvent(new Event('input'));
+    });
+  };
+  reader.readAsText(file);
+});
+</script>
+
+</body>
+</html>
