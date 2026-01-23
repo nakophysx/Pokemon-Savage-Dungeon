@@ -27,10 +27,10 @@
 
   <!-- Items -->
   <label class="block mt-4 font-semibold">Objeto Equipado</label>
-  <input id="HeldItem" class="w-full p-2 border rounded mb-2" />
+  <input id="heldItem" class="w-full p-2 border rounded mb-2" />
 
   <label class="block mt-4 font-semibold">Inventario</label>
-  <input id="Inventory" class="w-full p-2 border rounded mb-2" />
+  <input id="inventory" class="w-full p-2 border rounded mb-2" />
 
   <!-- Import / Export -->
   <div class="flex gap-2">
@@ -46,7 +46,7 @@
 </div>
 
 <script>
-const stats = ["Vigor","Special Vigor","Strength","Agility","Spirit","Smarts"];
+const stats = ["vigor","special_vigor","strength","agility","spirit","smarts"];
 let pokemonData = [];
 let currentPokemon = null;
 
@@ -89,8 +89,8 @@ fetch('pokemon.csv')
     const select = document.getElementById('pokemonSelect');
     pokemonData.forEach(p => {
       const o = document.createElement('option');
-      o.value = p.Name;
-      o.textContent = p.Name;
+      o.value = p.name;
+      o.textContent = p.name;
       select.appendChild(o);
     });
   });
@@ -102,7 +102,6 @@ document.getElementById('pokemonSelect').addEventListener('change', e => {
 
   applyTypeTheme(currentPokemon.type1, currentPokemon.type2);
   buildStatTable();
-  loadItems();
 });
 
 /* ---------- THEME ---------- */
@@ -114,7 +113,7 @@ function applyTypeTheme(type1, type2) {
     ? typeGradientColors[type2]
     : g1;
 
-  page.className = `
+  page.classname = `
     min-h-screen flex justify-center items-center
     bg-gradient-to-br
     ${g1.split(' ')[0]} ${g2.split(' ')[1]}
@@ -131,7 +130,7 @@ function buildStatTable() {
   stats.forEach(stat => {
     const base = Number(currentPokemon[stat]);
     const row = document.createElement('div');
-    row.className = 'grid grid-cols-4 gap-2 items-center';
+    row.classname = 'grid grid-cols-4 gap-2 items-center';
 
     row.innerHTML = `
       <span class="capitalize">${stat.replace('_',' ')}</span>
@@ -158,7 +157,8 @@ document.getElementById('exportBtn').onclick = () => {
 
   const data = {
     name: currentPokemon.name,
-    items: document.getElementById('itemsInput').value,
+    heldItem: document.getElementById('heldItem').value,
+    inventory: document.getElementById('inventory').value,
     stats: stats.reduce((acc, s, i) => {
       acc[s] = {
         base: Number(currentPokemon[s]),
