@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" href="favicon.ico" />
 </head>
 
-<body id="page" class="min-h-screen flex justify-center items-center transition-colors">
+<body id="page" class="min-h-screen min-w-4xl flex justify-center items-center transition-colors">
 
 <div class="bg-white shadow-xl rounded-xl p-6 w-full max-w-lg">
   <h1 class="text-2xl font-bold text-center mb-4">Pokémon Savage Dungeon</h1>
@@ -117,7 +117,7 @@ function applyTypeTheme(type1, type2) {
 function buildStatTable() {
   document.getElementById('stats').classList.remove('hidden');
   const container = document.getElementById('statRows');
-  container.innerHTML = '';
+  container.innerHTML = '<span>Stat</span><span>Base</span><span>Bonus</span><span>Final</span>';
 
   stats.forEach(stat => {
     const base = Number(currentPokemon[stat]);
@@ -126,7 +126,7 @@ function buildStatTable() {
     row.innerHTML = `
       <span class="capitalize">${stat.replace('_',' ')}</span>
       <span>${base}</span>
-      <input type="number" value="0" class="bonus border p-1 rounded" />
+      <input type="number" value="0" class="w-1/5 bonus border p-1 rounded" />
       <span class="final font-semibold">${base}</span>
     `;
 
