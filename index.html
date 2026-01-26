@@ -124,13 +124,13 @@ function buildStatTable() {
     container.innerHTML += `
       <span class="capitalize">${stat.replace('_',' ')}</span>
       <span>${base}</span>
-      <input type="number" value="0" class="bonus border p-1 rounded" />
-      <span class="final font-semibold">${base}</span>
+      <input id="${stat}" type="number" value="0" class="border p-1 rounded" />
+      <span class="${stat}_final font-semibold">${base}</span>
     `;
 
-    row.querySelector('.bonus').addEventListener('input', e => {
+    container.getElementById(stat).addEventListener('input', e => {
       const bonus = Number(e.target.value);
-      row.querySelector('.final').textContent = base + bonus;
+      container.getElementById(`${stat}_final`).textContent = base + bonus;
     });
   });
 }
