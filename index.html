@@ -48,7 +48,7 @@
 
 <script>
 const stats = ["defensa","ataque","velocidad","defensa_esp","ataque_esp","IQ"];
-const itemMap = []
+const itemMap = ["objeto","descripcion"];
 let pokemonData = [];
 let itemData = [];
 let currentPokemon = null;
@@ -90,8 +90,8 @@ fetch('pokemon.csv')
     const select = document.getElementById('pokemonSelect');
     pokemonData.forEach(p => {
       const o = document.createElement('option');
-      o.value = p.name;
-      o.textContent = p.name;
+      o.value = `${p.name}, ${p.forma}`;
+      o.textContent = `${p.name}, ${p.forma}`;
       select.appendChild(o);
     });
   });
@@ -110,8 +110,8 @@ fetch('item.csv')
   const select = document.getElementById('itemSelect');
   itemData.forEach(i => {
     const o = document.createElement('option');
-    o.value = i.name;
-    o.textContent = i.name;
+    o.value = i.objeto;
+    o.textContent = i.objeto;
     select.appendChild(o);
   });
 });
@@ -123,6 +123,14 @@ document.getElementById('pokemonSelect').addEventListener('change', e => {
 
   applyTypeTheme(currentPokemon.type1, currentPokemon.type2);
   buildStatTable();
+});
+
+/* ---------- SELECT ITEM ---------- */
+document.getElementById('itemSelect').addEventListener('change', e => {
+  currentItem = itemData.find(o => o.name === e.target.value);
+  if (!currentItem) return;
+
+  printItem();
 });
 
 /* ---------- THEME ---------- */
@@ -137,7 +145,7 @@ function applyTypeTheme(type1, type2) {
   page.setAttribute('class', page.classname);
 }
 
-/* ---------- STATS ---------- */
+/* ---------- STAT TABLE ---------- */
 function buildStatTable() {
   document.getElementById('stats').classList.remove('hidden');
   const container = document.getElementById('statRows');
@@ -157,6 +165,11 @@ function buildStatTable() {
       container.getElementById(`${stat}_final`).textContent = base + bonus;
     });
   });
+}
+
+/* ---------- ITEM DESCRIPTION ---------- */
+function printItem() {
+  
 }
 
 /* ---------- EXPORT ---------- */
