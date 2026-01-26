@@ -429,9 +429,9 @@ id,name,forma,type1,type2,defensa,defensa_esp,ataque,velocidad,ataque_esp,IQ,pas
 349,Feebas, ,Water, ,4,4,4,8,4,4,6,4,4
 350,Milotic, ,Water, ,8,10,6,8,8,4,6,6,7
 351,Castform, ,Normal, ,6,6,6,6,6,4,5,5,5
-351,Castform,Sunny Form,Fire, ,6,6,6,6,6,4,5,5,5
-351,Castform,Rainy Form,Water, ,6,6,6,6,6,4,5,5,5
-351,Castform,Snowy Form,Ice, ,6,6,6,6,6,4,5,5,5
+351,Castform,Castform Sunny Form,Fire, ,6,6,6,6,6,4,5,5,5
+351,Castform,Castform Rainy Form,Water, ,6,6,6,6,6,4,5,5,5
+351,Castform,Castform Snowy Form,Ice, ,6,6,6,6,6,4,5,5,5
 352,Kecleon, ,Normal, ,6,8,8,4,6,4,5,5,6
 353,Shuppet, ,Ghost, ,4,4,6,4,6,4,5,4,4
 354,Banette, ,Ghost, ,6,6,10,6,8,4,5,5,5
@@ -476,10 +476,10 @@ id,name,forma,type1,type2,defensa,defensa_esp,ataque,velocidad,ataque_esp,IQ,pas
 384,Rayquaza, ,Dragon,Flying,8,8,12,8,12,4,6,6,6
 384,Rayquaza,Mega Rayquaza,Dragon,Flying,10,10,12+1,10,12+1,4,6,7,7
 385,Jirachi, ,Steel,Psychic,8,8,8,8,8,4,6,6,6
-386,Deoxys,Speed Forme,Psychic, ,6,6,8,12+1,8,4,8,5,5
-386,Deoxys,Normal Forme,Psychic, ,4,4,12,12,12,4,7,4,4
-386,Deoxys,Attack Forme,Psychic, ,4,4,12+1,12,12+1,4,7,4,4
-386,Deoxys,Defense Forme,Psychic, ,10,10,6,8,6,4,6,7,7
+386,Deoxys,Deoxys Speed Forme,Psychic, ,6,6,8,12+1,8,4,8,5,5
+386,Deoxys,Deoxys Normal Forme,Psychic, ,4,4,12,12,12,4,7,4,4
+386,Deoxys,Deoxys Attack Forme,Psychic, ,4,4,12+1,12,12+1,4,7,4,4
+386,Deoxys,Deoxys Defense Forme,Psychic, ,10,10,6,8,6,4,6,7,7
 387,Turtwig, ,Grass, ,6,6,6,4,4,4,5,5,5
 388,Grotle, ,Grass, ,8,6,8,4,6,4,5,6,5
 389,Torterra, ,Grass,Ground,8,8,10,6,6,4,5,6,6
@@ -505,12 +505,12 @@ id,name,forma,type1,type2,defensa,defensa_esp,ataque,velocidad,ataque_esp,IQ,pas
 409,Rampardos, ,Rock, ,8,6,12+1,6,6,4,5,6,5
 410,Shieldon, ,Rock,Steel,6,6,4,4,4,4,5,5,5
 411,Bastiodon, ,Rock,Steel,10,8,6,4,4,4,5,7,6
-412,Burmy,Plant Cloak,Bug, ,4,4,4,4,4,4,5,4,4
-412,Burmy,Sandy Cloak,Bug, ,4,4,4,4,4,4,5,4,4
-412,Burmy,Trash Cloak,Bug, ,4,4,4,4,4,4,5,4,4
-413,Wormadam,Plant Cloak,Bug,Grass,6,8,6,4,8,4,5,5,6
-413,Wormadam,Trash Cloak,Bug,Steel,8,8,6,4,6,4,5,6,6
-413,Wormadam,Sandy Cloak,Bug,Ground,8,6,8,4,6,4,5,6,5
+412,Burmy,Burmy Plant Cloak,Bug, ,4,4,4,4,4,4,5,4,4
+412,Burmy,Burmy Sandy Cloak,Bug, ,4,4,4,4,4,4,5,4,4
+412,Burmy,Burmy Trash Cloak,Bug, ,4,4,4,4,4,4,5,4,4
+413,Wormadam,Wormadam Plant Cloak,Bug,Grass,6,8,6,4,8,4,5,5,6
+413,Wormadam,Wormadam Trash Cloak,Bug,Steel,8,8,6,4,6,4,5,6,6
+413,Wormadam,Wormadam Sandy Cloak,Bug,Ground,8,6,8,4,6,4,5,6,5
 414,Mothim, ,Bug,Flying,6,6,8,6,8,4,5,5,5
 415,Combee, ,Bug,Flying,4,4,4,6,4,4,5,4,4
 416,Vespiquen, ,Bug,Flying,8,8,8,4,8,4,5,6,6
@@ -582,28 +582,28 @@ id,name,forma,type1,type2,defensa,defensa_esp,ataque,velocidad,ataque_esp,IQ,pas
 477,Dusknoir, ,Ghost, ,8,8,8,4,6,4,5,6,6
 478,Froslass, ,Ice,Ghost,6,6,8,10,8,4,6,5,5
 479,Rotom, ,Electric,Ghost,6,6,4,8,8,4,6,5,5
-479,Rotom,Heat Rotom,Electric,Fire,8,8,6,8,10,4,6,6,6
-479,Rotom,Wash Rotom,Electric,Water,8,8,6,8,10,4,6,6,6
-479,Rotom,Frost Rotom,Electric,Ice,8,8,6,8,10,4,6,6,6
-479,Rotom,Fan Rotom,Electric,Flying,8,8,6,8,10,4,6,6,6
-479,Rotom,Mow Rotom,Electric,Grass,8,8,6,8,10,4,6,6,6
+479,Rotom,Rotom Heat Rotom,Electric,Fire,8,8,6,8,10,4,6,6,6
+479,Rotom,Rotom Wash Rotom,Electric,Water,8,8,6,8,10,4,6,6,6
+479,Rotom,Rotom Frost Rotom,Electric,Ice,8,8,6,8,10,4,6,6,6
+479,Rotom,Rotom Fan Rotom,Electric,Flying,8,8,6,8,10,4,6,6,6
+479,Rotom,Rotom Mow Rotom,Electric,Grass,8,8,6,8,10,4,6,6,6
 480,Uxie, ,Psychic, ,10,10,6,8,6,4,6,7,7
 481,Mesprit, ,Psychic, ,8,8,10,8,10,4,6,6,6
 482,Azelf, ,Psychic, ,6,6,10,10,10,4,6,5,5
 483,Dialga, ,Steel,Dragon,10,8,10,8,12,4,6,7,6
-483,Dialga,Origin Forme,Steel,Dragon,10,10,8,8,12,4,6,7,7
+483,Dialga,Dialga Origin Forme,Steel,Dragon,10,10,8,8,12,4,6,7,7
 484,Palkia, ,Water,Dragon,8,10,10,8,12,4,6,6,7
-484,Palkia,Origin Forme,Water,Dragon,8,10,8,10,12,4,6,6,7
+484,Palkia,Palkia Origin Forme,Water,Dragon,8,10,8,10,12,4,6,6,7
 485,Heatran, ,Fire,Steel,8,8,8,8,12,4,6,6,6
 486,Regigigas, ,Normal, ,10,10,12+1,8,8,4,6,7,7
-487,Giratina,Altered Forme,Ghost,Dragon,12,12,8,8,8,4,6,8,8
-487,Giratina,Origin Forme,Ghost,Dragon,10,10,10,8,10,4,6,7,7
+487,Giratina, ,Ghost,Dragon,12,12,8,8,8,4,6,8,8
+487,Giratina,Giratina Origin Forme,Ghost,Dragon,10,10,10,8,10,4,6,7,7
 488,Cresselia, ,Psychic, ,10,10,6,8,6,4,6,7,7
 489,Phione, ,Water, ,8,8,8,8,8,4,6,6,6
 490,Manaphy, ,Water, ,8,8,8,8,8,4,6,6,6
 491,Darkrai, ,Dark, ,8,8,8,10,12,4,7,6,6
-492,Shaymin,Sky Forme,Grass,Flying,8,8,10,12,10,4,7,6,6
-492,Shaymin,Land Forme,Grass, ,8,8,8,8,8,4,6,6,6
+492,Shaymin,Shaymin Sky Forme,Grass,Flying,8,8,10,12,10,4,7,6,6
+492,Shaymin,Shaymin Land Forme,Grass, ,8,8,8,8,8,4,6,6,6
 493,Arceus, ,Normal, ,10,10,10,10,10,4,6,7,7
 494,Victini, ,Psychic,Fire,8,8,8,8,8,4,6,6,6
 495,Snivy, ,Grass, ,4,4,4,6,4,4,5,4,4
@@ -664,18 +664,16 @@ id,name,forma,type1,type2,defensa,defensa_esp,ataque,velocidad,ataque_esp,IQ,pas
 548,Petilil, ,Grass, ,4,4,4,4,6,4,5,4,4
 549,Lilligant, ,Grass, ,6,6,6,8,10,4,6,5,5
 549,Lilligant,Hisuian Lilligant,Grass,Fighting,6,6,10,10,4,4,6,5,5
-550,Basculin,Red-Striped Form,Water, ,6,6,8,8,8,4,6,5,5
-550,Basculin,Blue-Striped Form,Water, ,6,6,8,8,8,4,6,5,5
-550,Basculin,White-Striped Form,Water, ,6,6,8,8,8,4,6,5,5
+550,Basculin, ,Water, ,6,6,8,8,8,4,6,5,5
 551,Sandile, ,Ground,Dark,4,4,6,6,4,4,5,4,4
 552,Krokorok, ,Ground,Dark,6,6,8,6,4,4,5,5,5
 553,Krookodile, ,Ground,Dark,8,8,10,8,6,4,6,6,6
 554,Darumaka, ,Fire, ,6,6,8,4,4,4,5,5,5
 554,Darumaka,Galarian Darumaka,Ice, ,6,6,8,4,4,4,5,5,5
-555,Darmanitan,Standard Mode,Fire, ,8,8,12,8,4,4,6,6,6
-555,Darmanitan,Zen Mode,Fire,Psychic,10,10,4,6,12,4,5,7,7
-555,Darmanitan,Galarian Zen Mode,Ice,Fire,8,8,12+1,12,4,4,7,6,6
-555,Darmanitan,Galarian Standard Mode,Ice, ,8,8,12,8,4,4,6,6,6
+555,Darmanitan, ,Fire, ,8,8,12,8,4,4,6,6,6
+555,Darmanitan,Darmanitan Zen Mode,Fire,Psychic,10,10,4,6,12,4,5,7,7
+555,Darmanitan,Darmanitan Galarian Zen Mode,Ice,Fire,8,8,12+1,12,4,4,7,6,6
+555,Darmanitan, ,Ice, ,8,8,12,8,4,4,6,6,6
 556,Maractus, ,Grass, ,6,6,8,6,10,4,5,5,5
 557,Dwebble, ,Bug,Rock,6,4,6,6,4,4,5,5,4
 558,Crustle, ,Bug,Rock,8,6,10,4,6,4,5,6,5
@@ -766,21 +764,21 @@ id,name,forma,type1,type2,defensa,defensa_esp,ataque,velocidad,ataque_esp,IQ,pas
 638,Cobalion, ,Steel,Fighting,10,8,8,10,8,4,6,7,6
 639,Terrakion, ,Rock,Fighting,8,8,12,10,6,4,6,6,6
 640,Virizion, ,Grass,Fighting,8,10,8,10,8,4,6,6,7
-641,Tornadus,Therian Forme,Flying, ,8,8,8,10,10,4,6,6,6
-641,Tornadus,Incarnate Forme,Flying, ,6,8,10,10,10,4,6,5,6
-642,Thundurus,Incarnate Forme,Electric,Flying,6,8,10,10,10,4,6,5,6
-642,Thundurus,Therian Forme,Electric,Flying,6,8,10,10,12,4,6,5,6
+641,Tornadus,Tornadus Therian Forme,Flying, ,8,8,8,10,10,4,6,6,6
+641,Tornadus,Tornadus Incarnate Forme,Flying, ,6,8,10,10,10,4,6,5,6
+642,Thundurus,Thundurus Incarnate Forme,Electric,Flying,6,8,10,10,10,4,6,5,6
+642,Thundurus,Thundurus Therian Forme,Electric,Flying,6,8,10,10,12,4,6,5,6
 643,Reshiram, ,Dragon,Fire,8,10,10,8,12,4,6,6,7
 644,Zekrom, ,Dragon,Electric,10,8,12,8,10,4,6,7,6
-645,Landorus,Incarnate Forme,Ground,Flying,8,8,10,10,10,4,6,6,6
-645,Landorus,Therian Forme,Ground,Flying,8,8,12,8,10,4,6,6,6
+645,Landorus,Landorus Incarnate Forme,Ground,Flying,8,8,10,10,10,4,6,6,6
+645,Landorus,Landorus Therian Forme,Ground,Flying,8,8,12,8,10,4,6,6,6
 646,Kyurem,White Kyurem,Dragon,Ice,10,10,10,8,12+1,4,6,7,7
 646,Kyurem, ,Dragon,Ice,10,10,12,8,12,4,6,7,7
 646,Kyurem,Black Kyurem,Dragon,Ice,10,10,12+1,8,10,4,6,7,7
-647,Keldeo,Ordinary Form,Water,Fighting,8,8,6,10,12,4,6,6,6
-647,Keldeo,Resolute Form,Water,Fighting,8,8,6,10,12,4,6,6,6
-648,Meloetta,Pirouette Forme,Normal,Fighting,8,8,12,12,8,4,7,6,6
-648,Meloetta,Aria Forme,Normal,Psychic,8,10,8,8,12,4,6,6,7
+647,Keldeo, ,Water,Fighting,8,8,6,10,12,4,6,6,6
+647,Keldeo,Keldeo Resolute Form,Water,Fighting,8,8,6,10,12,4,6,6,6
+648,Meloetta,Meloetta Pirouette Forme,Normal,Fighting,8,8,12,12,8,4,7,6,6
+648,Meloetta,Meloetta Aria Forme,Normal,Psychic,8,10,8,8,12,4,6,6,7
 649,Genesect, ,Bug,Steel,8,8,10,8,10,4,6,6,6
 650,Chespin, ,Grass, ,6,6,6,4,4,4,5,5,5
 651,Quilladin, ,Grass, ,8,6,8,6,6,4,5,6,5
@@ -791,7 +789,6 @@ id,name,forma,type1,type2,defensa,defensa_esp,ataque,velocidad,ataque_esp,IQ,pas
 656,Froakie, ,Water, ,4,4,6,6,6,4,5,4,4
 657,Frogadier, ,Water, ,6,6,6,8,8,4,6,5,5
 658,Greninja, ,Water,Dark,6,6,8,10,10,4,6,5,5
-658,Greninja,Ash-Greninja,Water,Dark,6,6,12,12,12+1,4,7,5,5
 659,Bunnelby, ,Normal, ,4,4,4,6,4,4,5,4,4
 660,Diggersby, ,Normal,Ground,8,8,6,8,4,4,6,6,6
 661,Fletchling, ,Normal,Flying,4,4,4,6,4,4,5,4,4
@@ -811,12 +808,10 @@ id,name,forma,type1,type2,defensa,defensa_esp,ataque,velocidad,ataque_esp,IQ,pas
 675,Pangoro, ,Fighting,Dark,8,8,10,6,6,4,5,6,6
 676,Furfrou, ,Normal, ,6,8,8,10,6,4,6,5,6
 677,Espurr, ,Psychic, ,6,6,4,6,6,4,5,5,5
-678,Meowstic,Male,Psychic, ,6,8,4,10,8,4,6,5,6
-678,Meowstic,Female,Psychic, ,6,8,4,10,8,4,6,5,6
+678,Meowstic, ,Psychic, ,6,8,4,10,8,4,6,5,6
 679,Honedge, ,Steel,Ghost,6,4,8,4,4,4,5,5,4
 680,Doublade, ,Steel,Ghost,10,6,10,4,4,4,5,7,5
-681,Aegislash,Shield Forme,Steel,Ghost,8,8,4,6,4,4,5,6,6
-681,Aegislash,Blade Forme,Steel,Ghost,6,6,12,6,12,4,5,5,5
+681,Aegislash, ,Steel,Ghost,8,8,4,6,4,4,5,6,6
 682,Spritzee, ,Fairy, ,6,6,6,4,6,4,4,5,5
 683,Aromatisse, ,Fairy, ,8,8,6,4,8,4,5,6,6
 684,Swirlix, ,Fairy, ,6,6,4,4,6,4,5,5,5
@@ -847,14 +842,8 @@ id,name,forma,type1,type2,defensa,defensa_esp,ataque,velocidad,ataque_esp,IQ,pas
 707,Klefki, ,Steel,Fairy,6,6,8,6,8,4,6,5,5
 708,Phantump, ,Ghost,Grass,4,6,6,4,4,4,5,4,5
 709,Trevenant, ,Ghost,Grass,8,8,10,6,6,4,5,6,6
-710,Pumpkaboo,Small Size,Ghost,Grass,6,4,6,6,4,4,5,5,4
-710,Pumpkaboo,Average Size,Ghost,Grass,6,6,6,6,4,4,5,5,5
-710,Pumpkaboo,Large Size,Ghost,Grass,6,6,6,4,4,4,5,5,5
-710,Pumpkaboo,Super Size,Ghost,Grass,6,6,6,4,4,4,5,5,5
-711,Gourgeist,Small Size,Ghost,Grass,8,6,8,8,6,4,6,6,5
-711,Gourgeist,Average Size,Ghost,Grass,8,6,8,8,6,4,6,6,5
-711,Gourgeist,Large Size,Ghost,Grass,8,6,8,6,6,4,5,6,5
-711,Gourgeist,Super Size,Ghost,Grass,10,8,8,6,6,4,5,7,6
+710,Pumpkaboo, ,Ghost,Grass,6,4,6,6,4,4,5,5,4
+711,Gourgeist, ,Ghost,Grass,8,6,8,8,6,4,6,6,5
 712,Bergmite, ,Ice, ,6,4,6,4,4,4,5,5,4
 713,Avalugg, ,Ice, ,12,6,10,4,4,4,5,8,5
 713,Avalugg,Hisuian Avalugg,Ice,Rock,12,6,12,4,4,4,5,8,5
@@ -862,9 +851,9 @@ id,name,forma,type1,type2,defensa,defensa_esp,ataque,velocidad,ataque_esp,IQ,pas
 715,Noivern, ,Flying,Dragon,8,8,6,10,8,4,6,6,6
 716,Xerneas, ,Fairy, ,10,10,12,8,12,4,6,7,7
 717,Yveltal, ,Dark,Flying,10,10,12,8,12,4,6,7,7
-718,Zygarde50% Forme, ,Dragon,Ground,10,10,8,8,8,4,6,7,7
-718,Zygarde10% Forme, ,Dragon,Ground,6,6,8,10,6,4,6,5,5
-718,Zygarde,Complete Forme,Dragon,Ground,12+1,12+1,8,8,8,4,6,8,8
+718,Zygarde,Zygarde 50% Forme,Dragon,Ground,10,10,8,8,8,4,6,7,7
+718,Zygarde,Zygarde 10% Forme,Dragon,Ground,6,6,8,10,6,4,6,5,5
+718,Zygarde,Zygarde Complete Forme,Dragon,Ground,12+1,12+1,8,8,8,4,6,8,8
 719,Diancie,Mega Diancie,Rock,Fairy,8,8,12+1,10,12+1,4,6,6,6
 719,Diancie, ,Rock,Fairy,8,8,8,4,8,4,5,6,6
 720,Hoopa,Hoopa Unbound,Psychic,Dark,6,10,12+1,8,12+1,4,6,5,7
@@ -890,19 +879,16 @@ id,name,forma,type1,type2,defensa,defensa_esp,ataque,velocidad,ataque_esp,IQ,pas
 738,Vikavolt, ,Bug,Electric,8,8,6,4,12,4,5,6,6
 739,Crabrawler, ,Fighting, ,6,4,8,6,4,4,5,5,4
 740,Crabominable, ,Fighting,Ice,8,8,12,4,6,4,5,6,6
-741,Oricorio,Baile Style,Fire,Flying,6,6,6,8,8,4,6,5,5
-741,Oricorio,Pom-Pom Style,Electric,Flying,6,6,6,8,8,4,6,5,5
-741,Oricorio,Pa'u Style,Psychic,Flying,6,6,6,8,8,4,6,5,5
-741,Oricorio,Sensu Style,Ghost,Flying,6,6,6,8,8,4,6,5,5
+741,Oricorio,Oricorio Baile Style,Fire,Flying,6,6,6,8,8,4,6,5,5
+741,Oricorio,Oricorio Pom-Pom Style,Electric,Flying,6,6,6,8,8,4,6,5,5
+741,Oricorio,Oricorio Pa'u Style,Psychic,Flying,6,6,6,8,8,4,6,5,5
+741,Oricorio,Oricorio Sensu Style,Ghost,Flying,6,6,6,8,8,4,6,5,5
 742,Cutiefly, ,Bug,Fairy,4,4,4,8,6,4,6,4,4
 743,Ribombee, ,Bug,Fairy,6,6,6,10,8,4,6,5,5
 744,Rockruff, ,Rock, ,4,4,6,6,4,4,5,4,4
-744,Rockruff,Own Tempo Rockruff,Rock, ,4,4,6,6,4,4,5,4,4
-745,Lycanroc,Midday Form,Rock, ,6,6,10,10,6,4,6,5,5
-745,Lycanroc,Dusk Form,Rock, ,6,6,10,10,6,4,6,5,5
-745,Lycanroc,Midnight Form,Rock, ,8,8,10,8,6,4,6,6,6
-746,Wishiwashi,Solo Form,Water, ,4,4,4,4,4,4,5,4,4
-746,Wishiwashi,School Form,Water, ,8,8,12,4,12,4,5,6,6
+745,Lycanroc, ,Rock, ,6,6,10,10,6,4,6,5,5
+746,Wishiwashi,Wishiwashi Solo Form,Water, ,4,4,4,4,4,4,5,4,4
+746,Wishiwashi,Wishiwashi School Form,Water, ,8,8,12,4,12,4,5,6,6
 747,Mareanie, ,Poison,Water,6,6,6,4,4,4,5,5,5
 748,Toxapex, ,Poison,Water,10,8,6,4,6,4,5,7,6
 749,Mudbray, ,Ground, ,6,6,8,4,4,4,5,5,5
@@ -930,8 +916,8 @@ id,name,forma,type1,type2,defensa,defensa_esp,ataque,velocidad,ataque_esp,IQ,pas
 771,Pyukumuku, ,Water, ,8,8,6,4,4,4,4,6,6
 772,Type: Null, ,Normal, ,8,8,8,6,8,4,5,6,6
 773,Silvally, ,Normal, ,8,8,8,8,8,4,6,6,6
-774,Minior,Core Form,Rock,Flying,6,6,8,10,8,4,6,5,5
-774,Minior,Meteor Form,Rock,Flying,8,8,6,6,6,4,5,6,6
+774,Minior,Minior Core Form,Rock,Flying,6,6,8,10,8,4,6,5,5
+774,Minior,Minior Meteor Form,Rock,Flying,8,8,6,6,6,4,5,6,6
 775,Komala, ,Normal, ,6,8,10,6,6,4,5,5,6
 776,Turtonator, ,Fire,Dragon,8,6,8,4,8,4,5,6,5
 777,Togedemaru, ,Electric,Steel,6,6,8,8,4,4,6,5,5
@@ -1009,8 +995,8 @@ id,name,forma,type1,type2,defensa,defensa_esp,ataque,velocidad,ataque_esp,IQ,pas
 846,Arrokuda, ,Water, ,4,4,6,6,4,4,5,4,4
 847,Barraskewda, ,Water, ,6,6,10,12,6,4,7,5,5
 848,Toxel, ,Electric,Poison,4,4,4,4,6,4,5,4,4
-849,Toxtricity,Amped Form,Electric,Poison,6,6,8,6,10,4,6,5,5
-849,Toxtricity,Low Key Form,Electric,Poison,6,6,8,6,10,4,6,5,5
+849,Toxtricity,Toxtricity Amped Form,Electric,Poison,6,6,8,6,10,4,6,5,5
+849,Toxtricity,Toxtricity Low Key Form,Electric,Poison,6,6,8,6,10,4,6,5,5
 850,Sizzlipede, ,Fire,Bug,4,4,6,4,4,4,5,4,4
 851,Centiskorch, ,Fire,Bug,8,8,10,6,8,4,5,6,6
 852,Clobbopus, ,Fighting, ,6,4,6,4,4,4,5,5,4
@@ -1036,12 +1022,10 @@ id,name,forma,type1,type2,defensa,defensa_esp,ataque,velocidad,ataque_esp,IQ,pas
 872,Snom, ,Ice,Bug,4,4,4,4,4,4,4,4,4
 873,Frosmoth, ,Ice,Bug,6,8,6,6,10,4,5,5,6
 874,Stonjourner, ,Rock, ,10,6,10,6,4,4,5,7,5
-875,Eiscue,Noice Face,Ice, ,6,6,8,12,6,4,7,5,5
-875,Eiscue,Ice Face,Ice, ,8,8,8,4,6,4,5,6,6
-876,Indeedee,Male,Psychic,Normal,6,8,6,8,10,4,6,5,6
-876,Indeedee,Female,Psychic,Normal,6,8,6,8,8,4,6,5,6
-877,Morpeko,Full Belly Mode,Electric,Dark,6,6,8,8,6,4,6,5,5
-877,Morpeko,Hangry Mode,Electric,Dark,6,6,8,8,6,4,6,5,5
+875,Eiscue, ,Ice, ,6,6,8,12,6,4,7,5,5
+876,Indeedee, ,Psychic,Normal,6,8,6,8,10,4,6,5,6
+877,Morpeko,Morpeko Full Belly Mode,Electric,Dark,6,6,8,8,6,4,6,5,5
+877,Morpeko,Morpeko Hangry Mode,Electric,Dark,6,6,8,8,6,4,6,5,5
 878,Cufant, ,Steel, ,6,6,8,4,4,4,5,5,5
 879,Copperajah, ,Steel, ,8,8,12,4,8,4,5,6,6
 880,Dracozolt, ,Electric,Dragon,8,8,8,6,8,4,6,6,6
@@ -1052,33 +1036,32 @@ id,name,forma,type1,type2,defensa,defensa_esp,ataque,velocidad,ataque_esp,IQ,pas
 885,Dreepy, ,Dragon,Ghost,4,4,6,8,4,4,6,4,4
 886,Drakloak, ,Dragon,Ghost,6,6,8,10,6,4,6,5,5
 887,Dragapult, ,Dragon,Ghost,8,8,10,12,8,4,7,6,6
-888,Zacian,Crowned Sword,Fairy,Steel,10,10,12,12,8,4,7,7,7
-888,Zacian,Hero of Many Battles,Fairy, ,10,10,10,12,8,4,7,7,7
-889,Zamazenta,Hero of Many Battles,Fighting, ,10,10,10,12,8,4,7,7,7
-889,Zamazenta,Crowned Shield,Fighting,Steel,10,10,10,12,8,4,7,7,7
+888,Zacian,Zacian Crowned Sword,Fairy,Steel,10,10,12,12,8,4,7,7,7
+888,Zacian,Zacian Hero of Many Battles,Fairy, ,10,10,10,12,8,4,7,7,7
+889,Zamazenta,Zamazenta Hero of Many Battles,Fighting, ,10,10,10,12,8,4,7,7,7
+889,Zamazenta,Zamazenta Crowned Shield,Fighting,Steel,10,10,10,12,8,4,7,7,7
 890,Eternatus,Eternamax,Poison,Dragon,12+1,12+1,10,12,10,4,7,8,8
 890,Eternatus, ,Poison,Dragon,10,10,8,12,12,4,7,7,7
 891,Kubfu, ,Fighting, ,6,6,8,6,6,4,5,5,5
-892,Urshifu,Single Strike Style,Fighting,Dark,8,8,12,8,6,4,6,6,6
-892,Urshifu,Rapid Strike Style,Fighting,Water,8,8,12,8,6,4,6,6,6
+892,Urshifu,Urshifu Single Strike Style,Fighting,Dark,8,8,12,8,6,4,6,6,6
+892,Urshifu,Urshifu Rapid Strike Style,Fighting,Water,8,8,12,8,6,4,6,6,6
 893,Zarude, ,Dark,Grass,10,8,10,10,6,4,6,7,6
 894,Regieleki, ,Electric, ,6,6,8,12+1,8,4,8,5,5
 895,Regidrago, ,Dragon, ,10,10,8,8,8,4,6,7,7
 896,Glastrier, ,Ice, ,10,10,12,4,6,4,5,7,7
 897,Spectrier, ,Ghost, ,8,8,6,12,12,4,7,6,6
-898,Calyrex,Shadow Rider,Psychic,Ghost,8,8,8,12,12+1,4,7,6,6
+898,Calyrex,Calyrex Shadow Rider,Psychic,Ghost,8,8,8,12,12+1,4,7,6,6
 898,Calyrex, ,Psychic,Grass,8,8,8,8,8,4,6,6,6
-898,Calyrex,Ice Rider,Psychic,Ice,10,10,12+1,4,8,4,5,7,7
+898,Calyrex,Calyrex Ice Rider,Psychic,Ice,10,10,12+1,4,8,4,5,7,7
 899,Wyrdeer, ,Normal,Psychic,8,8,10,6,10,4,5,6,6
 900,Kleavor, ,Bug,Rock,8,6,12,8,4,4,6,6,5
 901,Ursaluna, ,Ground,Normal,10,10,12,4,4,4,5,7,7
-901,Ursaluna,Bloodmoon,Ground,Normal,10,8,6,6,12,4,5,7,6
-902,Basculegion,Female,Water,Ghost,8,8,8,8,8,4,6,6,6
-902,Basculegion,Male,Water,Ghost,8,8,10,8,8,4,6,6,6
+901,Ursaluna,Bloodmoon Ursaluna,Ground,Normal,10,8,6,6,12,4,5,7,6
+902,Basculegion, ,Water,Ghost,8,8,10,8,8,4,6,6,6
 903,Sneasler, ,Fighting,Poison,6,8,12,10,4,4,6,5,6
 904,Overqwil, ,Dark,Poison,8,6,10,8,6,4,6,6,5
-905,Enamorus,Incarnate Forme,Fairy,Flying,6,8,10,10,12,4,6,5,6
-905,Enamorus,Therian Forme,Fairy,Flying,8,8,10,4,12,4,5,6,6
+905,Enamorus,Enamorus Incarnate Forme,Fairy,Flying,6,8,10,10,12,4,6,5,6
+905,Enamorus,Enamorus Therian Forme,Fairy,Flying,8,8,10,4,12,4,5,6,6
 906,Sprigatito, ,Grass, ,4,4,6,6,4,4,5,4,4
 907,Floragato, ,Grass, ,6,6,8,8,6,4,6,5,5
 908,Meowscarada, ,Grass,Dark,6,6,10,10,8,4,6,5,5
@@ -1089,8 +1072,7 @@ id,name,forma,type1,type2,defensa,defensa_esp,ataque,velocidad,ataque_esp,IQ,pas
 913,Quaxwell, ,Water, ,6,6,8,6,6,4,5,5,5
 914,Quaquaval, ,Water,Fighting,8,8,10,8,8,4,6,6,6
 915,Lechonk, ,Normal, ,4,4,4,4,4,4,5,4,4
-916,Oinkologne,Female,Normal, ,8,10,8,6,6,4,5,6,7
-916,Oinkologne,Male,Normal, ,8,8,8,6,6,4,5,6,6
+916,Oinkologne, ,Normal, ,8,10,8,6,6,4,5,6,7
 917,Tarountula, ,Bug, ,4,4,4,4,4,4,4,4,4
 918,Spidops, ,Bug, ,8,6,8,4,6,4,5,6,5
 919,Nymble, ,Bug, ,4,4,4,4,4,4,5,4,4
@@ -1099,17 +1081,16 @@ id,name,forma,type1,type2,defensa,defensa_esp,ataque,velocidad,ataque_esp,IQ,pas
 922,Pawmo, ,Electric,Fighting,4,4,6,8,4,4,6,4,4
 923,Pawmot, ,Electric,Fighting,6,6,10,10,6,4,6,5,5
 924,Tandemaus, ,Normal, ,4,4,4,6,4,4,6,4,4
-925,Maushold,Family of Four,Normal, ,6,6,6,10,6,4,6,5,5
-925,Maushold,Family of Three,Normal, ,6,6,6,10,6,4,6,5,5
+925,Maushold, ,Normal, ,6,6,6,10,6,4,6,5,5
 926,Fidough, ,Fairy, ,6,4,6,6,4,4,5,5,4
 927,Dachsbun, ,Fairy, ,8,6,8,8,4,4,6,6,5
 928,Smoliv, ,Grass,Normal,4,4,4,4,6,4,5,4,4
 929,Dolliv, ,Grass,Normal,6,6,6,4,8,4,5,5,5
 930,Arboliva, ,Grass,Normal,8,8,6,4,10,4,5,6,6
-931,Squawkabilly,Green Plumage,Normal,Flying,6,6,8,8,4,4,6,5,5
-931,Squawkabilly,Blue Plumage,Normal,Flying,6,6,8,8,4,4,6,5,5
-931,Squawkabilly,Yellow Plumage,Normal,Flying,6,6,8,8,4,4,6,5,5
-931,Squawkabilly,White Plumage,Normal,Flying,6,6,8,8,4,4,6,5,5
+931,Squawkabilly,Squawkabilly Green Plumage,Normal,Flying,6,6,8,8,4,4,6,5,5
+931,Squawkabilly,Squawkabilly Blue Plumage,Normal,Flying,6,6,8,8,4,4,6,5,5
+931,Squawkabilly,Squawkabilly Yellow Plumage,Normal,Flying,6,6,8,8,4,4,6,5,5
+931,Squawkabilly,Squawkabilly White Plumage,Normal,Flying,6,6,8,8,4,4,6,5,5
 932,Nacli, ,Rock, ,6,4,6,4,4,4,5,5,4
 933,Naclstack, ,Rock, ,8,6,6,4,4,4,5,6,5
 934,Garganacl, ,Rock, ,10,8,8,4,4,4,5,7,6
@@ -1142,8 +1123,8 @@ id,name,forma,type1,type2,defensa,defensa_esp,ataque,velocidad,ataque_esp,IQ,pas
 961,Wugtrio, ,Water, ,4,6,8,10,4,4,6,4,5
 962,Bombirdier, ,Flying,Dark,8,8,10,8,6,4,6,6,6
 963,Finizen, ,Water, ,6,6,4,6,4,4,6,5,5
-964,Palafin,Hero Form,Water, ,8,8,12+1,8,10,4,6,6,6
-964,Palafin,Zero Form,Water, ,8,8,6,8,6,4,6,6,6
+964,Palafin,Palafin Hero Form,Water, ,8,8,12+1,8,10,4,6,6,6
+964,Palafin,Palafin Zero Form,Water, ,8,8,6,8,6,4,6,6,6
 965,Varoom, ,Steel,Poison,6,4,6,4,4,4,5,5,4
 966,Revavroom, ,Steel,Poison,8,6,10,8,6,4,6,6,5
 967,Cyclizar, ,Dragon,Normal,6,6,8,10,8,4,6,5,5
@@ -1157,14 +1138,13 @@ id,name,forma,type1,type2,defensa,defensa_esp,ataque,velocidad,ataque_esp,IQ,pas
 975,Cetitan, ,Ice, ,10,10,10,6,4,4,5,7,7
 976,Veluza, ,Water,Psychic,8,8,10,6,8,4,5,6,6
 977,Dondozo, ,Water, ,12,10,8,4,6,4,5,8,7
-978,Tatsugiri,Curly Form,Dragon,Water,6,8,4,8,10,4,6,5,6
-978,Tatsugiri,Droopy Form,Dragon,Water,6,8,4,8,10,4,6,5,6
-978,Tatsugiri,Stretchy Form,Dragon,Water,6,8,4,8,10,4,6,5,6
+978,Tatsugiri,Tatsugiri Curly Form,Dragon,Water,6,8,4,8,10,4,6,5,6
+978,Tatsugiri,Tatsugiri Droopy Form,Dragon,Water,6,8,4,8,10,4,6,5,6
+978,Tatsugiri,Tatsugiri Stretchy Form,Dragon,Water,6,8,4,8,10,4,6,5,6
 979,Annihilape, ,Fighting,Ghost,8,8,10,8,4,4,6,6,6
 980,Clodsire, ,Poison,Ground,8,10,6,4,4,4,4,6,7
 981,Farigiraf, ,Normal,Psychic,8,8,8,6,10,4,5,6,6
-982,Dudunsparce,Two-Segment Form,Normal, ,10,8,8,6,8,4,5,7,6
-982,Dudunsparce,Three-Segment Form,Normal, ,10,8,8,6,8,4,5,7,6
+982,Dudunsparce, ,Normal, ,10,8,8,6,8,4,5,7,6
 983,Kingambit, ,Dark,Steel,10,8,12,4,6,4,5,7,6
 984,Great Tusk, ,Ground,Fighting,10,8,12,8,6,4,6,7,6
 985,Scream Tail, ,Fairy,Psychic,10,10,6,10,6,4,6,7,7
@@ -1181,8 +1161,8 @@ id,name,forma,type1,type2,defensa,defensa_esp,ataque,velocidad,ataque_esp,IQ,pas
 996,Frigibax, ,Dragon,Ice,6,6,6,6,4,4,5,5,5
 997,Arctibax, ,Dragon,Ice,8,8,8,6,4,4,5,6,6
 998,Baxcalibur, ,Dragon,Ice,10,10,12,8,6,4,6,7,7
-999,Gimmighoul,Roaming Form,Ghost, ,4,4,4,8,6,4,6,4,4
-999,Gimmighoul,Chest Form,Ghost, ,6,6,4,4,6,4,4,5,5
+999,Gimmighoul,Gimmighoul Roaming Form,Ghost, ,4,4,4,8,6,4,6,4,4
+999,Gimmighoul,Gimmighoul Chest Form,Ghost, ,6,6,4,4,6,4,4,5,5
 1000,Gholdengo, ,Steel,Ghost,8,8,6,8,12,4,6,6,6
 1001,Wo-Chien, ,Dark,Grass,8,10,8,6,8,4,5,6,7
 1002,Chien-Pao, ,Dark,Ice,8,6,10,12,8,4,7,6,5
@@ -1200,17 +1180,17 @@ id,name,forma,type1,type2,defensa,defensa_esp,ataque,velocidad,ataque_esp,IQ,pas
 1014,Okidogi, ,Poison,Fighting,10,8,12,8,6,4,6,7,6
 1015,Munkidori, ,Poison,Psychic,8,8,6,10,12,4,6,6,6
 1016,Fezandipiti, ,Poison,Fairy,8,10,8,8,6,4,6,6,7
-1017,Ogerpon,Teal Mask,Grass, ,8,8,10,10,6,4,6,6,6
-1017,Ogerpon,Wellspring Mask,Grass,Water,8,8,10,10,6,4,6,6,6
-1017,Ogerpon,Hearthflame Mask,Grass,Fire,8,8,10,10,6,4,6,6,6
-1017,Ogerpon,Cornerstone Mask,Grass,Rock,8,8,10,10,6,4,6,6,6
+1017,Ogerpon,Ogerpon Teal Mask,Grass, ,8,8,10,10,6,4,6,6,6
+1017,Ogerpon,Ogerpon Wellspring Mask,Grass,Water,8,8,10,10,6,4,6,6,6
+1017,Ogerpon,Ogerpon Hearthflame Mask,Grass,Fire,8,8,10,10,6,4,6,6,6
+1017,Ogerpon,Ogerpon Cornerstone Mask,Grass,Rock,8,8,10,10,6,4,6,6,6
 1018,Archaludon, ,Steel,Dragon,10,8,10,8,10,4,6,7,6
 1019,Hydrapple, ,Grass,Dragon,10,8,8,4,10,4,5,7,6
 1020,Gouging Fire, ,Fire,Dragon,10,8,10,8,6,4,6,7,6
 1021,Raging Bolt, ,Electric,Dragon,10,10,6,6,12,4,6,7,7
 1022,Iron Boulder, ,Rock,Psychic,8,8,10,10,6,4,6,6,6
 1023,Iron Crown, ,Steel,Psychic,8,8,6,8,10,4,6,6,6
-1024,Terapagos,Stellar Form,Normal, ,12,12,10,8,12,4,6,8,8
-1024,Terapagos,Terastal Form,Normal, ,10,10,8,8,10,4,6,7,7
-1024,Terapagos,Normal Form,Normal, ,8,8,6,6,6,4,5,6,6
+1024,Terapagos,Terapagos Stellar Form,Normal, ,12,12,10,8,12,4,6,8,8
+1024,Terapagos,Terapagos Terastal Form,Normal, ,10,10,8,8,10,4,6,7,7
+1024,Terapagos,Terapagos Normal Form,Normal, ,8,8,6,6,6,4,5,6,6
 1025,Pecharunt, ,Poison,Ghost,10,8,8,8,8,4,6,7,6
