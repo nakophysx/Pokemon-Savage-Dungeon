@@ -121,9 +121,7 @@ function buildStatTable() {
 
   stats.forEach(stat => {
     const base = Number(currentPokemon[stat]);
-    const row = document.createElement('div');
-
-    row.innerHTML = `
+    container.innerHTML += `
       <span class="capitalize">${stat.replace('_',' ')}</span>
       <span>${base}</span>
       <input type="number" value="0" class="w-1/5 bonus border p-1 rounded" />
