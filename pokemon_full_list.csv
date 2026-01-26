@@ -1,4 +1,4 @@
-id,name,forma,type1,type2,defensa,defensa_esp,ataque,velocidad,ataque_esp,IQ,paso,dureza,dureza_especial
+id,name,form,type1,type2,vigor,special_vigor,strength,agility,spirit,smarts,pace,toughness,special_toughness
 1,Bulbasaur, ,Grass,Poison,4,6,4,4,6,4,5,4,5
 2,Ivysaur, ,Grass,Poison,6,6,6,6,8,4,5,5,5
 3,Venusaur, ,Grass,Poison,8,8,8,8,8,4,6,6,6

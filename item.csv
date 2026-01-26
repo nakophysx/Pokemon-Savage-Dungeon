@@ -1,0 +1,74 @@
+objeto,consumible,efecto
+Proteína,Si,Bonus a FUE
+Hierro,Si,Bonus a VIG
+Zinc,Si,Bonus a VIGSP
+Carbos,Si,Bonus a AGI
+Calcio,Si,Bonus a ESP
+Más PP,Si,Gasta acción. Restaura 5 PP.
+Antiquemar,Si,Quita el estado quemado
+Antiparaliz,Si,Quita el estado paralizado
+Antídoto,Si,Quita el estado veneno
+Anticongelante,Si,Quita el estado congelado
+Despertar,Si,Quita el estado dormido
+Poción,Si,Quita el estado aturdido
+Cheri Berry,Si,Quita el estado paralizado
+Aspear Berry,Si,Quita el estado congelado
+Chesto Berry,Si,Quita el estado dormido
+Rawst Berry,Si,Quita el estado quemado
+Lum Berry,Si,Cures all major status conditions
+Aguav Berry,Si,"Cura 1 herida, si a la naturaleza no le gusta el Amargo quedas aturdido. Se consume si solo te queda una herida."
+Figy Berry,Si,"Cura 1 herida, si a la naturaleza no le gusta el Picante quedas aturdido. Se consume si solo te queda una herida."
+Iapapa Berry,Si,"Cura 1 herida, si a la naturaleza no le gusta el Ácido quedas aturdido. Se consume si solo te queda una herida."
+Mago Berry,Si,"Cura 1 herida, si a la naturaleza no le gusta el Dulce quedas aturdido. Se consume si solo te queda una herida."
+Wiki Berry,Si,"Cura 1 herida, si a la naturaleza no le gusta el Seco quedas aturdido. Se consume si solo te queda una herida."
+Custap Berry,Si,Roba una carta de acción adicional. Se consume si itienes al menos una herida durante el robo de iniciativa.
+Lansat Berry,Si,Tira 1d6 de daño adicional. Se consume si tienes al menos una herida y has obtenido al menos un aumento en una tirada de ataque.
+Liechi Berry,Si,Ganas +2 a tu próxima tirada de Ataque. Se consume si tienes al menos una herida.
+Ganlon Berry,Si,Ganas +2 a tu Dureza Física hasta el final de la ronda. Se consume si tienes al menos una herida.
+Petaya Berry,Si,Ganas +2 a tu próxima tirada de Ataque especial. Se consume si tienes al menos una herida.
+Apicot Berry,Si,Ganas +2 a tu Dureza Especial hasta el final de la ronda. Se consume si tienes al menos una herida.
+Salac Berry,Si,Ganas +2 a tu Esquiva hasta el final de la ronda. Se consume si tienes al menos una herida.
+Enigma Berry,Si,"Gana +4 a tu Esquiva hasta el final de la ronda. Se consume si fueras a sufrir un ataque con aumento, pero antes de resolver la tirada."
+Leppa Berry,Si,Restaura 5 PP. Se consume tras usar un movimiento de más de 5 PP.
+Oran Berry,Si,Restores 10 HP
+Sitrus Berry,Si,Restores 1/4 HP
+Babiri Berry,Si,"Gana Resistencia (Acero) hasta el final de la ronda. Se consume al sufrir un ataque de Acero, pero antes de resolver el daño."
+Charti Berry,Si,"Gana Resistencia (Roca) hasta el final de la ronda. Se consume al sufrir un ataque de Roca, pero antes de resolver el daño."
+Chilan Berry,Si,"Gana Resistencia (Normal) hasta el final de la ronda. Se consume al sufrir un ataque de Normal, pero antes de resolver el daño."
+Chople Berry,Si,"Gana Resistencia (Lucha) hasta el final de la ronda. Se consume al sufrir un ataque de Lucha, pero antes de resolver el daño."
+Coba Berry,Si,"Gana Resistencia (Volador) hasta el final de la ronda. Se consume al sufrir un ataque de Volador, pero antes de resolver el daño."
+Colbur Berry,Si,"Gana Resistencia (Siniestro) hasta el final de la ronda. Se consume al sufrir un ataque de Siniestro, pero antes de resolver el daño."
+Haban Berry,Si,"Gana Resistencia (Dragón) hasta el final de la ronda. Se consume al sufrir un ataque de Dragón, pero antes de resolver el daño."
+Kasib Berry,Si,"Gana Resistencia (Fantasma) hasta el final de la ronda. Se consume al sufrir un ataque de Fantasma, pero antes de resolver el daño."
+Kebia Berry,Si,"Gana Resistencia (Veneno) hasta el final de la ronda. Se consume al sufrir un ataque de Veneno, pero antes de resolver el daño."
+Occa Berry,Si,"Gana Resistencia (Fuego) hasta el final de la ronda. Se consume al sufrir un ataque de Fuego, pero antes de resolver el daño."
+Passho Berry,Si,"Gana Resistencia (Agua) hasta el final de la ronda. Se consume al sufrir un ataque de Agua, pero antes de resolver el daño."
+Payapa Berry,Si,"Gana Resistencia (Psíquicio) hasta el final de la ronda. Se consume al sufrir un ataque de Psíquico, pero antes de resolver el daño."
+Rindo Berry,Si,"Gana Resistencia (Planta) hasta el final de la ronda. Se consume al sufrir un ataque de Planta, pero antes de resolver el daño."
+Roseli Berry,Si,"Gana Resistencia (Hada) hasta el final de la ronda. Se consume al sufrir un ataque de Hada, pero antes de resolver el daño."
+Shuca Berry,Si,"Gana Resistencia (Tierra) hasta el final de la ronda. Se consume al sufrir un ataque de Tierra, pero antes de resolver el daño."
+Tanga Berry,Si,"Gana Resistencia (Bicho) hasta el final de la ronda. Se consume al sufrir un ataque de Bicho, pero antes de resolver el daño."
+Wacan Berry,Si,"Gana Resistencia (Eléctrico) hasta el final de la ronda. Se consume al sufrir un ataque de Eléctrico, pero antes de resolver el daño."
+Yache Berry,Si,"Gana Resistencia (Hielo) hasta el final de la ronda. Se consume al sufrir un ataque de Hielo, pero antes de resolver el daño."
+Assault Vest,No,Gana +1 a Defensa Especial. No puedes usar Movimientos que no hagan daño.
+Black Sludge,No,"Gana +1 a pruebas de Vigor para Absorber daño si eres de tipo Veneno, sufre envenenado al principio de cada uno de tus turnos si no."
+Choice Band,No,"Gana +1 en tiradas de Ataque, pero solo puedes usar un Movimiento por combate."
+Choice Scarf,No,"Roba una carta de acción adicional de iniciativa en cada uno de tus turnos, pero solo puedes usar un Movimiento por combate."
+Choice Specs,No,"Gana +1 en tiradas de Ataque Especial, pero solo puedes usar un Movimiento por combate."
+Eviolite,No,Gana +1 a Defensa y Defensa Especial si el Pokemon no está completamente evolucionado.
+Expert Belt,No,Suma +1 al daño si el enemigo es vulnerable a tu ataque.
+Focus Sash,No,La primera vez que fueras a sufrir más de una herida en un combate sufre una única herida en su lugar.
+Leftovers,No,Restores HP each turn
+Life Orb,No,Suma +1 al daño de todos tus ataques. Si obtienes dos aumentos en una tirada de daño quedas aturdido.
+Rocky Helmet,No,Suma +1 a la Defensa.
+Weakness Policy,No,Suma +1 a la primera tirada de Ataque o Ataque especial tras ser impactado por un ataque eficaz
+Zoom Lens,No,"Cuando tengas una carta de acción de 5 o menos, ignoras hasta dos puntos de penalizaciones ese turno"
+Air Balloon,No,Grants Ground immunity until hit
+Bright Powder,No,Lowers opponent accuracy
+King's Rock,No,May cause flinching
+Razor Fang,No,May cause flinching
+Scope Lens,No,Raises critical-hit ratio
+Shell Bell,No,Restores HP equal to damage dealt
+Throat Spray,No,Raises Special Attack after using a sound-based move
+Heavy-Duty Boots,No,Ignores entry hazard damage
+Clear Amulet,No,Prevents stat drops from opponent's moves or abilities

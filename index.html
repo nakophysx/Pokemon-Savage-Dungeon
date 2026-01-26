@@ -26,7 +26,9 @@
 
   <!-- Items -->
   <label class="block mt-4 font-semibold">Objeto Equipado</label>
-  <input id="heldItem" class="w-full p-2 border rounded mb-2" />
+  <select id="itemSelect" class="w-full p-2 border rounded mb-4">
+    <option value="">-- Elige Item --</option>
+  </select>
 
   <label class="block mt-4 font-semibold">Inventario</label>
   <input id="inventory" class="w-full p-2 border rounded mb-2" />
@@ -45,8 +47,10 @@
 </div>
 
 <script>
-const stats = ["vigor","special_vigor","strength","agility","spirit","smarts"];
+const stats = ["defensa","ataque","velocidad","defensa_esp","ataque_esp","IQ"];
+const itemMap = []
 let pokemonData = [];
+let itemData = [];
 let currentPokemon = null;
 
 /* ---------- TYPE COLOR MAP ---------- */
@@ -91,6 +95,26 @@ fetch('pokemon.csv')
       select.appendChild(o);
     });
   });
+
+fetch('item.csv')
+.then(res => res.text())
+.then(text => {
+  const lines = text.trim().split('\n');
+  const headers = lines.shift().split(',');
+  itemData = lines.map(l => {
+    const values = l.split(',');
+    let obj = {};
+    headers.forEach((h,i) => obj[h] = values[i]);
+    return obj;
+  });
+  const select = document.getElementById('itemSelect');
+  itemData.forEach(i => {
+    const o = document.createElement('option');
+    o.value = i.name;
+    o.textContent = i.name;
+    select.appendChild(o);
+  });
+});
 
 /* ---------- SELECT POKÉMON ---------- */
 document.getElementById('pokemonSelect').addEventListener('change', e => {
@@ -144,7 +168,7 @@ document.getElementById('exportBtn').onclick = () => {
 
   const data = {
     name: currentPokemon.name,
-    heldItem: document.getElementById('heldItem').value,
+    itemSelect: document.getElementById('itemSelect').value,
     inventory: document.getElementById('inventory').value,
     stats: stats.reduce((acc, s, i) => {
       acc[s] = {
