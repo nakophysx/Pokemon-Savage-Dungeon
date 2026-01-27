@@ -143,9 +143,8 @@ document.getElementById('itemSelect').addEventListener('change', e => {
   if (!currentItem) {
     console.log('no item');
     return;}
-  console.log(currentItem.efecto);
+  console.log(currentItem);
   container = document.getElementById('itemDescription');
-  console.log(container);
   container.classList.remove('hidden');
   container.textContent = currentItem.efecto;
 });
