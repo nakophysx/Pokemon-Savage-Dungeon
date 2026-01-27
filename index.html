@@ -144,9 +144,11 @@ document.getElementById('itemSelect').addEventListener('change', e => {
     console.log('no item');
     return;}
   console.log(currentItem);
+  console.log(currentItem["efecto"]);
+  console.log(currentItem["efecto\r"]);
   container = document.getElementById('itemDescription');
   container.classList.remove('hidden');
-  container.textContent = currentItem.efecto;
+  container.textContent = currentItem["efecto"];
 });
 
 /* ---------- THEME ---------- */
