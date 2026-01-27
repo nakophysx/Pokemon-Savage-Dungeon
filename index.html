@@ -143,9 +143,10 @@ document.getElementById('itemSelect').addEventListener('change', e => {
   if (!currentItem) {
     console.log('no item');
     return;}
-
-  document.getElementById('itemDescription').classList.remove('hidden');
-  document.getElementById('itemDescription').textContent = currentItem.descripcion;
+  console.log('item', currentItem);
+  container = document.getElementById('itemDescription');
+  container.classList.remove('hidden');
+  container.textContent = currentItem.efecto;
 });
 
 /* ---------- THEME ---------- */
