@@ -292,13 +292,12 @@ document.getElementById('pokemonLevel').addEventListener('change', () => {
 
 function updateRankDisplay() {
   const level = Number(document.getElementById('pokemonLevel').value);
-  document.getElementById('rankDisplay').textContent = level => {
-    if (level <= 3) return 'Novato';
-    if (level <= 7) return 'Experto';
-    if (level <= 11) return 'Veterano';
-    if (level <= 15) return 'Héroe';
-    return 'Leyenda';
-  };
+  let rank = 'Novato';
+  if (level > 3) rank= 'Experto';
+  if (level > 7) rank= 'Veterano';
+  if (level > 11) rank= 'Héroe';
+  if (level > 15) rank= 'Leyenda';
+  document.getElementById('rankDisplay').textContent = rank;
 }
 
 /* ---------- BUILD LEVEL INPUTS ---------- */
