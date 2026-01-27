@@ -174,11 +174,13 @@ function buildStatTable() {
       <input id="${stat}_bonus" type="number" value="0" class="bonus border p-1 rounded" />
       <span id="${stat}_final" class="final font-semibold">${base}</span>
     `;
+  });
 
+  stats.forEach(stat => {
+    const base = Number(currentPokemon[stat]);
     document.getElementById(`${stat}_bonus`).addEventListener('change', e => {
       const bonus = Number(e.target.value);
       document.getElementById(`${stat}_final`).textContent = base + bonus;
-      console.log(`Updated ${stat}: base ${base}, bonus ${bonus}, final ${base + bonus}`);
     });
   });
 }
