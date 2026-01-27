@@ -399,6 +399,7 @@ document.getElementById('importInput').addEventListener('change', e => {
 
     document.getElementById('inventory').value = data.inventory;
     
+    /*
     if (data.levelData) {
       for (let i = 1; i <= 20; i++) {
         const input = document.getElementById(`level_${i}`);
@@ -413,6 +414,7 @@ document.getElementById('importInput').addEventListener('change', e => {
       bonusInput.value = data.stats[s].bonus;
       bonusInput.dispatchEvent(new Event('change'));
     });
+    */
   };
   reader.readAsText(file);
 });
