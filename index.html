@@ -393,9 +393,9 @@ document.getElementById('importInput').addEventListener('change', e => {
     updateRankDisplay();
 
     document.getElementById('itemSelect').value = data.items;
-    docuemt.getElementById('itemSelect').dispatchEvent(new Event('change'));
+    document.getElementById('itemSelect').dispatchEvent(new Event('change'));
 
-    docuemnt.getElementById('itemUsed').checked = data.itemIsUsed;
+    document.getElementById('itemUsed').checked = data.itemIsUsed;
 
     document.getElementById('inventory').value = data.inventory;
     
