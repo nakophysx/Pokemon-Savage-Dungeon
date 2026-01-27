@@ -171,11 +171,11 @@ function buildStatTable() {
     container.innerHTML += `
       <span class="capitalize">${stat.replace('_',' ')}</span>
       <span>${base}</span>
-      <input id="${stat}" type="number" value="0" class="bonus border p-1 rounded" />
+      <input id="${stat}_bonus" type="number" value="0" class="bonus border p-1 rounded" />
       <span id="${stat}_final" class="final font-semibold">${base}</span>
     `;
 
-    document.getElementById(stat).addEventListener('input', e => {
+    document.getElementById(`${stat}_bonus`).addEventListener('change', e => {
       const bonus = Number(e.target.value);
       document.getElementById(`${stat}_final`).textContent = base + bonus;
       console.log(`Updated ${stat}: base ${base}, bonus ${bonus}, final ${base + bonus}`);
@@ -219,6 +219,7 @@ document.getElementById('importInput').addEventListener('change', e => {
   const reader = new FileReader();
   reader.onload = () => {
     const data = JSON.parse(reader.result);
+    console.log('Imported data:', data); 
 
     document.getElementById('pokemonSelect').value = data.name;
     document.getElementById('pokemonSelect').dispatchEvent(new Event('change'));
@@ -228,7 +229,7 @@ document.getElementById('importInput').addEventListener('change', e => {
     stats.forEach((s,i) => {
       const bonusInput = document.querySelectorAll('.bonus')[i];
       bonusInput.value = data.stats[s].bonus;
-      bonusInput.dispatchEvent(new Event('input'));
+      bonusInput.dispatchEvent(new Event('change'));
     });
   };
   reader.readAsText(file);
