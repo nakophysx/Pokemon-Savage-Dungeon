@@ -44,6 +44,12 @@
     <label for="itemUsed" class="text-sm">Item usado</label>
   </div>
 
+  <!-- Levels -->
+  <div id="levelsContainer" class="mt-4">
+    <label class="block font-semibold mb-2">Niveles</label>
+    <div id="levelInputs" class="space-y-2 max-h-48 overflow-y-auto border rounded p-2 bg-gray-50"></div>
+  </div>
+
   <label class="block mt-4 font-semibold">Inventario</label>
   <textarea id="inventory" class="w-full p-2 border rounded mb-2">  </textarea>
 
@@ -159,15 +165,36 @@ document.getElementById('pokemonSelect').addEventListener('change', e => {
   document.getElementById('levelContainer').classList.remove('hidden');
   document.getElementById('pokemonLevel').value = 0;
   updateRankDisplay();
+  buildLevelInputs();
   buildStatTable();
 });
 
 /* ---------- LEVEL CHANGE ---------- */
-document.getElementById('pokemonLevel').addEventListener('change', updateRankDisplay);
+document.getElementById('pokemonLevel').addEventListener('change', () => {
+  const level = Number(document.getElementById('pokemonLevel').value);
+  updateRankDisplay();
+  buildLevelInputs(level);
+});
 
 function updateRankDisplay() {
   const level = Number(document.getElementById('pokemonLevel').value);
   document.getElementById('rankDisplay').textContent = getRank(level);
+}
+
+/* ---------- BUILD LEVEL INPUTS ---------- */
+function buildLevelInputs(maxLevel = 0) {
+  const container = document.getElementById('levelInputs');
+  container.innerHTML = '';
+  
+  for (let i = 1; i <= maxLevel; i++) {
+    const div = document.createElement('div');
+    div.className = 'flex gap-2 items-center';
+    div.innerHTML = `
+      <label class="w-16 text-sm font-medium">Lvl ${i}:</label>
+      <input type="text" id="level_${i}" class="flex-1 p-1 border rounded text-sm" placeholder="Level ${i}" />
+    `;
+    container.appendChild(div);
+  }
 }
 
 /* ---------- SELECT ITEM ---------- */
@@ -236,6 +263,11 @@ document.getElementById('exportBtn').onclick = () => {
 
   const bonuses = [...document.querySelectorAll('.bonus')].map(b => Number(b.value));
   const finals = [...document.querySelectorAll('.final')].map(f => Number(f.textContent));
+  
+  const levelData = {};
+  for (let i = 1; i <= 20; i++) {
+    levelData[i] = document.getElementById(`level_${i}`).value;
+  }
 
   const data = {
     name: currentPokemon.name,
@@ -243,6 +275,7 @@ document.getElementById('exportBtn').onclick = () => {
     itemSelect: document.getElementById('itemSelect').value,
     itemIsUsed: document.getElementById('itemUsed').checked,
     inventory: document.getElementById('inventory').value,
+    levelData: levelData,
     stats: stats.reduce((acc, s, i) => {
       acc[s] = {
         base: Number(currentPokemon[s]),
@@ -282,6 +315,15 @@ document.getElementById('importInput').addEventListener('change', e => {
     docuemnt.getElementById('itemUsed').checked = data.itemIsUsed;
 
     document.getElementById('inventory').value = data.inventory;
+    
+    if (data.levelData) {
+      for (let i = 1; i <= 20; i++) {
+        const input = document.getElementById(`level_${i}`);
+        if (input) {
+          input.value = data.levelData[i] || '';
+        }
+      }
+    }
 
     stats.forEach((s,i) => {
       const bonusInput = document.querySelectorAll('.bonus')[i];
