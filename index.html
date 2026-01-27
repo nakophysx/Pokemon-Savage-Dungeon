@@ -139,7 +139,7 @@ document.getElementById('pokemonSelect').addEventListener('change', e => {
 
 /* ---------- SELECT ITEM ---------- */
 document.getElementById('itemSelect').addEventListener('change', e => {
-  currentItem = itemData.find(o => o.name === e.target.value);
+  currentItem = itemData.find(o => o.objeto === e.target.value);
   if (!currentItem) return;
 
   document.getElementById('itemDescription').classList.remove('hidden');
