@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" href="favicon.ico" />
 </head>
 
-<body id="page" class="min-h-screen w-90% min-lg:w-70% flex justify-center items-center transition-colors">
+<body id="page" class="py-10 min-h-screen w-90% min-lg:w-70% flex justify-center items-center transition-colors">
 
 <div class="bg-white shadow-xl rounded-xl p-6 w-full max-w-lg">
   <h1 class="text-2xl font-bold text-center mb-4">Pokémon Savage Dungeon</h1>
@@ -44,10 +44,95 @@
     <label for="itemUsed" class="text-sm">Item usado</label>
   </div>
 
-  <!-- Levels -->
-  <div id="levelsContainer" class="mt-4">
-    <label class="block font-semibold mb-2">Niveles</label>
-    <div id="levelInputs" class="space-y-2 max-h-48 overflow-y-auto border rounded p-2 bg-gray-50"></div>
+  <!-- Edges -->
+  <div id="levelsContainer" class="hidden mt-4">
+    <label class="block font-semibold mb-2">Avances</label>
+    <div id="levelInputs" class="space-y-2 max-h-48 overflow-y-auto border rounded p-2 bg-gray-50">
+      <div id="level0" class="hidden">
+        <label class="w-16 text-sm font-medium">Lvl 0:</label>
+        <input type="text" id="level_0" class="flex-1 p-1 border rounded text-sm" placeholder="Level 0" />
+      </div>
+      <div id="level1" class="hidden">
+        <label class="w-16 text-sm font-medium">Lvl 1:</label>
+        <input type="text" id="level_1" class="flex-1 p-1 border rounded text-sm" placeholder="Level 1" />
+      </div>
+      <div id="level2" class="hidden">
+        <label class="w-16 text-sm font-medium">Lvl 2:</label>
+        <input type="text" id="level_2" class="flex-1 p-1 border rounded text-sm" placeholder="Level 2" />
+      </div>
+      <div id="level3" class="hidden">
+        <label class="w-16 text-sm font-medium">Lvl 3:</label>
+        <input type="text" id="level_3" class="flex-1 p-1 border rounded text-sm" placeholder="Level 3" />
+      </div>
+      <div id="level4" class="hidden">
+        <label class="w-16 text-sm font-medium">Lvl 4:</label>
+        <input type="text" id="level_4" class="flex-1 p-1 border rounded text-sm" placeholder="Level 4" />
+      </div>
+      <div id="level5" class="hidden">
+        <label class="w-16 text-sm font-medium">Lvl 5:</label>
+        <input type="text" id="level_5" class="flex-1 p-1 border rounded text-sm" placeholder="Level 5" />
+      </div>
+      <div id="level6" class="hidden">
+        <label class="w-16 text-sm font-medium">Lvl 6:</label>
+        <input type="text" id="level_6" class="flex-1 p-1 border rounded text-sm" placeholder="Level 6" />
+      </div>
+      <div id="level7" class="hidden">
+        <label class="w-16 text-sm font-medium">Lvl 7:</label>
+        <input type="text" id="level_7" class="flex-1 p-1 border rounded text-sm" placeholder="Level 7" />
+      </div>
+      <div id="level8" class="hidden">
+        <label class="w-16 text-sm font-medium">Lvl 8:</label>
+        <input type="text" id="level_8" class="flex-1 p-1 border rounded text-sm" placeholder="Level 8" />
+      </div>
+      <div id="level9" class="hidden">
+        <label class="w-16 text-sm font-medium">Lvl 9:</label>
+        <input type="text" id="level_9" class="flex-1 p-1 border rounded text-sm" placeholder="Level 9" />
+      </div>
+      <div id="level10" class="hidden">
+        <label class="w-16 text-sm font-medium">Lvl 10:</label>
+        <input type="text" id="level_10" class="flex-1 p-1 border rounded text-sm" placeholder="Level 10" />
+      </div>
+      <div id="level11" class="hidden">
+        <label class="w-16 text-sm font-medium">Lvl 11:</label>
+        <input type="text" id="level_11" class="flex-1 p-1 border rounded text-sm" placeholder="Level 11" />
+      </div>
+      <div id="level12" class="hidden">
+        <label class="w-16 text-sm font-medium">Lvl 12:</label>
+        <input type="text" id="level_12" class="flex-1 p-1 border rounded text-sm" placeholder="Level 12" />
+      </div>
+      <div id="level13" class="hidden">
+        <label class="w-16 text-sm font-medium">Lvl 13:</label>
+        <input type="text" id="level_13" class="flex-1 p-1 border rounded text-sm" placeholder="Level 13" />
+      </div>
+      <div id="level14" class="hidden">
+        <label class="w-16 text-sm font-medium">Lvl 14:</label>
+        <input type="text" id="level_14" class="flex-1 p-1 border rounded text-sm" placeholder="Level 14" />
+      </div>
+      <div id="level15" class="hidden">
+        <label class="w-16 text-sm font-medium">Lvl 15:</label>
+        <input type="text" id="level_15" class="flex-1 p-1 border rounded text-sm" placeholder="Level 15" />
+      </div>
+      <div id="level16" class="hidden">
+        <label class="w-16 text-sm font-medium">Lvl 16:</label>
+        <input type="text" id="level_16" class="flex-1 p-1 border rounded text-sm" placeholder="Level 16" />
+      </div>
+      <div id="level17" class="hidden">
+        <label class="w-16 text-sm font-medium">Lvl 17:</label>
+        <input type="text" id="level_17" class="flex-1 p-1 border rounded text-sm" placeholder="Level 17" />
+      </div>
+      <div id="level18" class="hidden">
+        <label class="w-16 text-sm font-medium">Lvl 18:</label>
+        <input type="text" id="level_18" class="flex-1 p-1 border rounded text-sm" placeholder="Level 18" />
+      </div>
+      <div id="level19" class="hidden">
+        <label class="w-16 text-sm font-medium">Lvl 19:</label>
+        <input type="text" id="level_19" class="flex-1 p-1 border rounded text-sm" placeholder="Level 19" />
+      </div>
+      <div id="level20" class="hidden">
+        <label class="w-16 text-sm font-medium">Lvl 20:</label>
+        <input type="text" id="level_20" class="flex-1 p-1 border rounded text-sm" placeholder="Level 20" />
+      </div>
+    </div>
   </div>
 
   <label class="block mt-4 font-semibold">Inventario</label>
@@ -141,15 +226,6 @@ fetch('item.csv')
   });
 });
 
-/* ---------- GET RANK FROM LEVEL ---------- */
-function getRank(level) {
-  if (level <= 3) return 'Novato';
-  if (level <= 7) return 'Experto';
-  if (level <= 11) return 'Veterano';
-  if (level <= 15) return 'Héroe';
-  return 'Leyenda';
-}
-
 /* ---------- SELECT POKÉMON ---------- */
 document.getElementById('pokemonSelect').addEventListener('change', e => {
   if (e.target.value.substring(0,2) === 'n_') {
@@ -163,6 +239,7 @@ document.getElementById('pokemonSelect').addEventListener('change', e => {
 
   applyTypeTheme(currentPokemon.type1, currentPokemon.type2);
   document.getElementById('levelContainer').classList.remove('hidden');
+  document.getElementById('levelsContainer').classList.remove('hidden');
   document.getElementById('pokemonLevel').value = 0;
   updateRankDisplay();
   buildLevelInputs();
@@ -215,23 +292,29 @@ document.getElementById('pokemonLevel').addEventListener('change', () => {
 
 function updateRankDisplay() {
   const level = Number(document.getElementById('pokemonLevel').value);
-  document.getElementById('rankDisplay').textContent = getRank(level);
+  document.getElementById('rankDisplay').textContent = (level) => {
+    if (level <= 3) return 'Novato';
+    if (level <= 7) return 'Experto';
+    if (level <= 11) return 'Veterano';
+    if (level <= 15) return 'Héroe';
+    return 'Leyenda';
+  };
 }
 
 /* ---------- BUILD LEVEL INPUTS ---------- */
-function buildLevelInputs(maxLevel = 0) {
+function buildLevelInputs(newLevel = 0) {
   const container = document.getElementById('levelInputs');
   
-  level = container.childElementCount;
+  currentLevel = container.childElementCount;
   
-  for (let i = level; i <= maxLevel; i++) {
-    const div = document.createElement('div');
-    div.className = 'flex gap-2 items-center';
-    div.innerHTML = `
-      <label class="w-16 text-sm font-medium">Lvl ${i}:</label>
-      <input type="text" id="level_${i}" class="flex-1 p-1 border rounded text-sm" placeholder="Level ${i}" />
-    `;
-    container.appendChild(div);
+  for (let i = 0; i <= 20; i++) {
+    if (i <= newLevel) {
+      const levelDiv = document.getElementById(`level${i}`);
+      levelDiv.classList.remove('hidden');
+    } else {
+      const levelDiv = document.getElementById(`level${i}`);
+      levelDiv.classList.add('hidden');
+    }
   }
 }
 
