@@ -142,6 +142,7 @@ document.getElementById('itemSelect').addEventListener('change', e => {
   currentItem = itemData.find(o => o.name === e.target.value);
   if (!currentItem) return;
 
+  document.getElementById('itemDescription').classList.remove('hidden');
   document.getElementById('itemDescription').textContent = currentItem.descripcion;
 });
 
