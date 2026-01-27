@@ -143,10 +143,11 @@ document.getElementById('itemSelect').addEventListener('change', e => {
   if (!currentItem) {
     console.log('no item');
     return;}
-  console.log('item', currentItem);
+  console.log(currentItem.efecto);
   container = document.getElementById('itemDescription');
+  console.log(container);
   container.classList.remove('hidden');
-  container.innerHTML = currentItem.efecto;
+  container.textContent = currentItem.efecto;
 });
 
 /* ---------- THEME ---------- */
