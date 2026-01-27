@@ -171,9 +171,9 @@ function buildStatTable() {
       <span class="${stat}_final font-semibold">${base}</span>
     `;
 
-    container.getElementById(stat).addEventListener('input', e => {
+    document.getElementById(stat).addEventListener('input', e => {
       const bonus = Number(e.target.value);
-      container.getElementById(`${stat}_final`).textContent = base + bonus;
+      document.getElementById(`${stat}_final`).textContent = base + bonus;
     });
   });
 }
