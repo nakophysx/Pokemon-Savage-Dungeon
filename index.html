@@ -169,58 +169,6 @@ document.getElementById('pokemonSelect').addEventListener('change', e => {
   buildStatTable();
 });
 
-/* ---------- LEVEL CHANGE ---------- */
-document.getElementById('pokemonLevel').addEventListener('change', () => {
-  const level = Number(document.getElementById('pokemonLevel').value);
-  updateRankDisplay();
-  buildLevelInputs(level);
-});
-
-function updateRankDisplay() {
-  const level = Number(document.getElementById('pokemonLevel').value);
-  document.getElementById('rankDisplay').textContent = getRank(level);
-}
-
-/* ---------- BUILD LEVEL INPUTS ---------- */
-function buildLevelInputs(maxLevel = 0) {
-  const container = document.getElementById('levelInputs');
-  
-  level = container.childElementCount;
-  
-  for (let i = level; level <= maxLevel; i++) {
-    const div = document.createElement('div');
-    div.className = 'flex gap-2 items-center';
-    div.innerHTML = `
-      <label class="w-16 text-sm font-medium">Lvl ${i}:</label>
-      <input type="text" id="level_${i}" class="flex-1 p-1 border rounded text-sm" placeholder="Level ${i}" />
-    `;
-    container.appendChild(div);
-  }
-}
-
-/* ---------- SELECT ITEM ---------- */
-document.getElementById('itemSelect').addEventListener('change', e => {
-  currentItem = itemData.find(o => o.objeto === e.target.value);
-  if (!currentItem) {
-    console.log('no item');
-    document.getElementById('itemDescription').classList.add('hidden');
-    document.getElementById('itemUsedContainer').classList.add('hidden');
-    return;}
-  container = document.getElementById('itemDescription');
-  container.classList.remove('hidden');
-  container.textContent = currentItem["efecto\r"];
-  
-  const usedContainer = document.getElementById('itemUsedContainer');
-  const usedCheckbox = document.getElementById('itemUsed');
-  if (currentItem.consumible === 'Si') {
-    usedContainer.classList.remove('hidden');
-    usedCheckbox.checked = false;
-  } else {
-    usedContainer.classList.add('hidden');
-    usedCheckbox.checked = false;
-  }
-});
-
 /* ---------- THEME ---------- */
 function applyTypeTheme(type1, type2) {
   const page = document.getElementById('page');
@@ -257,6 +205,58 @@ function buildStatTable() {
     });
   });
 }
+
+/* ---------- LEVEL CHANGE ---------- */
+document.getElementById('pokemonLevel').addEventListener('change', () => {
+  const level = Number(document.getElementById('pokemonLevel').value);
+  updateRankDisplay();
+  buildLevelInputs(level);
+});
+
+function updateRankDisplay() {
+  const level = Number(document.getElementById('pokemonLevel').value);
+  document.getElementById('rankDisplay').textContent = getRank(level);
+}
+
+/* ---------- BUILD LEVEL INPUTS ---------- */
+function buildLevelInputs(maxLevel = 0) {
+  const container = document.getElementById('levelInputs');
+  
+  level = container.childElementCount;
+  
+  for (let i = level; i <= maxLevel; i++) {
+    const div = document.createElement('div');
+    div.className = 'flex gap-2 items-center';
+    div.innerHTML = `
+      <label class="w-16 text-sm font-medium">Lvl ${i}:</label>
+      <input type="text" id="level_${i}" class="flex-1 p-1 border rounded text-sm" placeholder="Level ${i}" />
+    `;
+    container.appendChild(div);
+  }
+}
+
+/* ---------- SELECT ITEM ---------- */
+document.getElementById('itemSelect').addEventListener('change', e => {
+  currentItem = itemData.find(o => o.objeto === e.target.value);
+  if (!currentItem) {
+    console.log('no item');
+    document.getElementById('itemDescription').classList.add('hidden');
+    document.getElementById('itemUsedContainer').classList.add('hidden');
+    return;}
+  container = document.getElementById('itemDescription');
+  container.classList.remove('hidden');
+  container.textContent = currentItem["efecto\r"];
+  
+  const usedContainer = document.getElementById('itemUsedContainer');
+  const usedCheckbox = document.getElementById('itemUsed');
+  if (currentItem.consumible === 'Si') {
+    usedContainer.classList.remove('hidden');
+    usedCheckbox.checked = false;
+  } else {
+    usedContainer.classList.add('hidden');
+    usedCheckbox.checked = false;
+  }
+});
 
 /* ---------- EXPORT ---------- */
 document.getElementById('exportBtn').onclick = () => {
