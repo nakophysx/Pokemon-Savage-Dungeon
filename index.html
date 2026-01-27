@@ -184,9 +184,10 @@ function updateRankDisplay() {
 /* ---------- BUILD LEVEL INPUTS ---------- */
 function buildLevelInputs(maxLevel = 0) {
   const container = document.getElementById('levelInputs');
-  container.innerHTML = '';
   
-  for (let i = 1; i <= maxLevel; i++) {
+  level = container.childElementCount;
+  
+  for (let i = level; level <= maxLevel; i++) {
     const div = document.createElement('div');
     div.className = 'flex gap-2 items-center';
     div.innerHTML = `
@@ -244,7 +245,7 @@ function buildStatTable() {
       <span class="capitalize">${stat.replace('_',' ')}</span>
       <span>${base}</span>
       <input id="${stat}_bonus" type="number" value="0" class="bonus border p-1 rounded" />
-      <span id="${stat}_final" class="final font-semibold">${base}</span>
+      <span id="${stat}_final" class="final font-semibold">1d${base}</span>
     `;
   });
 
