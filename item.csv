@@ -1,10 +1,10 @@
 objeto,consumible,efecto
-Proteína,Si,Bonus a FUE
-Hierro,Si,Bonus a VIG
-Zinc,Si,Bonus a VIGSP
-Carbos,Si,Bonus a AGI
-Calcio,Si,Bonus a ESP
-Más PP,Si,Gasta acción. Restaura 5 PP.
+Proteína,Si,Tras consumirlo gana +2 a toda acción que dependa de Ataque durante este turno.
+Hierro,Si,Tras consumirlo gana +2 a toda acción que dependa de Defensa durante este turno.
+Zinc,Si,Tras consumirlo gana +2 a toda acción que dependa de Defensa Especial durante este turno.
+Carbos,Si,Tras consumirlo gana +2 a toda acción que dependa de Velocidad durante este turno.
+Calcio,Si,Tras consumirlo gana +2 a toda acción que dependa de Ataque Especial durante este turno.
+Más PP,Si,Tras consumirlo restaura 5 PP.
 Antiquemar,Si,Quita el estado quemado
 Antiparaliz,Si,Quita el estado paralizado
 Antídoto,Si,Quita el estado veneno

@@ -292,7 +292,7 @@ document.getElementById('pokemonLevel').addEventListener('change', () => {
 
 function updateRankDisplay() {
   const level = Number(document.getElementById('pokemonLevel').value);
-  document.getElementById('rankDisplay').textContent = (level) => {
+  document.getElementById('rankDisplay').textContent = level => {
     if (level <= 3) return 'Novato';
     if (level <= 7) return 'Experto';
     if (level <= 11) return 'Veterano';
