@@ -146,7 +146,7 @@ document.getElementById('itemSelect').addEventListener('change', e => {
   console.log('item', currentItem);
   container = document.getElementById('itemDescription');
   container.classList.remove('hidden');
-  container.textContent = currentItem.efecto;
+  container.innerHTML = currentItem.efecto;
 });
 
 /* ---------- THEME ---------- */
