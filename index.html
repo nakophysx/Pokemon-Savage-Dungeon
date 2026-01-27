@@ -29,6 +29,7 @@
   <select id="itemSelect" class="w-full p-2 border rounded mb-4">
     <option value="">-- Elige Item --</option>
   </select>
+  <div id="itemDescription" class="hidden"></div>
 
   <label class="block mt-4 font-semibold">Inventario</label>
   <input id="inventory" class="w-full p-2 border rounded mb-2" />
@@ -47,7 +48,7 @@
 </div>
 
 <script>
-const stats = ["defensa","ataque","velocidad","defensa_esp","ataque_esp","IQ"];
+const stats = ["ataque","defensa","ataque_esp","defensa_esp","velocidad","IQ"];
 const itemMap = ["objeto","descripcion"];
 let pokemonData = [];
 let itemData = [];
@@ -141,7 +142,7 @@ document.getElementById('itemSelect').addEventListener('change', e => {
   currentItem = itemData.find(o => o.name === e.target.value);
   if (!currentItem) return;
 
-  printItem();
+  document.getElementById('itemDescription').textContent = currentItem.descripcion;
 });
 
 /* ---------- THEME ---------- */
@@ -167,8 +168,8 @@ function buildStatTable() {
     container.innerHTML += `
       <span class="capitalize">${stat.replace('_',' ')}</span>
       <span>${base}</span>
-      <input id="${stat}" type="number" value="0" class="border p-1 rounded" />
-      <span class="${stat}_final font-semibold">${base}</span>
+      <input id="${stat}" type="number" value="0" class="bonus border p-1 rounded" />
+      <span id="${stat}_final" class="final font-semibold">${base}</span>
     `;
 
     document.getElementById(stat).addEventListener('input', e => {
@@ -176,11 +177,6 @@ function buildStatTable() {
       document.getElementById(`${stat}_final`).textContent = base + bonus;
     });
   });
-}
-
-/* ---------- ITEM DESCRIPTION ---------- */
-function printItem() {
-  
 }
 
 /* ---------- EXPORT ---------- */
@@ -223,7 +219,7 @@ document.getElementById('importInput').addEventListener('change', e => {
     document.getElementById('pokemonSelect').value = data.name;
     document.getElementById('pokemonSelect').dispatchEvent(new Event('change'));
 
-    document.getElementById('itemsInput').value = data.items;
+    document.getElementById('itemSelect').value = data.items;
 
     stats.forEach((s,i) => {
       const bonusInput = document.querySelectorAll('.bonus')[i];
