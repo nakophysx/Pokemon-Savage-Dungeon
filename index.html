@@ -17,6 +17,15 @@
     <option value="">-- Elige Pokémon --</option>
   </select>
 
+  <!-- Level -->
+  <div class="mb-4 hidden" id="levelContainer">
+    <label class="block font-semibold">Nivel</label>
+    <div class="flex gap-2 items-center">
+      <input id="pokemonLevel" type="number" min="0" max="20" value="0" class="flex-1 p-2 border rounded" />
+      <span id="rankDisplay" class="font-semibold text-sm px-3 py-2 rounded bg-gray-200">Novice</span>
+    </div>
+  </div>
+
   <!-- Stats -->
   <div id="stats" class="hidden space-y-2">
     <div id="statRows" class="grid grid-cols-4 gap-2 font-semibold text-sm">
@@ -30,6 +39,10 @@
     <option value="">-- Elige Item --</option>
   </select>
   <div id="itemDescription" class="hidden"></div>
+  <div id="itemUsedContainer" class="hidden mt-2 flex items-center">
+    <input type="checkbox" id="itemUsed" class="mr-2" />
+    <label for="itemUsed" class="text-sm">Item usado</label>
+  </div>
 
   <label class="block mt-4 font-semibold">Inventario</label>
   <textarea id="inventory" class="w-full p-2 border rounded mb-2">  </textarea>
@@ -122,6 +135,15 @@ fetch('item.csv')
   });
 });
 
+/* ---------- GET RANK FROM LEVEL ---------- */
+function getRank(level) {
+  if (level <= 3) return 'Novato';
+  if (level <= 7) return 'Experto';
+  if (level <= 11) return 'Veterano';
+  if (level <= 15) return 'Héroe';
+  return 'Leyenda';
+}
+
 /* ---------- SELECT POKÉMON ---------- */
 document.getElementById('pokemonSelect').addEventListener('change', e => {
   if (e.target.value.substring(0,2) === 'n_') {
@@ -134,18 +156,41 @@ document.getElementById('pokemonSelect').addEventListener('change', e => {
   if (!currentPokemon) return;
 
   applyTypeTheme(currentPokemon.type1, currentPokemon.type2);
+  document.getElementById('levelContainer').classList.remove('hidden');
+  document.getElementById('pokemonLevel').value = 0;
+  updateRankDisplay();
   buildStatTable();
 });
+
+/* ---------- LEVEL CHANGE ---------- */
+document.getElementById('pokemonLevel').addEventListener('change', updateRankDisplay);
+
+function updateRankDisplay() {
+  const level = Number(document.getElementById('pokemonLevel').value);
+  document.getElementById('rankDisplay').textContent = getRank(level);
+}
 
 /* ---------- SELECT ITEM ---------- */
 document.getElementById('itemSelect').addEventListener('change', e => {
   currentItem = itemData.find(o => o.objeto === e.target.value);
   if (!currentItem) {
     console.log('no item');
+    document.getElementById('itemDescription').classList.add('hidden');
+    document.getElementById('itemUsedContainer').classList.add('hidden');
     return;}
   container = document.getElementById('itemDescription');
   container.classList.remove('hidden');
   container.textContent = currentItem["efecto\r"];
+  
+  const usedContainer = document.getElementById('itemUsedContainer');
+  const usedCheckbox = document.getElementById('itemUsed');
+  if (currentItem.consumible === 'Si') {
+    usedContainer.classList.remove('hidden');
+    usedCheckbox.checked = false;
+  } else {
+    usedContainer.classList.add('hidden');
+    usedCheckbox.checked = false;
+  }
 });
 
 /* ---------- THEME ---------- */
@@ -180,7 +225,7 @@ function buildStatTable() {
     const base = Number(currentPokemon[stat]);
     document.getElementById(`${stat}_bonus`).addEventListener('change', e => {
       const bonus = Number(e.target.value);
-      document.getElementById(`${stat}_final`).textContent = base + bonus;
+      document.getElementById(`${stat}_final`).textContent = `1d${base + bonus}`;
     });
   });
 }
@@ -194,7 +239,9 @@ document.getElementById('exportBtn').onclick = () => {
 
   const data = {
     name: currentPokemon.name,
+    level: Number(document.getElementById('pokemonLevel').value),
     itemSelect: document.getElementById('itemSelect').value,
+    itemIsUsed: document.getElementById('itemUsed').checked,
     inventory: document.getElementById('inventory').value,
     stats: stats.reduce((acc, s, i) => {
       acc[s] = {
@@ -226,7 +273,15 @@ document.getElementById('importInput').addEventListener('change', e => {
     document.getElementById('pokemonSelect').value = data.name;
     document.getElementById('pokemonSelect').dispatchEvent(new Event('change'));
 
+    document.getElementById('pokemonLevel').value = data.level || 0;
+    updateRankDisplay();
+
     document.getElementById('itemSelect').value = data.items;
+    docuemt.getElementById('itemSelect').dispatchEvent(new Event('change'));
+
+    docuemnt.getElementById('itemUsed').checked = data.itemIsUsed;
+
+    document.getElementById('inventory').value = data.inventory;
 
     stats.forEach((s,i) => {
       const bonusInput = document.querySelectorAll('.bonus')[i];
