@@ -178,6 +178,7 @@ function buildStatTable() {
     document.getElementById(stat).addEventListener('input', e => {
       const bonus = Number(e.target.value);
       document.getElementById(`${stat}_final`).textContent = base + bonus;
+      console.log(`Updated ${stat}: base ${base}, bonus ${bonus}, final ${base + bonus}`);
     });
   });
 }
