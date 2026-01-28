@@ -2,9 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#1f2937" />
+  <meta name="description" content="Pokémon Savage Dungeon - Build and track your Pokémon stats" />
   <title>Pokémon Stat Builder</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="icon" type="image/png" href="favicon.ico" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="apple-touch-icon" href="favicon.ico" />
 </head>
 
 <body id="page" class="py-10 min-h-screen w-90% min-lg:w-70% flex justify-center items-center transition-colors">
@@ -18,11 +23,19 @@
   </select>
 
   <!-- Level -->
-  <div class="mb-4 hidden" id="levelContainer">
-    <label class="block font-semibold">Nivel</label>
-    <div class="flex gap-2 items-center">
-      <input id="pokemonLevel" type="number" min="0" max="20" value="0" class="flex-1 p-2 border rounded" />
-      <span id="rankDisplay" class="font-semibold text-sm px-3 py-2 rounded bg-gray-200">Novice</span>
+  <div class="mb-4 grid grid-cols-4 gap-2 hidden" id="levelContainer">
+    <div>
+      <label class="block font-semibold">Nivel</label>
+      <div class="flex gap-2 items-center">
+        <input id="pokemonLevel" type="number" min="0" max="20" value="0" class="flex-1 p-2 border rounded" />
+        <span id="rankDisplay" class="font-semibold text-sm px-3 py-2 rounded bg-gray-200">Novice</span>
+      </div>
+    </div>
+    <div>
+      <label class="block font-semibold">Bennies</label>
+      <div class="flex gap-2 items-center">
+        <input type="number" min="0" max="20" value="0" class="flex-1 p-2 border rounded" />
+      </div>
     </div>
   </div>
 
@@ -34,7 +47,7 @@
   </div>
 
   <!-- Items -->
-  <label class="block mt-4 font-semibold">Objeto Equipado</label>
+  <label class="block mt-4 font-semibold hidden">Objeto Equipado</label>
   <select id="itemSelect" class="w-full p-2 border rounded mb-4">
     <option value="">-- Elige Item --</option>
   </select>
@@ -418,6 +431,11 @@ document.getElementById('importInput').addEventListener('change', e => {
   };
   reader.readAsText(file);
 });
+
+/* ---------- SERVICE WORKER REGISTRATION ---------- */
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js').catch(err => console.log('Service Worker registration failed:', err));
+}
 </script>
 
 </body>

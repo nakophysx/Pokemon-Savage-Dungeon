@@ -1,0 +1,26 @@
+{
+  "name": "Pokémon Savage Dungeon",
+  "short_name": "PokeSD",
+  "description": "Lleva la progresión de tus equipo en el juego de rol de mesa de Pokemon",
+  "start_url": "/Pokemon-Savage-Dungeon/",
+  "scope": "/Pokemon-Savage-Dungeon/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1f2937",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    }
+  ],
+  "categories": ["games", "productivity"],
+  "screenshots": [
+    {
+      "src": "favicon.ico",
+      "sizes": "540x720",
+      "type": "image/x-icon"
+    }
+  ]
+}
