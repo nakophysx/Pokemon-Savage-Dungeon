@@ -12,9 +12,9 @@
   <link rel="apple-touch-icon" href="favicon.ico" />
 </head>
 
-<body id="page" class="py-10 min-h-screen w-90% min-lg:w-70% flex justify-center items-center transition-colors">
+<body id="page" class="py-10 min-h-screen flex justify-center items-center transition-colors">
 
-<div class="bg-white shadow-xl rounded-xl p-6 w-full max-w-lg">
+<div class="bg-white shadow-xl rounded-xl p-6 w-full max-w-80%">
   <h1 class="text-2xl font-bold text-center mb-4">Pokémon Savage Dungeon</h1>
 
   <!-- Selector -->
@@ -40,11 +40,11 @@
   </div>
 
   <!-- Rasgos -->
-  <label class="text-lg">Rasgos</label>
+  <label id="traits" class="text-lg bold hidden">Rasgos</label>
   <div class="mt-4">
 
     <!-- Stats -->
-    <div id="stats" class="hidden space-y-2">
+    <div id="stats" class="space-y-2">
       <div id="statRows" class="grid grid-cols-4 gap-2 font-semibold text-sm rounded-2xl border p-4 bg-gray-50">
         <!-- Stat rows will be populated here -->
       </div>
@@ -53,7 +53,7 @@
     <hr class="border-t my-1" />
 
     <!-- Habilidades-->
-     <div id="skills" class="hidden space-y-2">
+     <div id="skills" class="space-y-2">
       <div id="skillRows" class="grid grid-cols-4 gap-2 font-semibold text-sm rounded-2xl border p-4 bg-gray-50">
         <!-- Skill rows will be populated here -->
       </div>
@@ -271,6 +271,7 @@ document.getElementById('pokemonSelect').addEventListener('change', e => {
 
   applyTypeTheme(currentPokemon.type1, currentPokemon.type2);
   document.getElementById('itemContainer').classList.remove('hidden');
+  document.getElementById('traits').classList.remove('hidden');
   document.getElementById('levelContainer').classList.remove('hidden');
   document.getElementById('levelsContainer').classList.remove('hidden');
   document.getElementById('pokemonLevel').value = 0;
@@ -293,7 +294,6 @@ function applyTypeTheme(type1, type2) {
 
 /* ---------- STAT TABLE ---------- */
 function buildStatTable() {
-  document.getElementById('stats').classList.remove('hidden');
   const container = document.getElementById('statRows');
   container.innerHTML = '<span>Stat</span><span>Final</span><span>Bonus</span><hr class="col-span-3 border-t my-1" />';
 
@@ -322,7 +322,6 @@ function buildStatTable() {
 
 /* ----------- SKILL TABLE ---------- */
 function buildSkillTable() {
-  document.getElementById('skills').classList.remove('hidden');
   const container = document.getElementById('skillRows');
   container.innerHTML = '<span>Habilidad</span><span>Final</span><span>Bonus</span><hr class="col-span-3 border-t my-1" />';
 
