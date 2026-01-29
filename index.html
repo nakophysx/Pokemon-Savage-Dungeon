@@ -50,6 +50,8 @@
       </div>
     </div>
 
+    <hr class="border-t my-1" />
+
     <!-- Habilidades-->
      <div id="skills" class="hidden space-y-2">
       <div id="skillRows" class="grid grid-cols-4 gap-2 font-semibold text-sm rounded-2xl border p-4 bg-gray-50">
@@ -57,13 +59,14 @@
       </div>
     </div>
   </div>
-  
 
   <!-- Items -->
-  <label class="block mt-4 font-semibold hidden">Objeto Equipado</label>
-  <select id="itemSelect" class="w-full p-2 border rounded mb-4">
-    <option value="">-- Elige Item --</option>
-  </select>
+  <div id="itemContainer" class="hidden my-6 border shadow-m rounded-m">
+    <label class="block mt-4 font-semibold">Objeto Equipado</label>
+    <select id="itemSelect" class="w-full p-2 border rounded mb-4">
+      <option value="">-- Elige Item --</option>
+    </select>
+  </div>
   <div id="itemDescription" class="hidden"></div>
   <div id="itemUsedContainer" class="hidden mt-2 flex items-center">
     <input type="checkbox" id="itemUsed" class="mr-2" />
