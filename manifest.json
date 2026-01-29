@@ -2,7 +2,7 @@
   "name": "Pokémon Savage Dungeon",
   "short_name": "PokeSD",
   "description": "Lleva la progresión de tus equipo en el juego de rol de mesa de Pokemon",
-  "start_url": "/Pokemon-Savage-Dungeon/",
+  "start_url": "https://nakophysx.github.io/Pokemon-Savage-Dungeon/",
   "scope": "/Pokemon-Savage-Dungeon/",
   "display": "standalone",
   "background_color": "#ffffff",

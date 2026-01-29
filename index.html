@@ -39,12 +39,25 @@
     </div>
   </div>
 
-  <!-- Stats -->
-  <div id="stats" class="hidden space-y-2">
-    <div id="statRows" class="grid grid-cols-4 gap-2 font-semibold text-sm">
-      <span>Stat</span><span>Base</span><span>Bonus</span><span>Final</span>
+  <!-- Rasgos -->
+  <label class="text-lg">Rasgos</label>
+  <div class="mt-4">
+
+    <!-- Stats -->
+    <div id="stats" class="hidden space-y-2">
+      <div id="statRows" class="grid grid-cols-4 gap-2 font-semibold text-sm rounded-2xl border p-4 bg-gray-50">
+        <!-- Stat rows will be populated here -->
+      </div>
+    </div>
+
+    <!-- Habilidades-->
+     <div id="skills" class="hidden space-y-2">
+      <div id="skillRows" class="grid grid-cols-4 gap-2 font-semibold text-sm rounded-2xl border p-4 bg-gray-50">
+        <!-- Skill rows will be populated here -->
+      </div>
     </div>
   </div>
+  
 
   <!-- Items -->
   <label class="block mt-4 font-semibold hidden">Objeto Equipado</label>
@@ -148,8 +161,9 @@
     </div>
   </div>
 
+  <!-- Inventory -->
   <label class="block mt-4 font-semibold">Inventario</label>
-  <textarea id="inventory" class="w-full p-2 border rounded mb-2">  </textarea>
+  <textarea id="inventory" class="w-full p-2 border rounded mb-2"></textarea>
 
   <!-- Import / Export -->
   <div class="flex gap-2">
@@ -166,6 +180,8 @@
 
 <script>
 const stats = ["ataque","defensa","ataque_esp","defensa_esp","velocidad","IQ"];
+const skills = ["atletismo (Ataque)", "ciencias", "conocimiento general", "movimiento físico (Ataque)", "movimiento especial (Ataque Especial)", "investigación", "interpretación", "intimidación", "latrocinio", "medicina", "ocultismo", "percepción", "persuasión", "sigilo (Velocidad)", "supervivencia"].sort();
+const naturalSkills = ["percepción", "conocimiento general", "atletismo (Ataque)", "persuasión", "sigilo (Velocidad)"];
 const itemMap = ["objeto","descripcion"];
 let pokemonData = [];
 let itemData = [];
@@ -275,15 +291,14 @@ function applyTypeTheme(type1, type2) {
 function buildStatTable() {
   document.getElementById('stats').classList.remove('hidden');
   const container = document.getElementById('statRows');
-  container.innerHTML = '<span>Stat</span><span>Base</span><span>Bonus</span><span>Final</span><hr class="col-span-4 border-t my-1" />';
+  container.innerHTML = '<span>Stat</span><span>Final</span><span>Bonus</span><hr class="col-span-3 border-t my-1" />';
 
   stats.forEach(stat => {
     const base = Number(currentPokemon[stat]);
     container.innerHTML += `
       <span class="capitalize">${stat.replace('_',' ')}</span>
-      <span>${base}</span>
-      <input id="${stat}_bonus" type="number" value="0" class="bonus border p-1 rounded" />
       <span id="${stat}_final" class="final font-semibold">1d${base}</span>
+      <input id="${stat}_bonus" type="number" value="0" class="bonus border p-1 rounded" />
     `;
   });
 
@@ -291,7 +306,47 @@ function buildStatTable() {
     const base = Number(currentPokemon[stat]);
     document.getElementById(`${stat}_bonus`).addEventListener('change', e => {
       const bonus = Number(e.target.value);
-      document.getElementById(`${stat}_final`).textContent = `1d${base + bonus}`;
+      if (base + bonus*2 <= 12 )
+      {
+        document.getElementById(`${stat}_final`).textContent = `1d${base + bonus*2}`;
+      } else {
+        document.getElementById(`${stat}_final`).textContent = `1d12+${((base + bonus*2) - 12)/2}`;
+      }
+    });
+  });
+}
+
+/* ----------- SKILL TABLE ---------- */
+function buildSkillTable() {
+  document.getElementById('skills').classList.remove('hidden');
+  const container = document.getElementById('skillRows');
+  container.innerHTML = '<span>Habilidad</span><span>Final</span><span>Bonus</span><hr class="col-span-3 border-t my-1" />';
+
+  skills.forEach(skill => {
+    const base = '';
+    container.innerHTML += `
+      <span class="capitalize">${stat.replace('_',' ')}</span>
+      <span id="${skill}_final" class="final font-semibold">1d${base}</span>
+      <input id="${skill}_bonus" type="number" value="0" class="bonus border p-1 rounded" />
+    `;
+  });
+
+  stats.forEach(skill => {
+    const base = 2;
+    if (naturalSkills.includes(skill)) {
+      const base = 4; // Example base for natural skills
+    }
+
+    document.getElementById(`${skill}_bonus`).addEventListener('change', e => {
+      const bonus = Number(e.target.value);
+      if (base + bonus* 2 === 2) {
+        document.getElementById(`${skill}_final`).textContent = `1d4-2`
+      } else if (base + bonus*2 <= 12 )
+      {
+        document.getElementById(`${skill}_final`).textContent = `1d${base + bonus*2}`;
+      } else {
+        document.getElementById(`${skill}_final`).textContent = `1d12+${((base + bonus*2) - 12)/2}`;
+      }
     });
   });
 }
@@ -412,22 +467,9 @@ document.getElementById('importInput').addEventListener('change', e => {
 
     document.getElementById('inventory').value = data.inventory;
     
-    /*
-    if (data.levelData) {
-      for (let i = 1; i <= 20; i++) {
-        const input = document.getElementById(`level_${i}`);
-        if (input) {
-          input.value = data.levelData[i] || '';
-        }
-      }
+    for (let i = 0; i <= 20; i++) {
+      document.getElementById(`level_${i}`).value = data.levelData[i] || '';
     }
-
-    stats.forEach((s,i) => {
-      const bonusInput = document.querySelectorAll('.bonus')[i];
-      bonusInput.value = data.stats[s].bonus;
-      bonusInput.dispatchEvent(new Event('change'));
-    });
-    */
   };
   reader.readAsText(file);
 });
