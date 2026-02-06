@@ -22,8 +22,9 @@
     <option value="">-- Elige Pokémon --</option>
   </select>
 
+  <div id="info" class="hidden">
   <!-- Level -->
-  <div class="mb-4 grid grid-cols-2 gap-2 hidden" id="levelContainer">
+  <div class="mb-4 grid grid-cols-2 gap-2" id="levelContainer">
     <div>
       <label class="block font-semibold">Nivel</label>
       <div class="flex gap-2 items-center">
@@ -40,7 +41,7 @@
   </div>
 
   <!-- Rasgos -->
-  <label id="traits" class="text-lg bold hidden">Rasgos</label>
+  <label id="traits" class="text-lg bold">Rasgos</label>
   <div class="mt-4">
 
     <!-- Stats -->
@@ -61,7 +62,7 @@
   </div>
 
   <!-- Items -->
-  <div id="itemContainer" class="hidden mt-6 border shadow-m rounded-m">
+  <div id="itemContainer" class="mt-6 border shadow-m rounded-m">
     <label class="block mt-4 font-semibold">Objeto Equipado</label>
     <select id="itemSelect" class="w-full p-2 border rounded mb-4">
       <option value="">-- Elige Item --</option>
@@ -74,7 +75,7 @@
   </div>
 
   <!-- Edges -->
-  <div id="levelsContainer" class="hidden mt-4">
+  <div id="levelsContainer" class="mt-4">
     <label class="block font-semibold mb-2">Avances</label>
     <div id="levelInputs" class="space-y-2 border rounded p-2 bg-gray-50">
       <div id="level0" class="hidden">
@@ -179,6 +180,7 @@
       <input type="file" id="importInput" hidden />
     </label>
   </div>
+  </div>
 </div>
 
 <script>
@@ -270,10 +272,7 @@ document.getElementById('pokemonSelect').addEventListener('change', e => {
   if (!currentPokemon) return;
 
   applyTypeTheme(currentPokemon.type1, currentPokemon.type2);
-  document.getElementById('itemContainer').classList.remove('hidden');
-  document.getElementById('traits').classList.remove('hidden');
-  document.getElementById('levelContainer').classList.remove('hidden');
-  document.getElementById('levelsContainer').classList.remove('hidden');
+  document.getElementById('infor').classList.remove('hidden');
   document.getElementById('pokemonLevel').value = 0;
   updateRankDisplay();
   buildLevelInputs();
