@@ -23,163 +23,163 @@
   </select>
 
   <div id="info" class="hidden">
-  <!-- Level -->
-  <div class="mb-4 grid grid-cols-2 gap-2" id="levelContainer">
-    <div>
-      <label class="block font-semibold">Nivel</label>
-      <div class="flex gap-2 items-center">
-        <input id="pokemonLevel" type="number" min="0" max="20" value="0" class="flex-1 p-2 border rounded" />
-        <span id="rankDisplay" class="font-semibold text-sm px-3 py-2 rounded bg-gray-200">Novice</span>
+    <!-- Level -->
+    <div class="mb-4 grid grid-cols-2 gap-2" id="levelContainer">
+      <div>
+        <label class="block font-semibold">Nivel</label>
+        <div class="flex gap-2 items-center">
+          <input id="pokemonLevel" type="number" min="0" max="20" value="0" class="flex-1 p-2 border rounded" />
+          <span id="rankDisplay" class="font-semibold text-sm px-3 py-2 rounded bg-gray-200">Novice</span>
+        </div>
       </div>
-    </div>
-    <div>
-      <label class="block font-semibold">Bennies</label>
-      <div class="flex gap-2 items-center">
-        <input type="number" min="0" max="20" value="0" class="flex-1 p-2 border rounded" />
-      </div>
-    </div>
-  </div>
-
-  <!-- Rasgos -->
-  <label id="traits" class="text-lg bold">Rasgos</label>
-  <div class="mt-4">
-
-    <!-- Stats -->
-    <div id="stats" class="space-y-2">
-      <div id="statRows" class="grid grid-cols-4 gap-2 font-semibold text-sm rounded-2xl border p-4 bg-gray-50">
-        <!-- Stat rows will be populated here -->
+      <div>
+        <label class="block font-semibold">Bennies</label>
+        <div class="flex gap-2 items-center">
+          <input type="number" min="0" max="20" value="0" class="flex-1 p-2 border rounded" />
+        </div>
       </div>
     </div>
 
-    <hr class="border-t my-1" />
+    <!-- Rasgos -->
+    <label id="traits" class="text-lg bold">Rasgos</label>
+    <div class="mt-4">
 
-    <!-- Habilidades-->
-     <div id="skills" class="space-y-2">
-      <div id="skillRows" class="grid grid-cols-4 gap-2 font-semibold text-sm rounded-2xl border p-4 bg-gray-50">
-        <!-- Skill rows will be populated here -->
+      <!-- Stats -->
+      <div id="stats" class="space-y-2">
+        <div id="statRows" class="grid grid-cols-4 gap-2 font-semibold text-sm rounded-2xl border p-4 bg-gray-50">
+          <!-- Stat rows will be populated here -->
+        </div>
+      </div>
+
+      <hr class="border-t my-1" />
+
+      <!-- Habilidades-->
+      <div id="skills" class="space-y-2">
+        <div id="skillRows" class="grid grid-cols-4 gap-2 font-semibold text-sm rounded-2xl border p-4 bg-gray-50">
+          <!-- Skill rows will be populated here -->
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- Items -->
-  <div id="itemContainer" class="mt-6 border shadow-m rounded-m">
-    <label class="block mt-4 font-semibold">Objeto Equipado</label>
-    <select id="itemSelect" class="w-full p-2 border rounded mb-4">
-      <option value="">-- Elige Item --</option>
-    </select>
-  </div>
-  <div id="itemDescription" class="hidden"></div>
-  <div id="itemUsedContainer" class="hidden mt-2 flex items-center">
-    <input type="checkbox" id="itemUsed" class="mr-2" />
-    <label for="itemUsed" class="text-sm">Item usado</label>
-  </div>
+    <!-- Items -->
+    <div id="itemContainer" class="mt-6 border shadow-m rounded-m">
+      <label class="block mt-4 font-semibold">Objeto Equipado</label>
+      <select id="itemSelect" class="w-full p-2 border rounded mb-4">
+        <option value="">-- Elige Item --</option>
+      </select>
+    </div>
+    <div id="itemDescription" class="hidden"></div>
+    <div id="itemUsedContainer" class="hidden mt-2 flex items-center">
+      <input type="checkbox" id="itemUsed" class="mr-2" />
+      <label for="itemUsed" class="text-sm">Item usado</label>
+    </div>
 
-  <!-- Edges -->
-  <div id="levelsContainer" class="mt-4">
-    <label class="block font-semibold mb-2">Avances</label>
-    <div id="levelInputs" class="space-y-2 border rounded p-2 bg-gray-50">
-      <div id="level0" class="hidden">
-        <label class="w-16 text-sm font-medium">Lvl 0:</label>
-        <input type="text" id="level_0" class="flex-1 p-1 border rounded text-sm" placeholder="Level 0" />
-      </div>
-      <div id="level1" class="hidden">
-        <label class="w-16 text-sm font-medium">Lvl 1:</label>
-        <input type="text" id="level_1" class="flex-1 p-1 border rounded text-sm" placeholder="Level 1" />
-      </div>
-      <div id="level2" class="hidden">
-        <label class="w-16 text-sm font-medium">Lvl 2:</label>
-        <input type="text" id="level_2" class="flex-1 p-1 border rounded text-sm" placeholder="Level 2" />
-      </div>
-      <div id="level3" class="hidden">
-        <label class="w-16 text-sm font-medium">Lvl 3:</label>
-        <input type="text" id="level_3" class="flex-1 p-1 border rounded text-sm" placeholder="Level 3" />
-      </div>
-      <div id="level4" class="hidden">
-        <label class="w-16 text-sm font-medium">Lvl 4:</label>
-        <input type="text" id="level_4" class="flex-1 p-1 border rounded text-sm" placeholder="Level 4" />
-      </div>
-      <div id="level5" class="hidden">
-        <label class="w-16 text-sm font-medium">Lvl 5:</label>
-        <input type="text" id="level_5" class="flex-1 p-1 border rounded text-sm" placeholder="Level 5" />
-      </div>
-      <div id="level6" class="hidden">
-        <label class="w-16 text-sm font-medium">Lvl 6:</label>
-        <input type="text" id="level_6" class="flex-1 p-1 border rounded text-sm" placeholder="Level 6" />
-      </div>
-      <div id="level7" class="hidden">
-        <label class="w-16 text-sm font-medium">Lvl 7:</label>
-        <input type="text" id="level_7" class="flex-1 p-1 border rounded text-sm" placeholder="Level 7" />
-      </div>
-      <div id="level8" class="hidden">
-        <label class="w-16 text-sm font-medium">Lvl 8:</label>
-        <input type="text" id="level_8" class="flex-1 p-1 border rounded text-sm" placeholder="Level 8" />
-      </div>
-      <div id="level9" class="hidden">
-        <label class="w-16 text-sm font-medium">Lvl 9:</label>
-        <input type="text" id="level_9" class="flex-1 p-1 border rounded text-sm" placeholder="Level 9" />
-      </div>
-      <div id="level10" class="hidden">
-        <label class="w-16 text-sm font-medium">Lvl 10:</label>
-        <input type="text" id="level_10" class="flex-1 p-1 border rounded text-sm" placeholder="Level 10" />
-      </div>
-      <div id="level11" class="hidden">
-        <label class="w-16 text-sm font-medium">Lvl 11:</label>
-        <input type="text" id="level_11" class="flex-1 p-1 border rounded text-sm" placeholder="Level 11" />
-      </div>
-      <div id="level12" class="hidden">
-        <label class="w-16 text-sm font-medium">Lvl 12:</label>
-        <input type="text" id="level_12" class="flex-1 p-1 border rounded text-sm" placeholder="Level 12" />
-      </div>
-      <div id="level13" class="hidden">
-        <label class="w-16 text-sm font-medium">Lvl 13:</label>
-        <input type="text" id="level_13" class="flex-1 p-1 border rounded text-sm" placeholder="Level 13" />
-      </div>
-      <div id="level14" class="hidden">
-        <label class="w-16 text-sm font-medium">Lvl 14:</label>
-        <input type="text" id="level_14" class="flex-1 p-1 border rounded text-sm" placeholder="Level 14" />
-      </div>
-      <div id="level15" class="hidden">
-        <label class="w-16 text-sm font-medium">Lvl 15:</label>
-        <input type="text" id="level_15" class="flex-1 p-1 border rounded text-sm" placeholder="Level 15" />
-      </div>
-      <div id="level16" class="hidden">
-        <label class="w-16 text-sm font-medium">Lvl 16:</label>
-        <input type="text" id="level_16" class="flex-1 p-1 border rounded text-sm" placeholder="Level 16" />
-      </div>
-      <div id="level17" class="hidden">
-        <label class="w-16 text-sm font-medium">Lvl 17:</label>
-        <input type="text" id="level_17" class="flex-1 p-1 border rounded text-sm" placeholder="Level 17" />
-      </div>
-      <div id="level18" class="hidden">
-        <label class="w-16 text-sm font-medium">Lvl 18:</label>
-        <input type="text" id="level_18" class="flex-1 p-1 border rounded text-sm" placeholder="Level 18" />
-      </div>
-      <div id="level19" class="hidden">
-        <label class="w-16 text-sm font-medium">Lvl 19:</label>
-        <input type="text" id="level_19" class="flex-1 p-1 border rounded text-sm" placeholder="Level 19" />
-      </div>
-      <div id="level20" class="hidden">
-        <label class="w-16 text-sm font-medium">Lvl 20:</label>
-        <input type="text" id="level_20" class="flex-1 p-1 border rounded text-sm" placeholder="Level 20" />
+    <!-- Edges -->
+    <div id="levelsContainer" class="mt-4">
+      <label class="block font-semibold mb-2">Avances</label>
+      <div id="levelInputs" class="space-y-2 border rounded p-2 bg-gray-50">
+        <div id="level0" class="hidden">
+          <label class="w-16 text-sm font-medium">Lvl 0:</label>
+          <input type="text" id="level_0" class="flex-1 p-1 border rounded text-sm" placeholder="Level 0" />
+        </div>
+        <div id="level1" class="hidden">
+          <label class="w-16 text-sm font-medium">Lvl 1:</label>
+          <input type="text" id="level_1" class="flex-1 p-1 border rounded text-sm" placeholder="Level 1" />
+        </div>
+        <div id="level2" class="hidden">
+          <label class="w-16 text-sm font-medium">Lvl 2:</label>
+          <input type="text" id="level_2" class="flex-1 p-1 border rounded text-sm" placeholder="Level 2" />
+        </div>
+        <div id="level3" class="hidden">
+          <label class="w-16 text-sm font-medium">Lvl 3:</label>
+          <input type="text" id="level_3" class="flex-1 p-1 border rounded text-sm" placeholder="Level 3" />
+        </div>
+        <div id="level4" class="hidden">
+          <label class="w-16 text-sm font-medium">Lvl 4:</label>
+          <input type="text" id="level_4" class="flex-1 p-1 border rounded text-sm" placeholder="Level 4" />
+        </div>
+        <div id="level5" class="hidden">
+          <label class="w-16 text-sm font-medium">Lvl 5:</label>
+          <input type="text" id="level_5" class="flex-1 p-1 border rounded text-sm" placeholder="Level 5" />
+        </div>
+        <div id="level6" class="hidden">
+          <label class="w-16 text-sm font-medium">Lvl 6:</label>
+          <input type="text" id="level_6" class="flex-1 p-1 border rounded text-sm" placeholder="Level 6" />
+        </div>
+        <div id="level7" class="hidden">
+          <label class="w-16 text-sm font-medium">Lvl 7:</label>
+          <input type="text" id="level_7" class="flex-1 p-1 border rounded text-sm" placeholder="Level 7" />
+        </div>
+        <div id="level8" class="hidden">
+          <label class="w-16 text-sm font-medium">Lvl 8:</label>
+          <input type="text" id="level_8" class="flex-1 p-1 border rounded text-sm" placeholder="Level 8" />
+        </div>
+        <div id="level9" class="hidden">
+          <label class="w-16 text-sm font-medium">Lvl 9:</label>
+          <input type="text" id="level_9" class="flex-1 p-1 border rounded text-sm" placeholder="Level 9" />
+        </div>
+        <div id="level10" class="hidden">
+          <label class="w-16 text-sm font-medium">Lvl 10:</label>
+          <input type="text" id="level_10" class="flex-1 p-1 border rounded text-sm" placeholder="Level 10" />
+        </div>
+        <div id="level11" class="hidden">
+          <label class="w-16 text-sm font-medium">Lvl 11:</label>
+          <input type="text" id="level_11" class="flex-1 p-1 border rounded text-sm" placeholder="Level 11" />
+        </div>
+        <div id="level12" class="hidden">
+          <label class="w-16 text-sm font-medium">Lvl 12:</label>
+          <input type="text" id="level_12" class="flex-1 p-1 border rounded text-sm" placeholder="Level 12" />
+        </div>
+        <div id="level13" class="hidden">
+          <label class="w-16 text-sm font-medium">Lvl 13:</label>
+          <input type="text" id="level_13" class="flex-1 p-1 border rounded text-sm" placeholder="Level 13" />
+        </div>
+        <div id="level14" class="hidden">
+          <label class="w-16 text-sm font-medium">Lvl 14:</label>
+          <input type="text" id="level_14" class="flex-1 p-1 border rounded text-sm" placeholder="Level 14" />
+        </div>
+        <div id="level15" class="hidden">
+          <label class="w-16 text-sm font-medium">Lvl 15:</label>
+          <input type="text" id="level_15" class="flex-1 p-1 border rounded text-sm" placeholder="Level 15" />
+        </div>
+        <div id="level16" class="hidden">
+          <label class="w-16 text-sm font-medium">Lvl 16:</label>
+          <input type="text" id="level_16" class="flex-1 p-1 border rounded text-sm" placeholder="Level 16" />
+        </div>
+        <div id="level17" class="hidden">
+          <label class="w-16 text-sm font-medium">Lvl 17:</label>
+          <input type="text" id="level_17" class="flex-1 p-1 border rounded text-sm" placeholder="Level 17" />
+        </div>
+        <div id="level18" class="hidden">
+          <label class="w-16 text-sm font-medium">Lvl 18:</label>
+          <input type="text" id="level_18" class="flex-1 p-1 border rounded text-sm" placeholder="Level 18" />
+        </div>
+        <div id="level19" class="hidden">
+          <label class="w-16 text-sm font-medium">Lvl 19:</label>
+          <input type="text" id="level_19" class="flex-1 p-1 border rounded text-sm" placeholder="Level 19" />
+        </div>
+        <div id="level20" class="hidden">
+          <label class="w-16 text-sm font-medium">Lvl 20:</label>
+          <input type="text" id="level_20" class="flex-1 p-1 border rounded text-sm" placeholder="Level 20" />
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- Inventory -->
-  <label class="block mt-4 font-semibold">Inventario</label>
-  <textarea id="inventory" class="w-full p-2 border rounded mb-2"></textarea>
+    <!-- Inventory -->
+    <label class="block mt-4 font-semibold">Inventario</label>
+    <textarea id="inventory" class="w-full p-2 border rounded mb-2"></textarea>
 
-  <!-- Import / Export -->
-  <div class="flex gap-2">
-    <button id="exportBtn" class="flex-1 bg-green-600 text-white py-2 rounded">
-      Exportar Pokémon
-    </button>
+    <!-- Import / Export -->
+    <div class="flex gap-2">
+      <button id="exportBtn" class="flex-1 bg-green-600 text-white py-2 rounded">
+        Exportar Pokémon
+      </button>
 
-    <label class="flex-1 bg-blue-600 text-white py-2 rounded text-center cursor-pointer">
-      Importar Pokémon
-      <input type="file" id="importInput" hidden />
-    </label>
-  </div>
+      <label class="flex-1 bg-blue-600 text-white py-2 rounded text-center cursor-pointer">
+        Importar Pokémon
+        <input type="file" id="importInput" hidden />
+      </label>
+    </div>
   </div>
 </div>
 
