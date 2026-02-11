@@ -185,7 +185,7 @@
 
 <script>
 const stats = ["ataque","defensa","ataque_esp","defensa_esp","velocidad","IQ"];
-const skills = ["atletismo_(Ataque)", "ciencias", "conocimiento_general", "movimiento_físico (Ataque)", "movimiento_especial_(Ataque Especial)", "investigación", "interpretación", "intimidación", "latrocinio", "medicina", "ocultismo", "percepción", "persuasión", "sigilo_(Velocidad)", "supervivencia"].sort();
+const skills = ["atletismo(Ataque)", "ciencias", "conocimiento_general", "movimiento_físico(Ataque)", "movimiento_especial(Ataque Especial)", "investigación", "interpretación", "intimidación", "latrocinio", "medicina", "ocultismo", "percepción", "persuasión", "sigilo(Velocidad)", "supervivencia"].sort();
 const naturalSkills = ["percepción", "conocimiento general", "atletismo (Ataque)", "persuasión", "sigilo (Velocidad)"];
 const itemMap = ["objeto","descripcion"];
 let pokemonData = [];
@@ -335,12 +335,12 @@ function buildSkillTable() {
   });
 
   stats.forEach(skill => {
-    const base = 2;
-    if (naturalSkills.includes(skill)) {
-      const base = 4; // Example base for natural skills
-    }
+    const base = naturalSkills.includes(skill) ? 4 : 2;
+    document.getElementById(`${skill}_final`).textContent = `1d${base}`;
+    document.getElementById(`${skill}_bonus`).value = 0;
 
     document.getElementById(`${skill}_bonus`).addEventListener('change', e => {
+      const base = naturalSkills.includes(skill) ? 4 : 2;
       const bonus = Number(e.target.value);
       if (base + bonus* 2 === 2) {
         document.getElementById(`${skill}_final`).textContent = `1d4-2`
