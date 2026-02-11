@@ -51,7 +51,7 @@
         </div>
       </div>
 
-      <hr class="border-t my-1" />
+      <hr class="border-t my-6" />
 
       <!-- Habilidades-->
       <div id="skills" class="space-y-2">
@@ -62,7 +62,7 @@
     </div>
 
     <!-- Items -->
-    <div id="itemContainer" class="mt-6 border shadow-m rounded-m">
+    <div id="itemContainer" class="mt-6 shadow-m rounded-m">
       <label class="block mt-4 font-semibold">Objeto Equipado</label>
       <select id="itemSelect" class="w-full p-2 border rounded mb-4">
         <option value="">-- Elige Item --</option>
@@ -185,7 +185,7 @@
 
 <script>
 const stats = ["ataque","defensa","ataque_esp","defensa_esp","velocidad","IQ"];
-const skills = ["atletismo (Ataque)", "ciencias", "conocimiento general", "movimiento físico (Ataque)", "movimiento especial (Ataque Especial)", "investigación", "interpretación", "intimidación", "latrocinio", "medicina", "ocultismo", "percepción", "persuasión", "sigilo (Velocidad)", "supervivencia"].sort();
+const skills = ["atletismo_(Ataque)", "ciencias", "conocimiento_general", "movimiento_físico (Ataque)", "movimiento_especial_(Ataque Especial)", "investigación", "interpretación", "intimidación", "latrocinio", "medicina", "ocultismo", "percepción", "persuasión", "sigilo_(Velocidad)", "supervivencia"].sort();
 const naturalSkills = ["percepción", "conocimiento general", "atletismo (Ataque)", "persuasión", "sigilo (Velocidad)"];
 const itemMap = ["objeto","descripcion"];
 let pokemonData = [];
@@ -328,7 +328,7 @@ function buildSkillTable() {
   skills.forEach(skill => {
     const base = '';
     container.innerHTML += `
-      <span class="capitalize">${stat.replace('_',' ')}</span>
+      <span class="capitalize">${skill.replace('_',' ')}</span>
       <span id="${skill}_final" class="final font-semibold">1d${base}</span>
       <input id="${skill}_bonus" type="number" value="0" class="bonus border p-1 rounded" />
     `;
