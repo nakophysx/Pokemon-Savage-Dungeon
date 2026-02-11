@@ -272,7 +272,7 @@ document.getElementById('pokemonSelect').addEventListener('change', e => {
   if (!currentPokemon) return;
 
   applyTypeTheme(currentPokemon.type1, currentPokemon.type2);
-  document.getElementById('infor').classList.remove('hidden');
+  document.getElementById('info').classList.remove('hidden');
   document.getElementById('pokemonLevel').value = 0;
   updateRankDisplay();
   buildLevelInputs();
