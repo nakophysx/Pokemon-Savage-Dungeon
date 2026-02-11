@@ -1,4 +1,4 @@
-const CACHE_NAME = 'pokemon-builder-v1';
+const CACHE_NAME = 'pokemon-builder-v1.1';
 const urlsToCache = [
   '/Pokemon-Savage-Dungeon/',
   '/Pokemon-Savage-Dungeon/index.html',
