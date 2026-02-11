@@ -326,19 +326,24 @@ function buildSkillTable() {
   container.innerHTML = '<span>Habilidad</span><span>Final</span><span>Bonus</span><hr class="col-span-3 border-t my-1" />';
 
   skills.forEach(skill => {
-    const base = '';
-    container.innerHTML += `
+    if (naturalSkills.includes(skill))
+    {
+      container.innerHTML += `
       <span class="capitalize">${skill.replace('_',' ')}</span>
-      <span id="${skill}_final" class="final font-semibold">1d${base}</span>
+      <span id="${skill}_final" class="final font-semibold">1d4</span>
       <input id="${skill}_bonus" type="number" value="0" class="bonus border p-1 rounded" />
     `;
+    } else {
+      container.innerHTML += `
+      <span class="capitalize">${skill.replace('_',' ')}</span>
+      <span id="${skill}_final" class="final font-semibold">1d4-2</span>
+      <input id="${skill}_bonus" type="number" value="0" class="bonus border p-1 rounded" />
+    `;
+    }
+    
   });
 
-  stats.forEach(skill => {
-    const base = naturalSkills.includes(skill) ? 4 : 2;
-    document.getElementById(`${skill}_final`).textContent = `1d${base}`;
-    document.getElementById(`${skill}_bonus`).value = 0;
-
+  skills.forEach(skill => {
     document.getElementById(`${skill}_bonus`).addEventListener('change', e => {
       const base = naturalSkills.includes(skill) ? 4 : 2;
       const bonus = Number(e.target.value);
