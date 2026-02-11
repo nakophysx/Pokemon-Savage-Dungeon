@@ -46,7 +46,7 @@
 
       <!-- Stats -->
       <div id="stats" class="space-y-2">
-        <div id="statRows" class="grid grid-cols-4 gap-2 font-semibold text-sm rounded-2xl border p-4 bg-gray-50">
+        <div id="statRows" class="grid grid-cols-3 gap-2 font-semibold text-sm rounded-2xl border p-4 bg-gray-50">
           <!-- Stat rows will be populated here -->
         </div>
       </div>
@@ -55,7 +55,7 @@
 
       <!-- Habilidades-->
       <div id="skills" class="space-y-2">
-        <div id="skillRows" class="grid grid-cols-4 gap-2 font-semibold text-sm rounded-2xl border p-4 bg-gray-50">
+        <div id="skillRows" class="grid grid-cols-3 gap-2 font-semibold text-sm rounded-2xl border p-4 bg-gray-50">
           <!-- Skill rows will be populated here -->
         </div>
       </div>
@@ -277,6 +277,7 @@ document.getElementById('pokemonSelect').addEventListener('change', e => {
   updateRankDisplay();
   buildLevelInputs();
   buildStatTable();
+  buildSkillTable();
 });
 
 /* ---------- THEME ---------- */
